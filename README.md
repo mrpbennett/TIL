@@ -2,4 +2,4 @@
 
 | Language  | What I Learnt | Date|
 | :---: | ------------- | :---: |
-| JS  | [Gatsby JS]()  | 00/00/00|
+| JS  | [Gatsby JS - The Great Gatsby Bootcamp](https://youtu.be/8t0vNu2fCCM)  | 00/00/00|

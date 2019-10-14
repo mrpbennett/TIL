@@ -10,8 +10,60 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
-* [Markdown](#markdown)
+- [TIL (Today I Learnt)](#til-today-i-learnt)
+- [Categories](#categories)
+- [Command Line](#command-line)
+- [CSS](#css)
+- [Data Structures and Algorithms](#data-structures-and-algorithms)
+- [DevOps](#devops)
+- [Git](#git)
+- [HTML 5](#html-5)
+- [JavaScript](#javascript)
+    - [Node](#node)
+    - [React](#react)
+- [Markdown](#markdown)
+- [Python](#python)
+    - [Django](#django)
+    - [Flask](#flask)
+- [Swift](#swift)
+- [Xcode](#xcode)
+
+# Command Line
+
+# CSS
+
+# Data Structures and Algorithms
+
+# DevOps
+
+# Git
+
+-   [How to find which commit introduced a bug](git/git_bisect.md)
+-   [Git branch vs git checkout -b](git/git-branch-vs-git-checkout-b.md)
+
+# HTML 5
+
+-   [What is a polyfill](html/polyfill.md)
+-   [Accessibility labels](html/accessibilityLabels.md)
+
+# JavaScript
+
+### Node
+
+### React
 
 # Markdown
 
-* [Adding a anchor link](markdown/adding-an-achor-link.md)
+-   [Adding a anchor link](markdown/adding-an-achor-link.md)
+
+# Python
+
+### Django
+
+-   [Using the safe filter](python/django/using-safe-filter.md)
+
+### Flask
+
+# Swift
+
+# Xcode

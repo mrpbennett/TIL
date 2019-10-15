@@ -48,6 +48,8 @@ The goal is to write something new everyday or as often as possible.
 
 # JavaScript
 
+- [Using local env variables](javascript/local-enviroment-variables.md)
+
 ### Node
 
 ### React

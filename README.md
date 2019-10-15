@@ -1,4 +1,4 @@
-# TIL (Today I Learnt)
+# :books: TIL (Today I Learnt)
 
 Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @thoughtbot's [repo](https://github.com/thoughtbot/til)
 

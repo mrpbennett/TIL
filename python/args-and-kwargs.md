@@ -2,7 +2,7 @@
 
 \*args and \*\*kwargs allow you to pass multiple arguments or keyword arguments to a function. Consider the following example.
 
-### \*args
+## \*args
 
 This is a simple function that takes two arguments and returns their sum:
 
@@ -27,7 +27,7 @@ print(my_sum(1, 2, 3))
 
 In the above example, you’re no longer passing a list to my_sum(). Instead, you’re passing three different positional arguments. my_sum().
 
-### \*\*kwargs
+## \*\*kwargs
 
 \**kwargs works just like *args, but instead of accepting positional arguments it accepts keyword (or named) arguments. As per this example:
 

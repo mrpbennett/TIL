@@ -25,7 +25,7 @@ def my_sum(*args):
 print(my_sum(1, 2, 3))
 ```
 
-In the above example, you’re no longer passing a list to my_sum(). Instead, you’re passing three different positional arguments. my_sum().
+In the above example, you’re no longer passing a list to `my_sum()`. Instead, you’re passing three different positional arguments. `my_sum()`.
 
 ## \*\*kwargs
 

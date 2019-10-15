@@ -10,8 +10,6 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
-- [:books: TIL (Today I Learnt)](#books-til-today-i-learnt)
-- [Categories](#categories)
 - [Command Line](#command-line)
 - [CSS](#css)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)

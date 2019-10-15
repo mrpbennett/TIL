@@ -10,6 +10,8 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
+- [:books: TIL (Today I Learnt)](#books-til-today-i-learnt)
+- [Categories](#categories)
 - [Command Line](#command-line)
 - [CSS](#css)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
@@ -51,6 +53,8 @@ The goal is to write something new everyday or as often as possible.
 -   [Using local env variables](javascript/local-enviroment-variables.md)
 
 ### Node
+
+-   [automatically restarting the node application](javascript/node/nodemon.md)
 
 ### React
 

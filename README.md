@@ -10,7 +10,7 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
-- [TIL (Today I Learnt)](#til-today-i-learnt)
+- [:books: TIL (Today I Learnt)](#books-til-today-i-learnt)
 - [Categories](#categories)
 - [Command Line](#command-line)
 - [CSS](#css)
@@ -57,6 +57,8 @@ The goal is to write something new everyday or as often as possible.
 -   [Adding a anchor link](markdown/adding-an-achor-link.md)
 
 # Python
+
+-   [\*args and \*\*kwargs](python/args-and-kwargs.md)
 
 ### Django
 

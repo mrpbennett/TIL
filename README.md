@@ -6,6 +6,9 @@ This project is a collection of small things I learn about different languages, 
 It consists of short markdown documents summarising concepts or tips I'd like to share.
 The goal is to write something new everyday or as often as possible.
 
+-   [Categories](#categories)
+-   [Tutorials](#tutorials)
+
 ---
 
 # Categories
@@ -27,6 +30,12 @@ The goal is to write something new everyday or as often as possible.
     - [Flask](#flask)
 - [Swift](#swift)
 - [Xcode](#xcode)
+- [Tutorials](#tutorials)
+- [JavaScript](#javascript-1)
+    - [Node](#node-1)
+    - [React](#react-1)
+- [Python](#python-1)
+    - [Django](#django-1)
 
 # Command Line
 
@@ -75,3 +84,25 @@ The goal is to write something new everyday or as often as possible.
 # Swift
 
 # Xcode
+
+---
+
+# Tutorials
+
+# JavaScript
+
+### Node
+
+-   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2)
+
+### React
+
+-   [The Great Gatsby BootCamp by Andrew Mead](https://www.youtube.com/watch?v=8t0vNu2fCCM&t=13739s)
+
+# Python
+
+-   [Python Programming Beginner Tutorials by Cory Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7)
+
+### Django
+
+-   [Django Tutorials by Cory Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)

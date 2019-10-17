@@ -14,7 +14,7 @@ const car = {
 
 calling `car.fullName()` will return `"Ford Fiesta"`.
 
-The this scope with arrow functions is inherited from the execution context. An arrow function does not bind this at all, so its value will be looked up in the call stack, so in this code `car.fullName()` will not work, and will return the string `"undefined undefined"`:
+The `this` scope with arrow functions is inherited from the execution context. An arrow function does not bind this at all, so its value will be looked up in the call stack, so in this code `car.fullName()` will not work, and will return the string `"undefined undefined"`:
 
 ```javascript
 const car = {

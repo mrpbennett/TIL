@@ -59,7 +59,7 @@ The goal is to write something new everyday or as often as possible.
 
 # JavaScript
 
--   [How this works in arrow funcs](javascript/this-arrow-funcs.md)
+-   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [`.filter()` and it's use](javascript/filter-array.md)
 -   [Using local env variables](javascript/local-enviroment-variables.md)
 -   [Using JSON](javascript/stringify-and-parse.md)

@@ -117,7 +117,7 @@ The goal is to write something new everyday or as often as possible.
 
 ### Node
 
--   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2)
+-   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2) => [Repo](https://github.com/mrpbennett/udemy-complete-node.js-dev-course)
 
 # Python 
 

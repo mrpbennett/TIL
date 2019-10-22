@@ -91,13 +91,7 @@ The goal is to write something new everyday or as often as possible.
 
 ---
 
-# Tutorials
-
-# JavaScript
-
-### Node
-
--   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2)
+# Completed Tutorials
 
 ### React
 
@@ -110,3 +104,30 @@ The goal is to write something new everyday or as often as possible.
 ### Django
 
 -   [Django Tutorials by Cory Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
+
+---
+
+# Tutorials In Progress / Planned
+
+### WebDev
+
+- [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/)
+
+# JavaScript
+
+- [Functional Programming in JS](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+- [Complete Modern JS](https://www.udemy.com/course/the-complete-javascript-course/)
+
+### Node
+
+-   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2) => [Repo](https://github.com/mrpbennett/udemy-complete-node.js-dev-course)
+
+# Python 
+
+- [Python OOP Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
+
+# GraphQL
+
+- [GraphQL - Novice to Expert](https://www.youtube.com/watch?v=ed8SzALpx1Q&amp;index=20&amp;t=13377s)
+
+

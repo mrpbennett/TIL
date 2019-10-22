@@ -7,7 +7,7 @@ It consists of short markdown documents summarising concepts or tips I'd like to
 The goal is to write something new everyday or as often as possible.
 
 -   [Categories](#categories)
--   [Tutorials](#tutorials)
+-   [Tutorials](#Completed-Tutorials)
 
 ---
 
@@ -111,7 +111,8 @@ The goal is to write something new everyday or as often as possible.
 
 ### WebDev
 
-- [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/) -> [Repo can be found here](https://github.com/mrpbennett/mastering-the-modern-workflow)
+- [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/)
+    - [Repo can be found here](https://github.com/mrpbennett/mastering-the-modern-workflow)
 
 # JavaScript
 
@@ -120,7 +121,8 @@ The goal is to write something new everyday or as often as possible.
 
 ### Node
 
--   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2) -> [Repo can be found here](https://github.com/mrpbennett/udemy-complete-node.js-dev-course)
+-   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2)
+    - [Repo can be found here](https://github.com/mrpbennett/udemy-complete-node.js-dev-course)
 
 # Python 
 

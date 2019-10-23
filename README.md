@@ -13,7 +13,7 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
-- [Automation](#automation)
+- [Automation](#automation-build)
 - [Command Line](#command-line)
 - [CSS](#css)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
@@ -30,8 +30,10 @@ The goal is to write something new everyday or as often as possible.
 - [Swift](#swift)
 - [Xcode](#xcode)
 
-    
-# Automation
+
+# Automation / build
+
+- [Creating a Minified CSS file from Scss](automation-build/minicss-from-sass.md)
 
 # Command Line
 
@@ -124,12 +126,10 @@ The goal is to write something new everyday or as often as possible.
 -   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2)
     - [Repo can be found here](https://github.com/mrpbennett/udemy-complete-node.js-dev-course)
 
-# Python 
+# Python
 
 - [Python OOP Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 
 # GraphQL
 
 - [GraphQL - Novice to Expert](https://www.youtube.com/watch?v=ed8SzALpx1Q&amp;index=20&amp;t=13377s)
-
-

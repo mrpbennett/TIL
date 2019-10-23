@@ -89,6 +89,10 @@ The goal is to write something new everyday or as often as possible.
 
 # Completed Tutorials
 
+### Automation
+
+- [Gulp Task Automation for Beginners](https://www.youtube.com/watch?v=LYbt50dhTko)
+
 ### React
 
 -   [The Great Gatsby BootCamp by Andrew Mead](https://www.youtube.com/watch?v=8t0vNu2fCCM&t=13739s)

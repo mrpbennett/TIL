@@ -13,8 +13,7 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
-- [:books: TIL (Today I Learnt)](#books-til-today-i-learnt)
-- [Categories](#categories)
+- [Automation](#automation)
 - [Command Line](#command-line)
 - [CSS](#css)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
@@ -30,12 +29,9 @@ The goal is to write something new everyday or as often as possible.
     - [Flask](#flask)
 - [Swift](#swift)
 - [Xcode](#xcode)
-- [Tutorials](#tutorials)
-- [JavaScript](#javascript-1)
-    - [Node](#node-1)
-    - [React](#react-1)
-- [Python](#python-1)
-    - [Django](#django-1)
+
+    
+# Automation
 
 # Command Line
 

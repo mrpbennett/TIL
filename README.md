@@ -23,6 +23,7 @@ The goal is to write something new everyday or as often as possible.
 - [JavaScript](#javascript)
     - [Node](#node)
     - [React](#react)
+    - [Vue](#vue)
 - [Markdown](#markdown)
 - [Python](#python)
     - [Django](#django)
@@ -58,6 +59,7 @@ The goal is to write something new everyday or as often as possible.
 
 # JavaScript
 
+-   [Callback functions](javascript/callback-functions.md)
 -   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [`.filter()` and it's use](javascript/filter-array.md)
 -   [Using local env variables](javascript/local-enviroment-variables.md)
@@ -68,6 +70,8 @@ The goal is to write something new everyday or as often as possible.
 -   [automatically restarting the node application](javascript/node/nodemon.md)
 
 ### React
+
+### Vue
 
 # Markdown
 

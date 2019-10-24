@@ -62,12 +62,12 @@ The goal is to write something new everyday or as often as possible.
 -   [Callback functions](javascript/callback-functions.md)
 -   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [`.filter()` and it's use](javascript/filter-array.md)
--   [Using local env variables](javascript/local-enviroment-variables.md)
 -   [Using JSON](javascript/stringify-and-parse.md)
 
 ### Node
 
 -   [automatically restarting the node application](javascript/node/nodemon.md)
+-   [Using local env variables](javascript/node/local-enviroment-variables.md)
 
 ### React
 

@@ -61,7 +61,8 @@ The goal is to write something new everyday or as often as possible.
 
 -   [Callback functions](javascript/callback-functions.md)
 -   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
--   [`.filter()` and it's use](javascript/filter-array.md)
+-   [`.filter()` and it's usage](javascript/filter-array.md)
+-   [`.map()` and it's usage](javascript/map-array.md)
 -   [Using JSON](javascript/stringify-and-parse.md)
 
 ### Node
@@ -70,6 +71,8 @@ The goal is to write something new everyday or as often as possible.
 -   [Using local env variables](javascript/node/local-enviroment-variables.md)
 
 ### React
+
+-   [Rendering lists using `.map()`](javascript/react/rendering-lists-with-map.md)
 
 ### Vue
 

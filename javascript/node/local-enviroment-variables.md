@@ -1,4 +1,4 @@
-# Using a local enviorment variable
+# Using a local environment variable
 
 Using local variables are easy as 123, when using systems such as Netlify. I have placed this within JavaScript as this would be the same for Node and React.
 

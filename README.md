@@ -82,10 +82,10 @@ The goal is to write something new everyday or as often as possible.
 
 -   [f-strings](python/f-strings.md)
 -   [\*args and \*\*kwargs](python/args-and-kwargs.md)
--   [Classes and Instances](python/classes-instances.md)
+-   [Classes and instances](python/classes-instances.md)
 -   [Class variables](python/class-variables.md)
--   [Class Methods](python/class-methods.md)
--   [Static Methods](python/static-methods.md)
+-   [Class methods](python/class-methods.md)
+-   [Static methods](python/static-methods.md)
 
 ### Django
 

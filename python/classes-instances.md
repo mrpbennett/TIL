@@ -14,9 +14,6 @@ class Employee:
     def fullname(self):
         return f'{self.first} {self.last}'
 
-
-emp1 = Employee('Paul', 'Bennett', 154000)
-
 ```
 
 
@@ -34,5 +31,5 @@ To create instances of a class, you call the class using class name and pass in 
 
 ```Python
 "This would create first object of Employee class"
-emp1 = Employee("Zara", 2000)
+emp1 = Employee('Paul', 'Bennett', 154000)
 ```

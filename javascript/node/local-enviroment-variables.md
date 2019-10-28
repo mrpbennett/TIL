@@ -1,7 +1,14 @@
 # Using a local environment variable
 
-Using local variables are easy as 123, when using systems such as Netlify. I have placed this within JavaScript as this would be the same for Node and React.
+Using a local variable in Node.js is pretty straight forward. The simple syntax would be as follows:
 
-`process.env.LOCAL_VARIABLE`
+`process.env.LOCAL_VARIABLE` which would be reading `LOCAL_VARIABLE=123456789` from your `.env` file.
 
-Once the above is in place, you will have to place the actual token / key within your build system.
+All local variables are required within a `.env` file, which is where your local variables live. To get your Node application to read these variables, it's best to use something like [dotenv](https://www.npmjs.com/package/dotenv) an NPM package that allows your application to read the environment file. Once install it needs to be required in your application.
+
+```javascript
+const dotenv = require('dotenv');
+dotenv.config();
+```
+
+[Link](https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786)

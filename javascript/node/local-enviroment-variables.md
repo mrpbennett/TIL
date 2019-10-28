@@ -1,13 +1,37 @@
-# Using a local environment variable
+# Using a local environment variables
 
-Using a local variable in Node.js is pretty straight forward. The simple syntax would be as follows:
+Best way to use local variables within node is to use Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
 
-`process.env.LOCAL_VARIABLE` which would be reading `LOCAL_VARIABLE=123456789` from your `.env` file.
+### Install
+```bash
+# with npm
+npm install dotenv
 
-All local variables are required within a `.env` file. To get your Node application to read these variables, it's best to use something like [dotenv](https://www.npmjs.com/package/dotenv) an NPM package that allows your application to read the environment file. Once install it needs to be required in your application.
+# or with Yarn
+yarn add dotenv
+```
+
+### Usage
+As early as possible in your application, require and configure dotenv.
+
+`require('dotenv').config()``
+Create a .env file in the root directory of your project. Add environment-specific variables on new lines in the form of NAME=VALUE. For example:
+
+```
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=s1mpl3
+```
+
+`process.env` now has the keys and values you defined in your .env file.
 
 ```javascript
-require('dotenv').config();
+const db = require('db')
+db.connect({
+  host: process.env.DB_HOST,
+  username: process.env.DB_USER,
+  password: process.env.DB_PASS
+})
 ```
 
 [Link](https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786)

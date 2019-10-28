@@ -13,7 +13,6 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
-- [Categories](#categories)
 - [Automation / build](#automation--build)
 - [Command Line](#command-line)
 - [CSS](#css)
@@ -84,6 +83,9 @@ The goal is to write something new everyday or as often as possible.
 -   [f-strings](python/f-strings.md)
 -   [\*args and \*\*kwargs](python/args-and-kwargs.md)
 -   [Classes and Instances](python/classes-instances.md)
+-   [Class variables](python/class-variables.md)
+-   [Class Methods](python/class-methods.md)
+-   [Static Methods](python/static-methods.md)
 
 ### Django
 

@@ -13,7 +13,8 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
-- [Automation](#automation-build)
+- [Categories](#categories)
+- [Automation / build](#automation--build)
 - [Command Line](#command-line)
 - [CSS](#css)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
@@ -29,12 +30,10 @@ The goal is to write something new everyday or as often as possible.
     - [Django](#django)
     - [Flask](#flask)
 - [Swift](#swift)
-- [Xcode](#xcode)
-
 
 # Automation / build
 
-- [Creating a Minified CSS file from Scss](automation-build/minicss-from-sass.md)
+-   [Creating a Minified CSS file from Scss](automation-build/minicss-from-sass.md)
 
 # Command Line
 
@@ -82,7 +81,9 @@ The goal is to write something new everyday or as often as possible.
 
 # Python
 
+-   [f-strings](python/f-strings.md)
 -   [\*args and \*\*kwargs](python/args-and-kwargs.md)
+-   [Classes and Instances](python/classes-instances.md)
 
 ### Django
 
@@ -92,15 +93,13 @@ The goal is to write something new everyday or as often as possible.
 
 # Swift
 
-# Xcode
-
 ---
 
 # Completed Tutorials
 
 ### Automation
 
-- [Gulp Task Automation for Beginners](https://www.youtube.com/watch?v=LYbt50dhTko)
+-   [Gulp Task Automation for Beginners](https://www.youtube.com/watch?v=LYbt50dhTko)
 
 ### React
 
@@ -120,23 +119,23 @@ The goal is to write something new everyday or as often as possible.
 
 ### WebDev
 
-- [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/)
-    - [Repo can be found here](https://github.com/mrpbennett/mastering-the-modern-workflow)
+-   [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/)
+    -   [Repo can be found here](https://github.com/mrpbennett/mastering-the-modern-workflow)
 
 # JavaScript
 
-- [Functional Programming in JS](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
-- [Complete Modern JS](https://www.udemy.com/course/the-complete-javascript-course/)
+-   [Functional Programming in JS](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+-   [Complete Modern JS](https://www.udemy.com/course/the-complete-javascript-course/)
 
 ### Node
 
 -   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2)
-    - [Repo can be found here](https://github.com/mrpbennett/udemy-complete-node.js-dev-course)
+    -   [Repo can be found here](https://github.com/mrpbennett/udemy-complete-node.js-dev-course)
 
 # Python
 
-- [Python OOP Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
+-   [Python OOP Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 
 # GraphQL
 
-- [GraphQL - Novice to Expert](https://www.youtube.com/watch?v=ed8SzALpx1Q&amp;index=20&amp;t=13377s)
+-   [GraphQL - Novice to Expert](https://www.youtube.com/watch?v=ed8SzALpx1Q&index=20&t=13377s)

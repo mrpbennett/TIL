@@ -14,7 +14,7 @@ yarn add dotenv
 ### Usage
 As early as possible in your application, require and configure dotenv.
 
-`require('dotenv').config()``
+`require('dotenv').config()`
 Create a .env file in the root directory of your project. Add environment-specific variables on new lines in the form of NAME=VALUE. For example:
 
 ```

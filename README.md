@@ -145,4 +145,4 @@ The goal is to write something new everyday or as often as possible.
 
 # GraphQL
 
--   [GraphQL - Novice to Expert](https://www.youtube.com/watch?v=ed8SzALpx1Q&index=20&t=13377s)
+-   [How To GraphQL](https://www.howtographql.com/basics/0-introduction/)

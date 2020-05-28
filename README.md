@@ -50,6 +50,10 @@ The goal is to write something new everyday or as often as possible.
 -   [How to find which commit introduced a bug](git/git_bisect.md)
 -   [Git branch vs git checkout -b](git/git-branch-vs-git-checkout-b.md)
 
+# GraphQL
+
+-   [Switching GraphQL IDEs](graphql/switching-graphQL-IDEs.md)
+
 # HTML 5
 
 -   [What is a polyfill](html/polyfill.md)

@@ -19,6 +19,7 @@ The goal is to write something new everyday or as often as possible.
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
 - [DevOps](#devops)
 - [Git](#git)
+- [GraphQL](#graphql)
 - [HTML 5](#html-5)
 - [JavaScript](#javascript)
     - [Node](#node)

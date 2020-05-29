@@ -54,6 +54,7 @@ The goal is to write something new everyday or as often as possible.
 # GraphQL
 
 -   [Switching GraphQL IDEs](graphql/switching-graphQL-IDEs.md)
+-   [Making required fields in a schema](graphql/making-schema-fields-required.md)
 
 # HTML 5
 

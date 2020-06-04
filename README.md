@@ -46,6 +46,10 @@ The goal is to write something new everyday or as often as possible.
 
 # DevOps
 
+# Error Handling
+
+-   [Catching errors when using APIs](error-handling/handing-errors-with-apis.md)
+
 # Git
 
 -   [How to find which commit introduced a bug](git/git_bisect.md)

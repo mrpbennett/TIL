@@ -22,7 +22,7 @@ If the 2nd URL was used, our API request would look something like this.
 "features": [
 
 ] ...
-`
+```
 
 The features array is blank with no, as the URL in the request had `12What` as its location. Of course a working URL would present something like this.
 

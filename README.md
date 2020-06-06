@@ -15,21 +15,17 @@ The goal is to write something new everyday or as often as possible.
 
 - [Automation / build](#automation--build)
 - [Command Line](#command-line)
-- [CSS](#css)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
-- [DevOps](#devops)
 - [Git](#git)
 - [GraphQL](#graphql)
 - [HTML 5](#html-5)
 - [JavaScript](#javascript)
     - [Node](#node)
     - [React](#react)
-    - [Vue](#vue)
 - [Markdown](#markdown)
 - [Python](#python)
     - [Django](#django)
     - [Flask](#flask)
-- [Swift](#swift)
 
 # Automation / build
 
@@ -40,11 +36,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Creating a new file](commandLine/creating-new-files.md)
 -   [zsh-syntax-highlighting](commandLine/installing-zsh-syntax-highlighting.md)
 
-# CSS
-
 # Data Structures and Algorithms
-
-# DevOps
 
 # Error Handling
 
@@ -81,8 +73,7 @@ The goal is to write something new everyday or as often as possible.
 ### React
 
 -   [Rendering lists using `.map()`](javascript/react/rendering-lists-with-map.md)
-
-### Vue
+-   [How to use inline styles](javascript/react/using-inline-styles.md)
 
 # Markdown
 
@@ -102,8 +93,6 @@ The goal is to write something new everyday or as often as possible.
 -   [Using the safe filter](python/django/using-safe-filter.md)
 
 ### Flask
-
-# Swift
 
 ---
 

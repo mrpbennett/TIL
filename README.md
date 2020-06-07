@@ -44,9 +44,9 @@ The goal is to write something new everyday or as often as possible.
 
 # Git
 
+-   [Creating & Switching branches](git/creating-and-switching-branches.md)
 -   [Using git reset](git/git-reset.md)
 -   [How to find which commit introduced a bug](git/git-bisect.md)
--   [Git branch vs git checkout -b](git/git-branch-vs-git-checkout-b.md)
 
 # GraphQL
 

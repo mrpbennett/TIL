@@ -88,6 +88,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Class variables](python/class-variables.md)
 -   [Class methods](python/class-methods.md)
 -   [Static methods](python/static-methods.md)
+-   [Using `.env` files within Python](python/using-env-files.md)
 
 ### Django
 

@@ -83,10 +83,12 @@ The goal is to write something new everyday or as often as possible.
 # Python
 
 -   [f-strings](python/f-strings.md)
+-   [Difference between `is` & `==`](python/booleans.md)
 -   [\*args and \*\*kwargs](python/args-and-kwargs.md)
 -   [Classes and instances](python/classes-instances.md)
 -   [Class variables](python/class-variables.md)
 -   [Class methods](python/class-methods.md)
+-   [Advance set operations](python/advance-set-operations.md)
 -   [Static methods](python/static-methods.md)
 -   [Using `.env` files within Python](python/using-env-files.md)
 -   [Pipenv](python/pipenv.md)

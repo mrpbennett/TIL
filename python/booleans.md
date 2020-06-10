@@ -14,4 +14,4 @@ people = ['Dave', 'Dale']
 print(friends == people) # True
 print(friends is people) # False
 print(friends is friends) # True
-'''
+```

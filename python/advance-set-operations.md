@@ -7,7 +7,11 @@ in_transit = {'Fiona', 'Charlie'}
 ```
 
 The difference() method returns a set that contains the difference between two sets.
-example: `<large set>.difference(<small set>)`
+example: 
+
+```
+<large set>.difference(<small set>)
+```
 
 ```python
 local_friends = family.difference(aboard)

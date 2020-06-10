@@ -83,6 +83,7 @@ The goal is to write something new everyday or as often as possible.
 # Python
 
 -   [f-strings](python/f-strings.md)
+-   [List Comprehension](python/list-comprehension.md)
 -   [Difference between `is` & `==`](python/booleans.md)
 -   [\*args and \*\*kwargs](python/args-and-kwargs.md)
 -   [Classes and instances](python/classes-instances.md)

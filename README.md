@@ -13,19 +13,19 @@ The goal is to write something new everyday or as often as possible.
 
 # Categories
 
-- [Automation / build](#automation--build)
-- [Command Line](#command-line)
-- [Data Structures and Algorithms](#data-structures-and-algorithms)
-- [Git](#git)
-- [GraphQL](#graphql)
-- [HTML 5](#html-5)
-- [JavaScript](#javascript)
-    - [Node](#node)
-    - [React](#react)
-- [Markdown](#markdown)
-- [Python](#python)
-    - [Django](#django)
-    - [Flask](#flask)
+-   [Automation / build](#automation--build)
+-   [Command Line](#command-line)
+-   [Data Structures and Algorithms](#data-structures-and-algorithms)
+-   [Git](#git)
+-   [GraphQL](#graphql)
+-   [HTML 5](#html-5)
+-   [JavaScript](#javascript)
+    -   [Node](#node)
+    -   [React](#react)
+-   [Markdown](#markdown)
+-   [Python](#python)
+    -   [Django](#django)
+    -   [Flask](#flask)
 
 # Automation / build
 
@@ -82,17 +82,21 @@ The goal is to write something new everyday or as often as possible.
 
 # Python
 
+-   [Pipenv](python/pipenv.md)
+-   [Using `.env` files within Python](python/using-env-files.md)
 -   [f-strings](python/f-strings.md)
--   [List Comprehension](python/list-comprehension.md)
 -   [Difference between `is` & `==`](python/booleans.md)
+-   [Dictionaries](python/dictionaries.md)
+-   [List Comprehension](python/list-comprehension.md)
+-   [Dictionary Comprehension](python/dict-comprehension.md)
+-   [Lambra functions](python/lambra-functions.md)
+-   [`map()` function](python/map-function.md)
 -   [\*args and \*\*kwargs](python/args-and-kwargs.md)
 -   [Classes and instances](python/classes-instances.md)
 -   [Class variables](python/class-variables.md)
 -   [Class methods](python/class-methods.md)
 -   [Advance set operations](python/advance-set-operations.md)
 -   [Static methods](python/static-methods.md)
--   [Using `.env` files within Python](python/using-env-files.md)
--   [Pipenv](python/pipenv.md)
 
 ### Django
 

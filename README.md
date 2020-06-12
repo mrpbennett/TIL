@@ -145,6 +145,7 @@ The goal is to write something new everyday or as often as possible.
 
 # Python
 
+-   [REST APIs with Flask and Python](https://www.udemy.com/course/rest-api-flask-and-python/)
 -   [Python OOP Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 
 # GraphQL

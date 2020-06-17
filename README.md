@@ -85,6 +85,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Pipenv](python/pipenv.md)
 -   [Using `.env` files within Python](python/using-env-files.md)
 -   [f-strings](python/f-strings.md)
+-   [End parameter in `print()`](python/end-parameter-in-print.md)
 -   [Arithmetic operators](python/arithmetic-operators.md)
 -   [Difference between `is` & `==`](python/booleans.md)
 -   [Dictionaries](python/dictionaries.md)

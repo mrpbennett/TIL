@@ -14,6 +14,15 @@
 
 The modulo `%` operation finds the remainder or signed remainder after division of one number by another.
 
+```python
+# The statement can be read as ‘is the remainder of dividing year by 4 equal to 0?’.
+def is_leap(year):
+    leap = False
+
+    if year % 400 == 0:
+        return True
+```
+
 #### Exponentiation
 
 The operation of raising one quantity to the power of another.

@@ -60,6 +60,11 @@ The goal is to write something new everyday or as often as possible.
 
 # JavaScript
 
+-   [Default arguments](javascript/default-arguments.md)
+-   [Difference between `const` & `let`](javascript/difference-let-const.md)
+-   [Objects with functions](javascript/objects-with-functions.md)
+-   [String methods](javascript/string-methods.md)
+-   [Number methods](javascript/number-methods.md)
 -   [Callback functions](javascript/callback-functions.md)
 -   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [`.filter()` and it's usage](javascript/filter-array.md)

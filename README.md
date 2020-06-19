@@ -65,6 +65,8 @@ The goal is to write something new everyday or as often as possible.
 -   [Objects with functions](javascript/objects-with-functions.md)
 -   [String methods](javascript/string-methods.md)
 -   [Number methods](javascript/number-methods.md)
+-   [`.forEach`](javascript/forEach.md)
+-   [`.splice()`](javascript/splice.md)
 -   [Callback functions](javascript/callback-functions.md)
 -   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [`.filter()` and it's usage](javascript/filter-array.md)

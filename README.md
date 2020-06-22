@@ -67,10 +67,10 @@ The goal is to write something new everyday or as often as possible.
 -   [Number methods](javascript/number-methods.md)
 -   [`.forEach`](javascript/forEach.md)
 -   [`.splice()`](javascript/splice.md)
--   [Callback functions](javascript/callback-functions.md)
--   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [`.filter()` and it's usage](javascript/filter-array.md)
 -   [`.map()` and it's usage](javascript/map-array.md)
+-   [Callback functions](javascript/callback-functions.md)
+-   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [Using JSON](javascript/stringify-and-parse.md)
 
 ### Node

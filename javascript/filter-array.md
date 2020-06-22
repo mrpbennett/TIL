@@ -1,22 +1,12 @@
 # `.filter()` array method
 
-`.filter()` creates a new array with elements that fall under a given criteria from an existing array:
-
-```javascript
-const numbers = [1, 3, 6, 8, 22];
-
-const lucky = numbers.filter(function(number) {
-	return number > 7;
-});
-
-// [8, 11]
-```
+The `filter()` method **creates a new array** with elements that fall under a given criteria from an existing array:
 
 #### The syntax
 
 ```javascript
-var newArray = array.filter(function(item) {
-	return condition;
+var newArray = array.filter(function (item) {
+    return condition;
 });
 ```
 
@@ -26,19 +16,38 @@ If the current item passes the condition, it gets sent to the new array.
 
 #### Filter an array of objects
 
-A common use case of .filter() is with an array of objects through their properties:
+A common use case of .filter() is with an array of objects through their properties, this could be used to check if an array of objects containing resturants and wether they're open.
 
 ```javascript
-var heroes = [
-	{name: “Batman”, franchise: “DC”},
-	{name: “Ironman”, franchise: “Marvel”},
-	{name: “Thor”, franchise: “Marvel”},
-	{name: “Superman”, franchise: “DC”}
+const resturants = [
+    {
+        name: 'Hawksmoor',
+        location: 'London',
+        isOpen: true,
+    },
+    {
+        name: 'Polpo',
+        location: 'London',
+        isOpen: false,
+    },
+    {
+        name: 'Five Guys',
+        location: 'London',
+        isOpen: false,
+    },
+    {
+        name: 'Nandos',
+        location: 'London',
+        isOpen: true,
+    },
 ];
 
-var marvelHeroes =  heroes.filter(function(hero) {
-	return hero.franchise == “Marvel”;
-});
+const checkIfResturantIsOpen = function (resturants) {
+    return resturants.filter((resturant) => {
+        return resturant.isOpen;
+    });
+};
 
-// [ {name: “Ironman”, franchise: “Marvel”}, {name: “Thor”, franchise: “Marvel”} ]
+console.log(checkIfResturantIsOpen(resturants));
+// returns -> Array [Object { name: "Hawksmoor", location: "London", isOpen: true }, Object { name: "Nandos", location: "London", isOpen: true }]
 ```

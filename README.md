@@ -7,8 +7,6 @@ It consists of short markdown documents summarising concepts or tips I'd like to
 The goal is to write something new everyday or as often as possible.
 
 -   [Categories](#categories)
--   [Tutorials](#Completed-Tutorials)
-
 ---
 
 # Categories

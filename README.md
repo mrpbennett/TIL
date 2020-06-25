@@ -7,6 +7,7 @@ It consists of short markdown documents summarising concepts or tips I'd like to
 The goal is to write something new everyday or as often as possible.
 
 -   [Categories](#categories)
+
 ---
 
 # Categories
@@ -68,7 +69,7 @@ The goal is to write something new everyday or as often as possible.
 -   [`.filter()` and it's usage](javascript/filter-array.md)
 -   [`.map()` and it's usage](javascript/map-array.md)
 -   [`sort()` and it's usage](javascript/sort-method.md)
--   [DOM Query selectors](query-selector.md)
+-   [DOM Query selectors](javascript/query-selectors.md)
 -   [Callback functions](javascript/callback-functions.md)
 -   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [Using JSON](javascript/stringify-and-parse.md)

@@ -7,8 +7,6 @@ It consists of short markdown documents summarising concepts or tips I'd like to
 The goal is to write something new everyday or as often as possible.
 
 -   [Categories](#categories)
--   [Tutorials](#Completed-Tutorials)
-
 ---
 
 # Categories
@@ -65,8 +63,8 @@ The goal is to write something new everyday or as often as possible.
 -   [Objects with functions](javascript/objects-with-functions.md)
 -   [String methods](javascript/string-methods.md)
 -   [Number methods](javascript/number-methods.md)
--   [`.forEach`](javascript/forEach.md)
--   [`.splice()`](javascript/splice.md)
+-   [`.forEach` and it's usage](javascript/forEach.md)
+-   [`.splice()` and it's usage](javascript/splice.md)
 -   [`.filter()` and it's usage](javascript/filter-array.md)
 -   [`.map()` and it's usage](javascript/map-array.md)
 -   [`sort()` and it's usage](javascript/sort-method.md)
@@ -113,53 +111,3 @@ The goal is to write something new everyday or as often as possible.
 ### Django
 
 -   [Using the safe filter](python/django/using-safe-filter.md)
-
-### Flask
-
----
-
-# Completed Tutorials
-
-### Automation
-
--   [Gulp Task Automation for Beginners](https://www.youtube.com/watch?v=LYbt50dhTko)
-
-### React
-
--   [The Great Gatsby BootCamp by Andrew Mead](https://www.youtube.com/watch?v=8t0vNu2fCCM&t=13739s)
-
-# Python
-
--   [Python Programming Beginner Tutorials by Cory Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7)
-
-### Django
-
--   [Django Tutorials by Cory Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
-
----
-
-# Tutorials In Progress / Planned
-
-### WebDev
-
--   [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/)
-    -   [Repo can be found here](https://github.com/mrpbennett/mastering-the-modern-workflow)
-
-# JavaScript
-
--   [Functional Programming in JS](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
--   [Complete Modern JS](https://www.udemy.com/course/the-complete-javascript-course/)
-
-### Node
-
--   [The complete Node.js developer course by Andrew Mead](https://www.udemy.com/course/the-complete-nodejs-developer-course-2)
-    -   [Repo can be found here](https://github.com/mrpbennett/udemy-complete-node.js-dev-course)
-
-# Python
-
--   [REST APIs with Flask and Python](https://www.udemy.com/course/rest-api-flask-and-python/)
--   [Python OOP Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
-
-# GraphQL
-
--   [How To GraphQL](https://www.howtographql.com/basics/0-introduction/)

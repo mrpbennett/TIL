@@ -55,6 +55,7 @@ The goal is to write something new everyday or as often as possible.
 
 # HTML 5
 
+-   [Bullet point](html/bullet.md)
 -   [What is a polyfill](html/polyfill.md)
 -   [Accessibility labels](html/accessibilityLabels.md)
 
@@ -78,6 +79,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Callback functions](javascript/callback-functions.md)
 -   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [Using JSON](javascript/stringify-and-parse.md)
+-   [`toLocaleString](javascript/tolocalestring.md)
 
 ### Node
 
@@ -88,6 +90,7 @@ The goal is to write something new everyday or as often as possible.
 
 -   [Rendering lists using `.map()`](javascript/react/rendering-lists-with-map.md)
 -   [How to use inline styles](javascript/react/using-inline-styles.md)
+-   [Creating a star rating](javascript/react/star-rating.md)
 
 # Markdown
 

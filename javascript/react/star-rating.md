@@ -1,8 +1,8 @@
 # Creating a Star Rating in React
 
-When trying to create say a card, that allows for a rating in stars or any icon of that matter. It wasn't that easy for me...especially when watching a TailWind tutorial using Vue.js
+When I was attempting to create a card, that allows for a star rating. It wasn't that easy for me...especially when watching a TailWind tutorial that was using Vue.js
 
-This is how I created similar in React
+I did in the end manage to create my own star rating component.
 
 ```javascript
 <div>
@@ -21,17 +21,17 @@ Using the above I was able to create these delightful looking cards.
 
 ![cards](https://github.com/mrpbennett/TIL/blob/master/images/cards.png)
 
-### 1.
+### Step 1.
 
-First, we need to create an empty array of 5 items by adding the following: `[...Array(5)]` we then map over it. Giving us 5 stars which we will return.
+First, we need to create an empty array of 5 items by adding the following: `[...Array(5)]` which will take `(star, i)` as it's arguments we will then map over it. Giving us 5 items these items will be the star icon `<AiFillStar />` which we will return.
 
-### 2.
+### Step 2.
 
-We need to create an iterator so we can give our stars a value of 1 - 5. `const ratingValue = i + 1;` using 1 allows us to start our array at 1 instead of 0.
+We then need to create an iterator so we can give our stars a value of 1 - 5. `const ratingValue = i + 1;` using 1 allows us to start our array at 1 instead of 0.
 
-### 3.
+### Step 3.
 
-In our return statement, we have our icon which is imported from react-icons with a `color` prop. We need to conditionally check if our `ratingValue` is greater than our `card.rating` to be able to produce the number of coloured stars we need. We do this by using an inline if-else with an conditional operator `condition ? true : false.`.
+In our return statement, we have our icon which is imported from [react-icons](https://react-icons.github.io/react-icons/) with a `color` prop. We need to conditionally check if our `ratingValue` is greater than our `card.rating` to be able to produce the number of coloured stars we need. We do this by using an inline if-else with an conditional operator `condition ? true : false.`.
 
 Here we are comparing if `ratingValue` is greater than `card.rating` if true then produce grey stars if false produce teal stars.
 

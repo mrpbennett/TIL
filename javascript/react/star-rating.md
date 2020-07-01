@@ -19,7 +19,7 @@ This is how I created similar in React
 
 Using the above I was able to create these delightful looking cards.
 
-![cards](.../images/cards.png)
+![cards](./images/cards.png)
 
 ### 1.
 

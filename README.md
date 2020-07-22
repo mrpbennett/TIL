@@ -22,10 +22,12 @@ The goal is to write something new everyday or as often as possible.
 -   [JavaScript](#javascript)
     -   [Node](#node)
     -   [React](#react)
+    -   [Vue](#vue)
 -   [Markdown](#markdown)
 -   [Python](#python)
     -   [Django](#django)
     -   [Flask](#flask)
+-   [SQL](#sql)
 
 # Automation / build
 
@@ -93,6 +95,10 @@ The goal is to write something new everyday or as often as possible.
 -   [Rendering lists using `.map()`](javascript/react/rendering-lists-with-map.md)
 -   [How to use inline styles](javascript/react/using-inline-styles.md)
 -   [Creating a star rating](javascript/react/star-rating.md)
+
+### Vue
+
+-   [Adding TailwindCSS to Vue.js](adding-tailwindcss-to-vue.md)
 
 # Markdown
 

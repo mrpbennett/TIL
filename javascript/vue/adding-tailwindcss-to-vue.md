@@ -14,7 +14,7 @@ or
 yarn add tailwindcss --dev
 ```
 
-#### Creating a Tailwind config file
+### Creating a Tailwind config file
 
 To create a the standard boilerplate for a tailwind config file type
 
@@ -28,7 +28,7 @@ Or if you want to create the full config file use:
 npx tailwind init tailwind.config.js --full
 ```
 
-#### Configuring PostCSS
+### Configuring PostCSS
 
 First create a `postcss.config.js` file in the root of project:
 
@@ -44,7 +44,7 @@ module.exports = {
 };
 ```
 
-#### Create a tailwind css file.
+### Create a tailwind css file.
 
 Navigate to `src/assets/css` and create a new `tailwind.css` file in your `css` folder, then add the following =>
 
@@ -54,7 +54,7 @@ Navigate to `src/assets/css` and create a new `tailwind.css` file in your `css` 
 @tailwind utilities;
 ```
 
-#### Import Tailwind into your Vue.js app
+### Import Tailwind into your Vue.js app
 
 Open your `main.js` file and add: `import '@/assets/css/tailwind.css'`
 

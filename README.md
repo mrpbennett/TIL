@@ -98,7 +98,7 @@ The goal is to write something new everyday or as often as possible.
 
 ### Vue
 
--   [Adding TailwindCSS to Vue.js](adding-tailwindcss-to-vue.md)
+-   [Adding TailwindCSS to Vue.js](javascript/vue/adding-tailwindcss-to-vue.md)
 
 # Markdown
 

@@ -62,6 +62,8 @@ The goal is to write something new everyday or as often as possible.
 # CSS
 
 -   [box-sizing](css/box-sizing.md)
+-   [animation-fill-mode](css/animation-fill-mode.md)
+-   [animation-iteration-count](css/animation-iteration-count.md)
 
 # JavaScript
 
@@ -120,3 +122,10 @@ The goal is to write something new everyday or as often as possible.
 ### Django
 
 -   [Using the safe filter](python/django/using-safe-filter.md)
+
+# SQL
+
+-   [Install mySQL via Homebrew](sql/installing-mysql-via-homebrew.md)
+-   [Setting a default value](sql/setting-default-values.md)
+-   [Inserting data into tables](sql/inserting-data-into-tables.md)
+-   [Auto increment IDs](sql/auto-increment-primary-ids.md)

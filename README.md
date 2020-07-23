@@ -132,6 +132,9 @@ The goal is to write something new everyday or as often as possible.
 # SQL
 
 -   [Install mySQL via Homebrew](sql/installing-mysql-via-homebrew.md)
+-   [Changing a users password](sql/changing-password.md)
 -   [Setting a default value](sql/setting-default-values.md)
 -   [Inserting data into tables](sql/inserting-data-into-tables.md)
 -   [Auto increment IDs](sql/auto-increment-primary-ids.md)
+-   [Deleting a database](sql/deleting-a-database.md)
+-   [Finding & Deleting db users](sql/finding-users-and-removing.md)

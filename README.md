@@ -100,6 +100,7 @@ The goal is to write something new everyday or as often as possible.
 
 -   [Adding TailwindCSS to Vue.js](javascript/vue/adding-tailwindcss-to-vue.md)
 -   [Required Key for `v-for`](javascript/vue/required-key.md)
+-   [Using Filters to format output](javascript/vue/using-filters.md)
 
 # Markdown
 

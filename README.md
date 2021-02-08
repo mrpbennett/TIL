@@ -125,6 +125,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Class variables](python/class-variables.md)
 -   [Class methods](python/class-methods.md)
 -   [Advance set operations](python/advance-set-operations.md)
+-   [Files using `with` statement](python/with_statement.md)
 -   [Static methods](python/static-methods.md)
 
 ### Django

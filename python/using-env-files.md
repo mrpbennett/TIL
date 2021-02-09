@@ -35,6 +35,15 @@ At this point, parsed key/value from the `.env` file is now present as system en
 ```
 # app.py
 import os
+import settings
+
 SECRET_KEY = os.getenv("EMAIL")
 DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
+```
+
+```
+# .env
+CLIENT_ID=xxxxxxxxx
+CLIENT_SECRET=xxxxxx
+CODE=xxxxxxxxxxxxxxxxxxxxx
 ```

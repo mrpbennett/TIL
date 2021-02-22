@@ -19,7 +19,8 @@ The goal is to write something new everyday or as often as possible.
 - [Containters](#containters)
     - [Docker](#docker)
 - [Databases](#databases)
-    -  [SQL](#sql)
+    - [TimescaleDB](#timescaledb)
+    - [SQL](#sql)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
 - [Error Handling](#error-handling)
 - [Git](#git)
@@ -51,6 +52,8 @@ The goal is to write something new everyday or as often as possible.
 # Databases
 
 ### TimescaleDB
+
+- [Installing TimescaleDB in Docker](databases/timescaledb/timescaledb.md)
 
 ### SQL
 

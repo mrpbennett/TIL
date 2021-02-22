@@ -18,6 +18,8 @@ The goal is to write something new everyday or as often as possible.
 - [Command Line](#command-line)
 - [Containters](#containters)
     - [Docker](#docker)
+- [Databases](#databases)
+    -  [SQL](#sql)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
 - [Error Handling](#error-handling)
 - [Git](#git)
@@ -31,7 +33,7 @@ The goal is to write something new everyday or as often as possible.
 - [Markdown](#markdown)
 - [Python](#python)
     - [Django](#django)
-- [SQL](#sql)
+
 
 # Automation / build
 
@@ -46,6 +48,20 @@ The goal is to write something new everyday or as often as possible.
 ### Docker
 -   [Using Docker with Flask](containers/docker/flask_docker.md)
 
+# Databases
+
+### TimescaleDB
+
+### SQL
+
+-   [Install mySQL via Homebrew](sql/installing-mysql-via-homebrew.md)
+-   [Changing a users password](sql/changing-password.md)
+-   [Setting a default value](sql/setting-default-values.md)
+-   [Inserting data into tables](sql/inserting-data-into-tables.md)
+-   [Auto increment IDs](sql/auto-increment-primary-ids.md)
+-   [Deleting a database](sql/deleting-a-database.md)
+-   [Finding & Deleting db users](sql/finding-users-and-removing.md)
+-   
 # Data Structures and Algorithms
 
 # Error Handling
@@ -144,12 +160,4 @@ The goal is to write something new everyday or as often as possible.
 
 -   [Using the safe filter](python/django/using-safe-filter.md)
 
-# SQL
 
--   [Install mySQL via Homebrew](sql/installing-mysql-via-homebrew.md)
--   [Changing a users password](sql/changing-password.md)
--   [Setting a default value](sql/setting-default-values.md)
--   [Inserting data into tables](sql/inserting-data-into-tables.md)
--   [Auto increment IDs](sql/auto-increment-primary-ids.md)
--   [Deleting a database](sql/deleting-a-database.md)
--   [Finding & Deleting db users](sql/finding-users-and-removing.md)

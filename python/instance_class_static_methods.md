@@ -63,4 +63,10 @@ Did you see how we called staticmethod() on the object and were able to do so su
 
 This confirms that static methods can neither access the object instance state nor the class state. They work like regular functions but belong to the class’s (and every instance’s) namespace.
 
+## Key Takeaways
+- Instance methods need a class instance and can access the instance through self.
+- Class methods don’t need a class instance. They can’t access the instance (self) but they have access to the class itself via cls.
+- Static methods don’t have access to cls or self. They work like regular functions but belong to the class’s namespace.
+- Static and class methods communicate and (to a certain degree) enforce developer intent about class design. This can have maintenance benefits.
+
 Above references link [link](https://realpython.com/instance-class-and-static-methods-demystified/#instance-methods)

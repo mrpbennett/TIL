@@ -132,11 +132,13 @@ The goal is to write something new everyday or as often as possible.
 -   [Classes and instances](python/classes-instances.md)
 -   [Class variables](python/class-variables.md)
 -   [Class methods](python/class-methods.md)
+-   [Class inhertiance](python/class_inheritance.md)
+-   [Dunder methods for classes](python/dunder_methods.md)
+-   [Instance, Class, and Static Methods](python/instance_class_static_methods.md)
 -   [Advance set operations](python/advance-set-operations.md)
 -   [Files using `with` statement](python/with_statement.md)
 -   [Static methods](python/static-methods.md)
--   [Dunder methods for classes](python/dunder_methods.md)
--   [Instance, Class, and Static Methods](python/instance_class_static_methods.md)
+
 
 ### Django
 

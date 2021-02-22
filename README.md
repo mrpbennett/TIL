@@ -136,6 +136,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Files using `with` statement](python/with_statement.md)
 -   [Static methods](python/static-methods.md)
 -   [Dunder methods for classes](python/dunder_methods.md)
+-   [Instance, Class, and Static Methods](python/instance_class_static_methods.md)
 
 ### Django
 

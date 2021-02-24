@@ -57,14 +57,13 @@ The goal is to write something new everyday or as often as possible.
 
 ### SQL
 
--   [Install mySQL via Homebrew](sql/installing-mysql-via-homebrew.md)
--   [Changing a users password](sql/changing-password.md)
--   [Setting a default value](sql/setting-default-values.md)
--   [Inserting data into tables](sql/inserting-data-into-tables.md)
--   [Auto increment IDs](sql/auto-increment-primary-ids.md)
--   [Deleting a database](sql/deleting-a-database.md)
--   [Finding & Deleting db users](sql/finding-users-and-removing.md)
--   
+-   [Install mySQL via Homebrew](databases/sql/installing-mysql-via-homebrew.md)
+-   [Changing a users password](databases/sql/changing-password.md)
+-   [Setting a default value](databases/sql/setting-default-values.md)
+-   [Inserting data into tables](databases/sql/inserting-data-into-tables.md)
+-   [Auto increment IDs](databases/sql/auto-increment-primary-ids.md)
+-   [Deleting a database](databases/sql/deleting-a-database.md)
+-   [Finding & Deleting db users](databases/sql/finding-users-and-removing.md)
 # Data Structures and Algorithms
 
 # Error Handling

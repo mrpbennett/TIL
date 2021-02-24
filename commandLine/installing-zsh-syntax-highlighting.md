@@ -2,7 +2,9 @@
 
 Easy way to install `zsh-syntax-highlighting` via brew
 
-`brew install zsh-syntax-highlighting`
+```zsh
+brew install zsh-syntax-highlighting
+```
 
 After the install, add the following to your `.zsh` file:
 

@@ -156,6 +156,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Advance set operations](python/advance-set-operations.md)
 -   [Files using `with` statement](python/with_statement.md)
 -   [Static methods](python/static-methods.md)
+-   [Get pip installed executables into the asdf path](python/pip-installed-exe-into-the-asdf-path.md)
 
 
 ### Django

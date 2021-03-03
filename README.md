@@ -163,4 +163,8 @@ The goal is to write something new everyday or as often as possible.
 
 -   [Using the safe filter](python/django/using-safe-filter.md)
 
+### Flask
+
+- [Fully reloading a browser to see CSS changes](flask/css-changes.md)
+
 

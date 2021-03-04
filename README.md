@@ -167,6 +167,7 @@ The goal is to write something new everyday or as often as possible.
 ### Flask
 
 - [Fully reloading a browser to see CSS changes](python/flask/css-changes.md)
-- [Getting user input from a form field](python/flask/you should use form.<field>.data, not this proxy property.)
+- [Getting user input from a form field](python/flask/getting_data_from_a_formfield.md)
+- [Generated a SECRET_TOKEN with secrets](python/flask/secret_token_with_secrets.md)
 
 

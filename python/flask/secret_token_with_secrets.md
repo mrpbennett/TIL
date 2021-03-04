@@ -25,3 +25,16 @@ Then assigning it to your `app.config` like so:
 ```python
 app.config["SECRET_KEY"] = secret_key
 ```
+## BUT...this isn't best practice
+
+It's best to keep it the same code through out your project, as you will want it to persist across restarts.
+
+so in that case, open up your terminal
+
+```zsh
+> python
+>>> import secrets
+>>> print(secrets.token_hex(16)
+>>> 8fb68da0834a05aae0860c070bdb73fc
+```
+Then use `8fb68da0834a05aae0860c070bdb73fc` as your secret key

@@ -34,11 +34,11 @@ so in that case, open up your terminal
 ```zsh
 > python
 >>> import secrets
->>> print(secrets.token_hex(16)
->>> 8fb68da0834a05aae0860c070bdb73fc
+>>> print(secrets.token_hex(25)
+>>> 75265f52194bdcab9dffb50d5847fcec770a8fc6344ce530cb
 ```
-Then use `8fb68da0834a05aae0860c070bdb73fc` as your secret key, like so:
+Then use `75265f52194bdcab9dffb50d5847fcec770a8fc6344ce530cb` as your secret key, like so:
 
 ```python
-app.config['SECRET_KEY'] = "8fb68da0834a05aae0860c070bdb73fc"
+app.config['SECRET_KEY'] = "75265f52194bdcab9dffb50d5847fcec770a8fc6344ce530cb"
 ```

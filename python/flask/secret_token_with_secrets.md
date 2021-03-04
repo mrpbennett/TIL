@@ -37,4 +37,8 @@ so in that case, open up your terminal
 >>> print(secrets.token_hex(16)
 >>> 8fb68da0834a05aae0860c070bdb73fc
 ```
-Then use `8fb68da0834a05aae0860c070bdb73fc` as your secret key
+Then use `8fb68da0834a05aae0860c070bdb73fc` as your secret key, like so:
+
+```python
+app.config['SECRET_KEY'] = "8fb68da0834a05aae0860c070bdb73fc"
+```

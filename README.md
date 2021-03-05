@@ -159,6 +159,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Get pip installed executables into the asdf path](python/pip-installed-exe-into-the-asdf-path.md)
 -   [Handing a ZeroDivision Error](python/zero_division_error.md)
 -   [How to compare two files and out put difference](python/comparing_two_files.md)
+-   [Writing data on a single line to a txt file](python/writing_singleline_to_txt.md)
 
 
 ### Django

@@ -38,6 +38,7 @@ The goal is to write something new everyday or as often as possible.
 - [Python](#python)
     - [Django](#django)
     - [Flask](#flask)
+    - [Pandas](#pandas)
 
 ---
 
@@ -187,4 +188,6 @@ The goal is to write something new everyday or as often as possible.
 - [Getting user input from a form field](python/flask/getting_data_from_a_formfield.md)
 - [Generated a SECRET_KEY with secrets](python/flask/secret_token_with_secrets.md)
 
+### Pandas
 
+- [Creating Dataframes with multi-dimensional lists](python/pandas/creating_dataframe_multi-dimensional-lists)

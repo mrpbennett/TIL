@@ -14,6 +14,8 @@ The goal is to write something new everyday or as often as possible.
 
 - [:books: TIL (Today I Learnt)](#books-til-today-i-learnt)
 - [Categories](#categories)
+- [Applications](#applications)
+    - [DataGrip](#datagrip)
 - [Automation / build](#automation--build)
 - [Command Line](#command-line)
 - [Containters](#containters)
@@ -34,7 +36,14 @@ The goal is to write something new everyday or as often as possible.
 - [Markdown](#markdown)
 - [Python](#python)
     - [Django](#django)
+    - [Flask](#flask)
 
+---
+
+# Applications
+
+### DataGrip
+- [Setting up for multple schemas](datagrip/multiple_schemas.md)
 
 # Automation / build
 

@@ -191,3 +191,4 @@ The goal is to write something new everyday or as often as possible.
 ### Pandas
 
 - [Creating Dataframes with multi-dimensional lists](python/pandas/creating_dataframe_multi-dimensional-lists)
+- [Access JSON in a Panads dataframe](python/pandas/accessing_json.md)

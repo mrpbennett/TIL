@@ -43,7 +43,7 @@ df_domains = df.domain
 
 Then I used [`.json_normalized`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.json_normalize.html) to allow me to use `record_path`
 
-##### record_pathstr or list of str, default None
+### record_pathstr or list of str, default None
 Path in each object to list of records. If not passed, data will be assumed to be an array of records.
 
 Which printed out the following dataframe: 

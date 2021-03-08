@@ -21,6 +21,7 @@ The goal is to write something new everyday or as often as possible.
 - [Containters](#containters)
     - [Docker](#docker)
 - [Databases](#databases)
+    - [Presto](#presto)
     - [TimescaleDB](#timescaledb)
     - [SQL](#sql)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
@@ -59,6 +60,10 @@ The goal is to write something new everyday or as often as possible.
 -   [Using Docker with Flask](containers/docker/flask_docker.md)
 
 # Databases
+
+### Presto
+
+- [Connecting to PrestoDB via presto-python-client](databases/presto/connecting_to_presto.md)
 
 ### TimescaleDB
 
@@ -169,6 +174,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Handing a ZeroDivision Error](python/zero_division_error.md)
 -   [How to compare two files and out put difference](python/comparing_two_files.md)
 -   [Writing data on a single line to a txt file](python/writing_singleline_to_txt.md)
+-   [Connecting to PrestoDB via presto-python-client](databases/presto/connecting_to_presto.md)
 
 
 ### Django

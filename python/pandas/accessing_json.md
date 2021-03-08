@@ -36,7 +36,7 @@ This is how I put the JSON data into it's own data frame, then drilled down to g
 ```python
 sjon_data = data
 df = pd.json_normalize(sjon_data, record_path=["sellers"], errors="ignore")
-df_domains = df.domains
+df_domains = df.domain
 ```
 
 `sjson_data` stored the data I pulled via requests, this was similar to what is above.

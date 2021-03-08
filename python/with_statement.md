@@ -1,29 +1,50 @@
-# Handling files with the `with` statment
+# with statement in Python
 
-In Python you need to give access to a file by opening it. You can do it by using the open() function. Open returns a file object, which has methods and attributes for getting information about and manipulating the opened file.
+`with` statement in Python is used in exception handling to make the code cleaner and much more readable. It simplifies the management of common resources like file streams. Observe the following code example on how the use of with statement makes code cleaner.
 
-With the `with` statement, you get better syntax and exceptions handling. The with statement simplifies exception handling by encapsulating common preparation and cleanup tasks.” In addition, it will automatically close the file. The with statement provides a way for ensuring that a clean-up is always used.
-
-### Without the with statement
-
-```python
-file = open("welcome.txt")
-
-data = file.read()
-
-print data
-
-file.close()  # It's important to close the file when you're done with it
-```
-
-### With Statement Usage
-
-Opening a file using with is as simple as: `with open(filename) as file:`
-
+### File Handling
 ```python
 
-with open('output.txt', 'w') as file:  # Use file to refer to the file object
-    file.write('Hi there!')
-
-# Notice, that we didn’t have to write “file.close()”. That will automatically be called.
+# 1) without using with statement 
+file = open('file_path', 'w') 
+file.write('hello world !') 
+file.close() 
+  
+# 2) without using with statement 
+file = open('file_path', 'w') 
+try: 
+    file.write('hello world') 
+finally: 
+    file.close()
 ```
+
+### Using `with` statment
+```python
+with open('file_path', 'w') as file: 
+    file.write('hello world !') 
+```
+
+Notice that unlike the first two implementations, there is no need to call file.close() when using with statement. The with statement itself ensures proper acquisition and release of resources. An exception during the file.write() call in the first implementation can prevent the file from closing properly which may introduce several bugs in the code, i.e. many changes in files do not go into effect until the file is properly closed.
+
+### Other methods
+
+`with` can also be used to close db connections:
+
+```python
+def connect_to_presto():
+    with prestodb.dbapi.connect(
+        host=db_host,
+        port=8443,
+        user="pbennett",
+        catalog="gridhive",
+        schema="rpt",
+        http_scheme="https",
+        auth=prestodb.auth.BasicAuthentication("pbennett", db_pwd),
+    ) as conn:
+        with conn.cursor() as cur:
+            cur.execute("select * from some.table")
+            rows = cur.fetchall()
+            return rows
+```
+
+more information [here](https://www.geeksforgeeks.org/with-statement-in-python/)

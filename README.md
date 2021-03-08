@@ -44,7 +44,7 @@ The goal is to write something new everyday or as often as possible.
 # Applications
 
 ### DataGrip
-- [Setting up for multple schemas](datagrip/multiple_schemas.md)
+- [Setting up for multple schemas](applications/datagrip/multiple_schemas.md)
 
 # Automation / build
 

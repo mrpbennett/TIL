@@ -177,7 +177,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Writing data on a single line to a txt file](python/writing_singleline_to_txt.md)
 -   [Connecting to PrestoDB via presto-python-client](databases/presto/connecting_to_presto.md)
 -   [Removing duplicates from dictonaries](python/removing_dupes_from_dicts.md)
-
+-   [Formatting a float](python/formatting_a_float.md)
 
 ### Django
 

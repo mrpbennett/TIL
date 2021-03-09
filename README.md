@@ -56,6 +56,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Creating a new file](commandLine/creating-new-files.md)
 -   [zsh-syntax-highlighting](commandLine/installing-zsh-syntax-highlighting.md)
 
+
 # Containters
 ### Docker
 -   [Using Docker with Flask](containers/docker/flask_docker.md)
@@ -90,6 +91,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Creating & Switching branches](git/creating-and-switching-branches.md)
 -   [Using git reset](git/git-reset.md)
 -   [How to find which commit introduced a bug](git/git-bisect.md)
+-   [Cleaning up branches in Git](git/cleaning_branches.md)
 
 # GraphQL
 
@@ -178,6 +180,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Connecting to PrestoDB via presto-python-client](databases/presto/connecting_to_presto.md)
 -   [Removing duplicates from dictonaries](python/removing_dupes_from_dicts.md)
 -   [Formatting a float](python/formatting_a_float.md)
+-   [Fixing UnboardLocalError](python/fixing_unboundlocalerror.md)
 
 ### Django
 

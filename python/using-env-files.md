@@ -16,34 +16,35 @@ Assuming you have created the `.env` file along-side your settings module.
 Add the following code to your `settings.py`
 
 ```python
-# settings.py
+# config.py
+
+from os import environ, path
 from dotenv import load_dotenv
-load_dotenv()
 
-# OR, the same with increased verbosity
-load_dotenv(verbose=True)
 
-# OR, explicitly providing path to '.env'
-from pathlib import Path  # python3 only
-env_path = Path('.') / '.env'
-load_dotenv(dotenv_path=env_path)
+basedir = path.abspath(path.dirname(__file__))
+load_dotenv(path.join(basedir, '.env'))
+
+TESTING = True
+DEBUG = True
+FLASK_ENV = 'development'
+SECRET_KEY = environ.get('SECRET_KEY')
 ```
 
 At this point, parsed key/value from the `.env` file is now present as system environment variable and they can be conveniently accessed via 
-`os.getenv()`:
+`environ.get()`:
 
 ```
 # app.py
 import os
 import settings
 
-SECRET_KEY = os.getenv("EMAIL")
-DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
+SECRET_KEY = environ.get("EMAIL")
+DATABASE_PWD = environ.get("DATABASE_PASSWORD")
 ```
 
 ```
 # .env
-CLIENT_ID=xxxxxxxxx
-CLIENT_SECRET=xxxxxx
-CODE=xxxxxxxxxxxxxxxxxxxxx
+SECRET_KEY=xxxxxx
+DATABASE_PWD=xxxxxxxxxxxxxxxxxxxxx
 ```

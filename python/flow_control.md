@@ -16,7 +16,6 @@ while True:
         u = input("do you have an umbrella? y/n: ")
 
         if u == "y":
-            r = False
             print("Go Outside")
             break
 
@@ -28,5 +27,4 @@ while True:
         r = False
         print("Go Outside")
         break
-
 ```

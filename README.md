@@ -154,6 +154,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Pipenv](python/pipenv.md)
 -   [Using `.env` files within Python](python/using-env-files.md)
 -   [f-strings](python/f-strings.md)
+-   [Flow control with a while loop](python/flow_control.md)
 -   [Working with JSON](python/working_with_json.md)
 -   [End parameter in `print()`](python/end-parameter-in-print.md)
 -   [Arithmetic operators](python/arithmetic-operators.md)

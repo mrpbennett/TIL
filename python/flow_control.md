@@ -9,22 +9,15 @@ Using a `while` loop allows you keep looping through conditions until a conditio
 ```python
 import time
 
-while True:
-    r = input("is it raining? y/n: ")
+r = input("is it raining? y/n: ")
 
-    if r == "y":
-        u = input("do you have an umbrella? y/n: ")
-
-        if u == "y":
-            print("Go Outside")
-            break
-
-        if u == "n":
+if r == "y":
+    u = input("do you have an umbrella? y/n: ")
+    if u == "n":
+        while r == "y":
             print("wait a while")
             time.sleep(3)
-            r = True
-    else:
-        r = False
-        print("Go Outside")
-        break
+            r = input("is it raining? y/n: ")
+print("Go Outside")
 ```
+The important thing to note here the question "Have umbrella?" is only asked **once**. Where as "is raining?" is asked again after the user has said they do not have an umbrella.  

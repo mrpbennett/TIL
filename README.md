@@ -9,7 +9,6 @@ The goal is to write something new everyday or as often as possible.
 -   [Categories](#categories)
 
 ---
-
 # Categories
 
 - [:books: TIL (Today I Learnt)](#books-til-today-i-learnt)
@@ -24,8 +23,6 @@ The goal is to write something new everyday or as often as possible.
     - [Presto](#presto)
     - [TimescaleDB](#timescaledb)
     - [SQL](#sql)
-- [Data Structures and Algorithms](#data-structures-and-algorithms)
-- [Error Handling](#error-handling)
 - [Git](#git)
 - [GraphQL](#graphql)
 - [HTML 5](#html-5)
@@ -39,6 +36,7 @@ The goal is to write something new everyday or as often as possible.
     - [Django](#django)
     - [Flask](#flask)
     - [Pandas](#pandas)
+    - [Matplotlib](#matplotlib)
 
 ---
 
@@ -80,11 +78,6 @@ The goal is to write something new everyday or as often as possible.
 -   [Auto increment IDs](databases/sql/auto-increment-primary-ids.md)
 -   [Deleting a database](databases/sql/deleting-a-database.md)
 -   [Finding & Deleting db users](databases/sql/finding-users-and-removing.md)
-# Data Structures and Algorithms
-
-# Error Handling
-
--   [Catching errors when using APIs](error-handling/handing-errors-with-apis.md)
 
 # Git
 

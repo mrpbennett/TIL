@@ -1,6 +1,6 @@
 # Using `render_kw` to add attributes into form fields
 
-When you're forms fields look like this when using Flask-WTF.
+When you're forms fields they look like this when using Flask-WTF.
 
 ```html
 {{ form.email(class="form-control is-invalid") }}

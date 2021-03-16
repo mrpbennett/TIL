@@ -193,6 +193,7 @@ The goal is to write something new everyday or as often as possible.
 ### Pandas
 
 - [Differences between DataFrame & Series](python/pandas/dataframes_series.md)
+- [Use of `value_count()`](python/pandas/using_value_count.md)
 - [Creating Dataframes with multi-dimensional lists](python/pandas/creating_dataframe_multi-dimensional-lists.md)
 - [Access JSON in a Panads dataframe](python/pandas/accessing_json.md)
 - [Merging Dataframes and removing duplicates](python/pandas/merge_remove_duplicates.md)

@@ -1,6 +1,6 @@
 # DataFrames vs Series.
 
-What are the differences? 
+What are the differences? 🤔
 
 ## Dataframe
 

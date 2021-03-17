@@ -9,6 +9,14 @@ Get in the root where the Dockerfile is located.
 docker build -t <image name> .
 
 docker build -t <registry>/<image name>:latest .
+
+```
+## Pushing to a registery
+
+```zsh
+docker container commit <container ID> <image name>:latest
+
+docker push <registry>/<image name>:latest
 ```
 
 ## Run the image
@@ -28,10 +36,4 @@ CONTAINER ID   IMAGE                   COMMAND                  CREATED         
 7f413d44d549   sellers_json_analysis   "/usr/local/bin/guni…"   3 seconds ago    Up 2 seconds    5000/tcp   suspicious_dijkstra
 ```
 
-## Pushing to a registery
 
-```zsh
-docker container commit <container ID> <image name>:latest
-
-docker push <registry>/<image name>:latest
-```

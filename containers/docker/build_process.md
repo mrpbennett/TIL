@@ -7,6 +7,8 @@ Get in the root where the Dockerfile is located.
 
 ```zsh
 docker build -t <image name> .
+
+docker build -t <registry>/<image name>:latest .
 ```
 
 ## Run the image
@@ -30,4 +32,6 @@ CONTAINER ID   IMAGE                   COMMAND                  CREATED         
 
 ```zsh
 docker container commit <container ID> <image name>:latest
+
+docker push <registry>/<image name>:latest
 ```

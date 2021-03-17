@@ -15,7 +15,7 @@ docker run -d --env-file .env <image name>
 
 Using `--env-file .env` allows you to add your enviroment variables into your container.
 
-## Check that it's running
+## Check that it's running (locally)
 ```zsh
 docker ps
 

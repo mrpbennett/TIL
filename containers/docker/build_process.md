@@ -1,5 +1,7 @@
 # Docker build process 🐳
 
+Get in the root where the Dockerfile is located.
+
 
 ## Build the image
 

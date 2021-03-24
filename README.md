@@ -149,6 +149,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Using `.env` files within Python](python/using-env-files.md)
 -   [f-strings](python/f-strings.md)
 -   [Flow control with a while loop](python/flow_control.md)
+-   [Using the `global` statement](python/global_variable.md)
 -   [Using `enumerate()` in loops](python/enumerate_in_loops.md)
 -   [Use of `continue` in a while loop](python/continue_while_loop.md)
 -   [Use of `range()`](python/use_of_range.md)

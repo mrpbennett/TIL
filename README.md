@@ -65,6 +65,7 @@ The goal is to write something new everyday or as often as possible.
 ### Presto
 
 - [Connecting to PrestoDB via presto-python-client](databases/presto/connecting_to_presto.md)
+- [Use of `regexp_like()`](databases/presto/regexp_like.md)
 
 ### TimescaleDB
 

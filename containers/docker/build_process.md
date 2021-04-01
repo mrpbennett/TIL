@@ -51,7 +51,7 @@ REPOSITORY    TAG       IMAGE ID       CREATED              SIZE
 python_test   latest    e156018cae60   About a minute ago   160MB
 ```
 
-Now lets tag your image.
+### Now lets tag your image.
 
 ```zsh
 > docker tag e156018cae60 yourhubusername/yourhubrepo:tag-name
@@ -59,7 +59,7 @@ Now lets tag your image.
 
 The number must match the image ID and `:tag-name` is the tag. In general, a good choice for a tag is something that will help you understand what this container should be used in conjunction with, or what it represents.  Whatever will help you understand what this particular image is intended for.
 
-Now we can push this to Docker Hub
+### Now we can push this to Docker Hub
 
 ```zsh
 > docker push yourhubusername/yourhubrepo:tag-name

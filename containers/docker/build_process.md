@@ -31,7 +31,7 @@ Include the period at the end, as this tells docker to use the root
 docker build -t <image name> .
 
 # use this to build to a registry
-docker build -t <registry>/<image name>:latest .
+docker build -t <registry>/<image name>:<tag name> .
 
 ```
 

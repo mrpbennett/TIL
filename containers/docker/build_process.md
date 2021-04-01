@@ -65,6 +65,16 @@ The number must match the image ID and `:tag-name` is the tag. In general, a goo
 > docker push yourhubusername/yourhubrepo:tag-name
 ```
 
+## Pulling from Docker Hub.
+
+Now you're image is up in DockerHub you're able to pull this (using the `pull` cmd) from DockerHub and run it. To do so, you can go into your image via docker hub and get the cmd and copy it, for example mine is:
+
+```zsh
+docker pull yourhubusername/yourhubrepo:tag-name
+```
+
+To run the pulled image simply type `> docker run yourhubusername/yourhubrepo:tag-name` in your terminal, and this will then open a container with your app running.
+
 ## Pushing to a registery
 
 ```zsh

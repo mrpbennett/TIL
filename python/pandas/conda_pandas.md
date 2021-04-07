@@ -31,3 +31,7 @@ unset __conda_setup
 ``` 
 
 which will you to get your executable path too, for example `'/opt/homebrew/anaconda3/bin/conda`
+
+### Using Pandas
+
+Just simply run `conda install pandas`

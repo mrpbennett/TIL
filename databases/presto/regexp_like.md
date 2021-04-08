@@ -19,3 +19,7 @@ select *
 from my_table
 where regexp_like(my_column, 'hello|example|random|demo');
 ```
+
+### Note..
+
+the `|` is OR

@@ -59,6 +59,7 @@ The goal is to write something new everyday or as often as possible.
 ### Docker
 - [Basic build / push process](containers/docker/build_process.md)
 -   [Using Docker with Flask](containers/docker/flask_docker.md)
+-   [Building using x86](https://blog.jaimyn.dev/how-to-build-multi-architecture-docker-images-on-an-m1-mac/#tldr;)
 
 # Databases
 

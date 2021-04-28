@@ -45,21 +45,19 @@ The goal is to write something new everyday or as often as possible.
 ### DataGrip
 - [Setting up for multple schemas](applications/datagrip/multiple_schemas.md)
 
-# Automation / build
+# Automation / Build / Containers
 
 -   [Creating a Minified CSS file from Scss](automation-build/minicss-from-sass.md)
+
+### Docker
+- [Basic build / push process](containers/docker/build_process.md)
+-   [Using Docker with Flask](containers/docker/flask_docker.md)
+-   [Building using x86](https://blog.jaimyn.dev/how-to-build-multi-architecture-docker-images-on-an-m1-mac/#tldr;)
 
 # Command Line
 
 -   [Creating a new file](commandLine/creating-new-files.md)
 -   [zsh-syntax-highlighting](commandLine/installing-zsh-syntax-highlighting.md)
-
-
-# Containters
-### Docker
-- [Basic build / push process](containers/docker/build_process.md)
--   [Using Docker with Flask](containers/docker/flask_docker.md)
--   [Building using x86](https://blog.jaimyn.dev/how-to-build-multi-architecture-docker-images-on-an-m1-mac/#tldr;)
 
 # Databases
 

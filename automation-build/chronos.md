@@ -68,4 +68,17 @@ There is also support for passing in arbitrary docker config options.
 }
 ```
 
+### Things to know.
+
+```bash
+"R/2021-04-29T18:00:00.00Z/P1D",
+```
+
+`R` without number means "repeat infinitely" then start date `2021-04-29T18:00:00.00Z` - tomorrow at 18:00. Then time interval `P1D` means 1 day, so every day it will repeat itself
+
+```bash
+"epsilon": "PT30M"
+```
+If chronos by some reason misses the scheduled time, then within epsilon it will be able still run the task will add the json files. Then build your Docker image (json files are not necessary for docker image) it will push the docker image and then schedule the chronos tasks with those json files
+
 More documentation can be found [here](https://mesos.github.io/chronos/docs/api.html#adding-a-docker-job)

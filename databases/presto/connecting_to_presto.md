@@ -10,7 +10,7 @@ import prestodb
 try:
         conn = prestodb.dbapi.connect(
             host="host url",
-            port="port",
+            port=1234,
             user="username",
             catalog="catalog",
             schema="schema",

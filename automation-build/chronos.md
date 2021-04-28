@@ -10,6 +10,7 @@ curl -L -H 'Content-Type: application/json' -X POST -d @./<folder>/<task>.json h
 
 
 ### Adding a Docker Job
+
 A docker job takes the same format as a scheduled job or a dependency job and runs on a Docker container. To configure it, an additional container argument is required, which contains a type (required), an image (required), a network mode (optional), mounted volumes (optional), parameters (optional) and whether Mesos should always pull the latest image before executing or not (optional).
 
 Endpoint: **/v1/scheduler/iso8601** or **/v1/scheduler/dependency**
@@ -66,3 +67,5 @@ There is also support for passing in arbitrary docker config options.
     ]
 }
 ```
+
+More documentation can be found [here](https://mesos.github.io/chronos/docs/api.html#adding-a-docker-job)

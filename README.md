@@ -48,6 +48,7 @@ The goal is to write something new everyday or as often as possible.
 # Automation / Build / Containers
 
 -   [Creating a Minified CSS file from Scss](automation-build/minicss-from-sass.md)
+-   [Adding a Chronos job](automation-build/chronos.md)
 
 ### Docker
 - [Basic build / push process](containers/docker/build_process.md)

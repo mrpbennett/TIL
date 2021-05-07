@@ -182,6 +182,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Removing duplicates from dictonaries](python/removing_dupes_from_dicts.md)
 -   [Formatting a float](python/formatting_a_float.md)
 -   [Fixing UnboardLocalError](python/fixing_unboundlocalerror.md)
+-   [logging module basics](python/logging.md)
 
 ### Django
 

@@ -83,3 +83,36 @@ ZeroDivisionError: division by zero
 This way we're able to see that the reason for the crash was an `ZeroDivisionError: division by zero`
 
 Alternativly we could log `logging.exception()` which is the same as `logging.error(exc_info=True)` if you wanted to log the exception on a different rule you can do the following `logging.warning(exc_info=True)`
+
+## Creating a custom logger
+
+```python
+import logging
+
+logger = logging.getLogger(__name__)
+
+c_handler = logging.StreamHandler()
+f_handler = logging.FileHandler('file.log')
+
+"""
+only logs WARNING or above will be logged &
+ERROR will be logged to file.
+"""
+c_handler.setLevel(logging.WARNING)
+f_handler.setLevel(logging.ERROR)
+
+""" this will provide the same info but the file will have a timestamp """
+c_format = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
+f_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+""" assigns the formatters to the handlers """
+c_handler.setFormatter(c_format)
+f_handler.setFormatter(f_format)
+
+logger.addHandler(c_handler)
+logger.addHandler(f_handler)
+
+""" test the custom logger """
+logger.warning('This is an WARNING')
+logger.error('This is an ERROR')
+```

@@ -8,6 +8,8 @@ Chronos is a replacement for cron. It is a distributed and fault-tolerant schedu
 curl -L -H 'Content-Type: application/json' -X POST -d @./<folder>/<task>.json http://lga-chronos.pulse.prod:4400/scheduler/iso8601
 ```
 
+- `<folder>` = dir where jobs are stored
+- `<task>` = file name of the job
 
 ### Adding a Docker Job
 

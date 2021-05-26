@@ -144,6 +144,7 @@ The goal is to write something new everyday or as often as possible.
 # Markdown
 
 -   [Adding a anchor link](markdown/adding-an-achor-link.md)
+-   [Adding an image](markdown/adding-an-img.md)
 
 # Python
 

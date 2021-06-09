@@ -196,6 +196,7 @@ The goal is to write something new everyday or as often as possible.
 - [Getting user input from a form field](python/flask/getting_data_from_a_formfield.md)
 - [Generated a SECRET_KEY with secrets](python/flask/secret_token_with_secrets.md)
 - [Using `render_kw` to pass attributes in form fields](python/flask/using_render_kw.md)
+- [Rendering `\n` from json in Jinja2](python/flask/rendering_newlines.md)
 
 ### Pandas
 

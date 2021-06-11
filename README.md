@@ -122,7 +122,8 @@ The goal is to write something new everyday or as often as possible.
 -   [Callback functions](javascript/callback-functions.md)
 -   [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 -   [Using JSON](javascript/stringify-and-parse.md)
--   [`toLocaleString](javascript/tolocalestring.md)
+-   [`.toLocaleString`](javascript/tolocalestring.md)
+-   [Replacing `\n` in html](javascript/replacing_newline_jsonstring.md)
 
 ### Node
 

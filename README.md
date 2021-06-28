@@ -124,6 +124,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Using JSON](javascript/stringify-and-parse.md)
 -   [`.toLocaleString`](javascript/tolocalestring.md)
 -   [Replacing `\n` in html](javascript/replacing_newline_jsonstring.md)
+-   [Disabling Web Security (CORS) for Chrome](javascript/disable_web.md)
 
 ### Node
 

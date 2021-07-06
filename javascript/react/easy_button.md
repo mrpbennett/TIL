@@ -60,4 +60,4 @@ Above we added in `${radius}` here we can pass in something like `rounded` to gi
 <Button onClick={() => console.log('clicked')} color='blue' px="6" py="3" radius="rounded">Click Me</Button>
 ```
 
-One caveat with this button is that you will need to know how to use TailWind utilities.
+One caveat with this button is that you will need to know how to use TailWind utilities. However this is all good and well, but if your style doesn't require a custom padding or radius you can leave those off.

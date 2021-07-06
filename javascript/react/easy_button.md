@@ -26,7 +26,7 @@ import React from 'react';
 export const Button = ({ children, color, onClick, px, py }) => {
   return (
     <button
-      className={`bg-${color}-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-${px} py-${py} rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-${color}-800`}
+      className={`bg-${color}-500 text-white active:bg-${color}-600 font-bold uppercase text-sm px-${px} py-${py} rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-${color}-800`}
       onClick={onClick}>
       {children}
     </button>
@@ -44,7 +44,7 @@ import React from 'react';
 export const Button = ({ children, color, onClick, px, py, radius }) => {
   return (
     <button
-      className={`bg-${color}-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-${px} py-${py} ${radius} shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-${color}-800`}
+      className={`bg-${color}-500 text-white active:bg-${color}-600 font-bold uppercase text-sm px-${px} py-${py} ${radius} shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-${color}-800`}
       onClick={onClick}>
       {children}
     </button>

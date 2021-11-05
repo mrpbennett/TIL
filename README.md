@@ -137,6 +137,7 @@ The goal is to write something new everyday or as often as possible.
 -   [How to use inline styles](javascript/react/using-inline-styles.md)
 -   [Creating a star rating](javascript/react/star-rating.md)
 -   [Creating a TailWind Button](javascript/react/easy_button.md)
+-   [Getting current URL](javascript/react/getting_url.md)
 
 ### Vue
 

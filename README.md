@@ -179,6 +179,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Instance, Class, and Static Methods](python/instance_class_static_methods.md)
 -   [Advance set operations](python/advance-set-operations.md)
 -   [Files using `with` statement](python/with_statement.md)
+-   [Uploading files via requests POST](https://docs.python-requests.org/en/latest/user/quickstart/#post-a-multipart-encoded-file)
 -   [Static methods](python/static-methods.md)
 -   [Get pip installed executables into the asdf path](python/pip-installed-exe-into-the-asdf-path.md)
 -   [Handing a ZeroDivision Error](python/zero_division_error.md)

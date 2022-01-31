@@ -191,6 +191,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Fixing UnboardLocalError](python/fixing_unboundlocalerror.md)
 -   [`logging` module basics](python/logging.md)
 -   [Creating a progess bar](python/progress_bar.md)
+-   [Creating random numbers randomly](python/creating_random_numbers.md)
 
 ### Django
 

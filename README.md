@@ -15,10 +15,9 @@ The goal is to write something new everyday or as often as possible.
 - [Categories](#categories)
 - [Applications](#applications)
     - [DataGrip](#datagrip)
-- [Automation / build](#automation--build)
-- [Command Line](#command-line)
-- [Containters](#containters)
+- [Automation / Build / Containers](#automation--build--containers)
     - [Docker](#docker)
+- [Command Line](#command-line)
 - [Databases](#databases)
     - [Presto](#presto)
     - [TimescaleDB](#timescaledb)
@@ -127,6 +126,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Replacing `\n` in html](javascript/replacing_newline_jsonstring.md)
 -   [Disabling Web Security (CORS) for Chrome](javascript/disable_web.md)
 -   [Using `setTimeout()`](javascript/set_timeout.md)
+-   [`keydown` events](javascript/key-down.md)
 
 ### Node
 

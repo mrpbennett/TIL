@@ -44,3 +44,41 @@ Here, we get a list of `<p>` elements whose immediate parent element is a `<div>
 var container = document.querySelector('#test');
 var matches = container.querySelectorAll('div.highlighted > p');
 ```
+
+## More examples
+
+Lets say we have three HTML elements with the same class and we wish to access them with say a click listener
+
+```html
+<button class="show-modal">Show modal 1</button>
+<button class="show-modal">Show modal 2</button>
+<button class="show-modal">Show modal 3</button>
+```
+
+Using `.querySelector('.show-modal')` is only going to get the first one. If you were to print it to the console you would get something like:
+
+```bash
+> button.show-modal
+```
+
+But if you were to use `.querySelectorAll('.show-modal`) and log it to the console you will get an array of elements.
+
+```zsh
+> NodeList(3) [button.show-modal, button.show-modal, button.show-modal]
+```
+
+Which in turns means that you're able to treat.
+
+```js
+const btnOpenModel = document.querySelectorAll('.show-modal')
+```
+
+As an array and loop over the items if needed like so, allowing us to add something like a click event listener for each button.
+
+```js
+for (let i = 0; i < btnOpenModel.length; i++) {
+  btnOpenModel[i].addEventListener('click', function () {
+    console.log('btn clicked');
+  });
+}
+```

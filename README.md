@@ -88,6 +88,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Using git reset](git/git-reset.md)
 -   [How to find which commit introduced a bug](git/git-bisect.md)
 -   [Cleaning up branches in Git](git/cleaning_branches.md)
+-   [Cloning from a certain branch](git/clone_from_branch.md)
 
 # GraphQL
 

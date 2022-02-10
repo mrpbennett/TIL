@@ -35,7 +35,7 @@ The goal is to write something new everyday or as often as possible.
     - [Django](#django)
     - [Flask](#flask)
     - [Pandas](#pandas)
-    - [Matplotlib](#matplotlib)
+    - [SQLAlchemy](#sqlalchemy)
 
 ---
 
@@ -218,4 +218,6 @@ The goal is to write something new everyday or as often as possible.
 - [Replacing null values with None](python/pandas/using_none_for_null_values.md)
 - [Replacing `NaN` / `NA` with a value](python/pandas/replace_NaN.md)
 
-### Matplotlib
+### SQLAlchemy
+
+- [Creating a database](python/sqlalchemy/setting_up_sqlalchemy.md)

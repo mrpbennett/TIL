@@ -142,6 +142,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Creating a TailWind Button](javascript/react/easy_button.md)
 -   [Getting current URL](javascript/react/getting_url.md)
 -   [Calling APIs when needed with conditionally `useEffect`](javascript/react/calling_apis_with_useeffect.md)
+-   [Posting form data to an API](https://www.techomoro.com/submit-a-form-data-to-rest-api-in-a-react-app/)
 
 ### Vue
 

@@ -127,6 +127,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Disabling Web Security (CORS) for Chrome](javascript/disable_web.md)
 -   [Using `setTimeout()`](javascript/set_timeout.md)
 -   [`keydown` events](javascript/key-down.md)
+-   [reloading the page](javascript/reloading_the_page.md)
 
 ### Node
 
@@ -140,6 +141,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Creating a star rating](javascript/react/star-rating.md)
 -   [Creating a TailWind Button](javascript/react/easy_button.md)
 -   [Getting current URL](javascript/react/getting_url.md)
+-   [Calling APIs when needed with conditionally `useEffect`](javascript/react/calling_apis_with_useeffect.md)
 
 ### Vue
 

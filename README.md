@@ -105,6 +105,7 @@ The goal is to write something new everyday or as often as possible.
 -   [box-sizing](css/box-sizing.md)
 -   [animation-fill-mode](css/animation-fill-mode.md)
 -   [animation-iteration-count](css/animation-iteration-count.md)
+-   [Hiding scrollbars in TailWindCSS](css/hiding-scrollbars.md)
 
 # JavaScript
 

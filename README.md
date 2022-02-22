@@ -225,3 +225,4 @@ The goal is to write something new everyday or as often as possible.
 ### SQLAlchemy
 
 - [Creating a database](python/sqlalchemy/setting_up_sqlalchemy.md)
+- [Joins to a Target with an ON Clause](python/sqlalchemy/joins_target_on_claus.md)

@@ -26,7 +26,7 @@ Think of `db.query()` as the select statement. This is where you want to place t
     == models.SignalJourneyAudienceConstraints.audienceId, 
 )
 ```     
-We only have to specify the table we're using as a join then what we're joining on.
+We only have to specify the table we're using as a join then what we're joining on. You join tables (models), **not** columns (properties)
 
 ```python
 @app.get("/get-main-query-data", status_code=status.HTTP_200_OK)

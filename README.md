@@ -106,6 +106,7 @@ The goal is to write something new everyday or as often as possible.
 -   [animation-fill-mode](css/animation-fill-mode.md)
 -   [animation-iteration-count](css/animation-iteration-count.md)
 -   [Hiding scrollbars in TailWindCSS](css/hiding-scrollbars.md)
+-   [Giving even rows a different bg color in TW](css/setting_even_rows.md)
 
 # JavaScript
 

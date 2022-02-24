@@ -34,6 +34,7 @@ The goal is to write something new everyday or as often as possible.
 - [Python](#python)
     - [Django](#django)
     - [Flask](#flask)
+    - [FastAPI](#fastapi)
     - [Pandas](#pandas)
     - [SQLAlchemy](#sqlalchemy)
 
@@ -111,6 +112,7 @@ The goal is to write something new everyday or as often as possible.
 # JavaScript
 
 -   [Default arguments](javascript/default-arguments.md)
+-   [Comparing / checking arrays](javascript/checking_arrays.md)
 -   [Difference between `const` & `let`](javascript/difference-let-const.md)
 -   [Objects with functions](javascript/objects-with-functions.md)
 -   [String methods](javascript/string-methods.md)
@@ -211,6 +213,9 @@ The goal is to write something new everyday or as often as possible.
 - [Generated a SECRET_KEY with secrets](python/flask/secret_token_with_secrets.md)
 - [Using `render_kw` to pass attributes in form fields](python/flask/using_render_kw.md)
 - [Rendering `\n` from json in Jinja2](python/flask/rendering_newlines.md)
+
+### FastAPI
+- [Preventing 5xx errors with SessionLocal / Depends](python/fastapi/5xx_erros.md)
 
 ### Pandas
 

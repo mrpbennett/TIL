@@ -147,6 +147,8 @@ The goal is to write something new everyday or as often as possible.
 -   [Getting current URL](javascript/react/getting_url.md)
 -   [Calling APIs when needed with conditionally `useEffect`](javascript/react/calling_apis_with_useeffect.md)
 -   [Posting form data to an API](https://www.techomoro.com/submit-a-form-data-to-rest-api-in-a-react-app/)
+-   [PropTypes NPM package](https://www.npmjs.com/package/prop-types)
+-   [Rending Multiple checkboxes](https://www.geeksforgeeks.org/how-to-get-multiple-checkbox-values-in-react-js/)
 
 ### Vue
 
@@ -201,7 +203,7 @@ The goal is to write something new everyday or as often as possible.
 -   [`logging` module basics](python/logging.md)
 -   [Creating a progess bar](python/progress_bar.md)
 -   [Creating random numbers randomly](python/creating_random_numbers.md)
-
+-   [Disabling pylint warnings](python/disabling-pylint-warnings.md)
 ### Django
 
 -   [Using the safe filter](python/django/using-safe-filter.md)

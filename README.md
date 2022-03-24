@@ -29,6 +29,7 @@ The goal is to write something new everyday or as often as possible.
 - [JavaScript](#javascript)
     - [Node](#node)
     - [React](#react)
+      - [React Router](#react-router)
     - [Vue](#vue)
 - [Markdown](#markdown)
 - [Python](#python)
@@ -116,6 +117,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Difference between `const` & `let`](javascript/difference-let-const.md)
 -   [Objects with functions](javascript/objects-with-functions.md)
 -   [String methods](javascript/string-methods.md)
+-   [Do While loop](javascript/do-while.md)
 -   [Number methods](javascript/number-methods.md)
 -   [`.forEach` and it's usage](javascript/forEach.md)
 -   [`.splice()` and it's usage](javascript/splice.md)
@@ -151,6 +153,12 @@ The goal is to write something new everyday or as often as possible.
 -   [Rending Multiple checkboxes](https://www.geeksforgeeks.org/how-to-get-multiple-checkbox-values-in-react-js/)
 -   [`useState` lazy initialization](https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates)
 -   [Index routes with ReactRouter v6](javascript/react/index-routes.md)
+
+#### React Router
+
+- [Nested routes](https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes)
+- [Index routes](https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes)
+- [How to use Navigate](https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes)
 
 ### Vue
 

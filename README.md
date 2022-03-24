@@ -152,7 +152,6 @@ The goal is to write something new everyday or as often as possible.
 -   [PropTypes NPM package](https://www.npmjs.com/package/prop-types)
 -   [Rending Multiple checkboxes](https://www.geeksforgeeks.org/how-to-get-multiple-checkbox-values-in-react-js/)
 -   [`useState` lazy initialization](https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates)
--   [Index routes with ReactRouter v6](javascript/react/index-routes.md)
 
 #### React Router
 

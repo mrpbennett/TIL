@@ -36,7 +36,7 @@ The goal is to write something new everyday or as often as possible.
     - [Django](#django)
     - [Flask](#flask)
     - [FastAPI](#fastapi)
-    - [Pandas](#pandas)
+    - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
 
 ---
@@ -229,7 +229,7 @@ The goal is to write something new everyday or as often as possible.
 ### FastAPI
 - [Preventing 5xx errors with SessionLocal / Depends](python/fastapi/5xx_erros.md)
 
-### Pandas
+### Pandas 🐼
 
 - [Installing Anaconda and using Pandas (M1 Mac)](python/pandas/conda_pandas.md)
 - [Differences between DataFrame & Series](python/pandas/dataframes_series.md)

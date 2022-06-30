@@ -7,8 +7,9 @@ The `BasicAuthentication` class can be used to connect to a LDAP-configured Pres
 ```python
 import prestodb
 
-try:
-        conn = prestodb.dbapi.connect(
+def connect_to_presto():
+    try:
+        with prestodb.dbapi.connect(
             host="host url",
             port=1234,
             user="username",
@@ -16,13 +17,14 @@ try:
             schema="schema",
             http_scheme="https",
             auth=prestodb.auth.BasicAuthentication("principal id", "password"),
-        )
-        cur = conn.cursor()
-        cur.execute("SELECT * FROM some.database"
-        )
-        rows = cur.fetchall()
-    except prestodb.exceptions.HttpError as err:
-        raise SystemExit(err)
+        ) as conn:
+            cur = conn.cursor()
+            cur.execute('SELECT * FROM some.table')
+            rows = cur.fetchall()
+
+            return rows
+        except prestodb.exceptions.HttpError as err:
+            raise SystemExit(err)
 ```
 
 Everything above is quite self explainitory however I wasnt to sure what `principal id` was. After asking the right people at my place of work, it was the same as my `username`.

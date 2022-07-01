@@ -22,6 +22,7 @@ The goal is to write something new everyday or as often as possible.
     - [Presto](#presto)
     - [TimescaleDB](#timescaledb)
     - [SQL](#sql)
+- [Datatypes](#datatypes)
 - [Git](#git)
 - [GraphQL](#graphql)
 - [HTML 5](#html-5)
@@ -82,6 +83,10 @@ The goal is to write something new everyday or as often as possible.
 -   [Auto increment IDs](databases/sql/auto-increment-primary-ids.md)
 -   [Deleting a database](databases/sql/deleting-a-database.md)
 -   [Finding & Deleting db users](databases/sql/finding-users-and-removing.md)
+
+# Datatypes
+
+- [JS / Python Classes](datatypes/classes.md)
 
 # Git
 

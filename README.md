@@ -59,9 +59,9 @@ The goal is to write something new everyday or as often as possible.
 
 # Command Line
 
--   [Creating a new file](commandLine/creating-new-files.md)
--   [zsh-syntax-highlighting](commandLine/installing-zsh-syntax-highlighting.md)
--   [Creating new ssh files (outside of github)](commandLine/ssh-file-gen.md)
+-   [Creating a new file](command-line/creating-new-files.md)
+-   [zsh-syntax-highlighting](command-line/installing-zsh-syntax-highlighting.md)
+-   [Creating new ssh files (outside of github)](command-line/ssh-file-gen.md)
 
 # Databases
 

@@ -15,6 +15,7 @@ class Car {
 }
 
 const myCar = new Car('Porsche', '911 Turbo S', '2022')
+console.log(myCar)
 
 // Car { make: 'Porsche', model: '911 Turbo S', year: '2022' }
 ```

@@ -34,7 +34,7 @@ function getPrestoData(query) {
       query: query,
       data: (error, data) => {
         if (error) {
-          results.push(error)
+          reject(error)
         } else {
           resolve(data)
         }

@@ -146,6 +146,7 @@ The goal is to write something new everyday or as often as possible.
 
 -   [automatically restarting the node application](javascript/node/nodemon.md)
 -   [Using local env variables](javascript/node/local-enviroment-variables.md)
+-   [Calling Presto from Node](javascript/node/presto-on-node.md)
 
 ### React
 

@@ -31,6 +31,7 @@ The goal is to write something new everyday or as often as possible.
     - [Node](#node)
     - [React](#react)
       - [React Router](#react-router)
+    - [Vite](#vite)
     - [Vue](#vue)
 - [Markdown](#markdown)
 - [Python](#python)
@@ -166,6 +167,10 @@ The goal is to write something new everyday or as often as possible.
 - [Nested routes](https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes)
 - [Index routes](https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes)
 - [How to use Navigate](https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes)
+
+### Vite
+
+- [resolving global is not defined at node_modules](javascript/vite/global-nodes.md)
 
 ### Vue
 

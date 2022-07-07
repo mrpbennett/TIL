@@ -20,9 +20,8 @@ def connect_to_presto():
         ) as conn:
             cur = conn.cursor()
             cur.execute('SELECT * FROM some.table')
-            rows = cur.fetchall()
+            return cur.fetchall()
 
-            return rows
         except prestodb.exceptions.HttpError as err:
             raise SystemExit(err)
 ```

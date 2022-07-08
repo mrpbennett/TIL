@@ -142,6 +142,7 @@ The goal is to write something new everyday or as often as possible.
 -   [`keydown` events](javascript/key-down.md)
 -   [reloading the page](javascript/reloading_the_page.md)
 -   [Handle Vercel preview and Supabase auth](javascript/supabase-auth.md)
+-   [Creating a dynamic pixel](javascript/creating-dynamic-pixel.md)
 
 ### Node
 

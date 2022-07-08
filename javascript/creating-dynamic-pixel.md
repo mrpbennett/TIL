@@ -13,15 +13,42 @@ Create a script that appends a dynamically created tag into the `<head>` that us
 
 ```javascript
 <script type="text/javascript">
+    // store required data into variables
     const PP_PAGE_URL = window.location.href;
     const PP_REFERRER_URL = document.referrer;
-    const US_PRIVACY = '${us_privacy}';
+    const PP_US_PRIVACY = '${us_privacy}'
 
-    const newPixel = document.createElement("script");
-    newPixel.type  = "text/javascript";
-    newPixel.src = `https://bh.domain.com/cp?&token=ABCXYZ&us_privacy=${US_PRIVACY}&ch=1&url=${PP_PAGE_URL}&rr=${PP_REFERRER_URL}`
-    newPixel.async = true;
+    // create a new script element 
+    const pixel = document.createElement("script");
+    pixel.type  = "text/javascript";
+    pixel.src = `https://bh.contextweb.com/cp?p=6120&token=ZKFSFMGFMMVW&us_privacy=${PP_US_PRIVACY}&ch=1&url=${PP_PAGE_URL}&rr=${PP_REFERRER_URL}&campaign={{Campaign_Name}}&frmtext={{Form_Text}}&clktext={{Click_Text}}&param1={{Optional_parameter}}&param2={{Optional_parameter}}&param3={{Optional_parameter}}&param4={{Optional_parameter}}&param5={{Optional_parameter}}`
+    pixel.async = true;
 
-    document.getElementsByTagName('head')[0].appendChild(newPixel);
-</script>
+    // append the new script element to the Head element
+    document.getElementsByTagName('head')[0].appendChild(pixel);
+  </script>
 ```
+
+Or if you want to use this in React you can do so like this.
+
+```javascript
+
+const generateDynamicPixel = () => {
+    // store required data into variables
+    const PP_PAGE_URL = window.location.href;
+    const PP_REFERRER_URL = document.referrer;
+    const PP_US_PRIVACY = '${us_privacy}'
+
+    // create a new script element 
+    const pixel = document.createElement("script");
+    pixel.type  = "text/javascript";
+    pixel.src = `https://bh.contextweb.com/cp?p=6120&token=ZKFSFMGFMMVW&us_privacy=${PP_US_PRIVACY}&ch=1&url=${PP_PAGE_URL}&rr=${PP_REFERRER_URL}&campaign={{Campaign_Name}}&frmtext={{Form_Text}}&clktext={{Click_Text}}&param1={{Optional_parameter}}&param2={{Optional_parameter}}&param3={{Optional_parameter}}&param4={{Optional_parameter}}&param5={{Optional_parameter}}`
+    pixel.async = true;
+
+    // append the new script element to the Head element
+    document.getElementsByTagName('head')[0].appendChild(pixel);
+}
+
+useEffect(() => {
+   generateDynamicPixel()
+}, []}

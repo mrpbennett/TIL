@@ -172,7 +172,8 @@ The goal is to write something new everyday or as often as possible.
 
 ### Vite
 
-- [resolving global is not defined at node_modules](javascript/vite/global-nodes.md)
+- [resolving global is not defined at node_modules](javascript/react/vite/global-nodes.md)
+- [Changing the public base path](javascript/react/vite/base-path.md)
 
 ### Vue
 

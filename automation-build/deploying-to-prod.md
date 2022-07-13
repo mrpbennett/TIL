@@ -95,7 +95,6 @@ metadata:
   namespace: tam
 spec:
   rules:
-    - host: <app name>.data-analytics.pulse.prod
       http:
         paths:
           - backend:
@@ -112,3 +111,5 @@ spec:
         - lga-<appname>.pulsepoint.com # eg: lga-sometool.pulsepoint.com
 
 ```
+
+If you're adding a host an alias will need to be created for said host.

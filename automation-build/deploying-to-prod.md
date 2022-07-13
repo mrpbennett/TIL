@@ -1,5 +1,15 @@
 # Deploying to prod
 
+Things to note:
+
+The `containerPort` and `targetPort` need to be the port that is in your `CMD` within your Docker file so for example:
+
+```Dockerfile
+CMD ["uvicorn", "main:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "80"]
+```
+
+The port here is `80`. Therefore you would need to change `containerPort` and `targetPort` to `80`
+
 ### Deployment
 
 `tam/deployments/<app name>_deployment.yaml`

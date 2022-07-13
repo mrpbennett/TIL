@@ -36,8 +36,8 @@ The goal is to write something new everyday or as often as possible.
 - [Markdown](#markdown)
 - [Python](#python)
     - [Django](#django)
-    - [Flask](#flask)
     - [FastAPI](#fastapi)
+    - [Flask](#flask)
     - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
 
@@ -231,6 +231,10 @@ The goal is to write something new everyday or as often as possible.
 
 -   [Using the safe filter](python/django/using-safe-filter.md)
 
+### FastAPI
+- [Preventing 5xx errors with SessionLocal / Depends](python/fastapi/5xx_erros.md)
+- [Serving static files](python/fastapi/serve-static-files.md)
+
 ### Flask
 
 - [Fully reloading a browser to see CSS changes](python/flask/css-changes.md)
@@ -239,8 +243,7 @@ The goal is to write something new everyday or as often as possible.
 - [Using `render_kw` to pass attributes in form fields](python/flask/using_render_kw.md)
 - [Rendering `\n` from json in Jinja2](python/flask/rendering_newlines.md)
 
-### FastAPI
-- [Preventing 5xx errors with SessionLocal / Depends](python/fastapi/5xx_erros.md)
+
 
 ### Pandas 🐼
 

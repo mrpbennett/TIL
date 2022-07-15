@@ -201,6 +201,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Arithmetic operators](python/arithmetic-operators.md)
 -   [Difference between `is` & `==`](python/booleans.md)
 -   [Dictionaries](python/dictionaries.md)
+-   [Append vs Extend with lists](python/append-vs-extend.md)
 -   [List Comprehension](python/list-comprehension.md)
 -   [Dictionary Comprehension](python/dict-comprehension.md)
 -   [Lambra functions](python/lambra-functions.md)
@@ -260,6 +261,7 @@ The goal is to write something new everyday or as often as possible.
 - [Replacing `NaN` / `NA` with a value](python/pandas/replace_NaN.md)
 - [Scraping table data from sites](python/pandas/scraping_tables.md)
 - [Creating a pivot table](python/pandas/creating_pivot_table.md)
+- [Using `to_numpy` with `tolist`](python/pandas/to-numpy-list.md)
 
 ### SQLAlchemy
 

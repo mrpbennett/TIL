@@ -55,9 +55,11 @@ The goal is to write something new everyday or as often as possible.
 -   [Deploying to prod at work](automation-build/deploying-to-prod.md)
 
 ### Docker
-- [Basic build / push process](containers/docker/build_process.md)
+-   [Basic build / push process](containers/docker/build_process.md)
 -   [Using Docker with Flask](containers/docker/flask_docker.md)
 -   [Building using x86](https://blog.jaimyn.dev/how-to-build-multi-architecture-docker-images-on-an-m1-mac/#tldr;)
+-   [Using `pipenv` with Docker images](containers/docker/using-pipenv-with-docker.md)
+-   [Using Docker Compose for local development](containers/docker/docker-compose.md)
 
 # Command Line
 

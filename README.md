@@ -232,6 +232,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Creating a progess bar](python/progress_bar.md)
 -   [Creating random numbers randomly](python/creating_random_numbers.md)
 -   [Disabling pylint warnings](python/disabling-pylint-warnings.md)
+-   [Using TOML with Python](python/using-toml-with-python.md)
 ### Django
 
 -   [Using the safe filter](python/django/using-safe-filter.md)

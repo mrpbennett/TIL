@@ -198,6 +198,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Using `enumerate()` in loops](python/enumerate_in_loops.md)
 -   [Use of `continue` in a while loop](python/continue_while_loop.md)
 -   [Use of `range()`](python/use_of_range.md)
+-   [Using `random.sample()`](python/random-sample.md)
 -   [Working with JSON](python/working_with_json.md)
 -   [End parameter in `print()`](python/end-parameter-in-print.md)
 -   [Arithmetic operators](python/arithmetic-operators.md)

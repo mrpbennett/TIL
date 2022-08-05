@@ -16,7 +16,7 @@ The goal is to write something new everyday or as often as possible.
 - [Applications](#applications)
     - [DataGrip](#datagrip)
 - [Automation / Build / Containers](#automation--build--containers)
-    - [Docker](#docker)
+    - [Docker](#docker) 🐳
 - [Command Line](#command-line)
 - [Databases](#databases)
     - [Presto](#presto)
@@ -34,13 +34,13 @@ The goal is to write something new everyday or as often as possible.
     - [Vite](#vite)
     - [Vue](#vue)
 - [Markdown](#markdown)
-- [Python](#python)
+- [Python](#python) 🐍
     - [Django](#django)
     - [FastAPI](#fastapi)
     - [Flask](#flask)
     - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
-- [Rust](#rust)
+- [Rust](#rust) 🦀
   
 
 

@@ -40,7 +40,7 @@ The goal is to write something new everyday or as often as possible.
     - [Flask](#flask)
     - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
-  - [Rust](#rust)
+- [Rust](#rust)
   
 
 

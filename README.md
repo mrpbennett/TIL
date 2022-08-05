@@ -40,7 +40,7 @@ The goal is to write something new everyday or as often as possible.
     - [Flask](#flask)
     - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
-- [Rust](#rust)
+  - [Rust](#rust)
   
 
 
@@ -280,4 +280,4 @@ The goal is to write something new everyday or as often as possible.
 
 - [Using cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 - [Printing to the console](rust/printing.md)
-- [Variables in Rust](rust/variables.md)
+- [Variables in Rust](rust/variables.md)`

@@ -10,23 +10,24 @@ The goal is to write something new everyday or as often as possible.
 
 ---
 # Categories
-
 - [:books: TIL (Today I Learnt)](#books-til-today-i-learnt)
 - [Categories](#categories)
 - [Applications](#applications)
     - [DataGrip](#datagrip)
 - [Automation / Build / Containers](#automation--build--containers)
-    - [Docker](#docker) 🐳
+    - [Docker](#docker)
 - [Command Line](#command-line)
 - [Databases](#databases)
     - [Presto](#presto)
     - [TimescaleDB](#timescaledb)
     - [SQL](#sql)
 - [Datatypes](#datatypes)
+- [Excel](#excel)
 - [Git](#git)
 - [GraphQL](#graphql)
 - [HTML 5](#html-5)
 - [CSS](#css)
+- [Java ☕️](#java-️)
 - [JavaScript](#javascript)
     - [Node](#node)
     - [React](#react)
@@ -34,13 +35,13 @@ The goal is to write something new everyday or as often as possible.
     - [Vite](#vite)
     - [Vue](#vue)
 - [Markdown](#markdown)
-- [Python](#python) 🐍
+- [Python](#python)
     - [Django](#django)
     - [FastAPI](#fastapi)
     - [Flask](#flask)
     - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
-- [Rust](#rust) 🦀
+- [Rust](#rust)
   
 
 
@@ -71,7 +72,6 @@ The goal is to write something new everyday or as often as possible.
 -   [Creating new ssh files (outside of github)](command-line/ssh-file-gen.md)
 
 # Databases
-
 ### Presto
 
 - [Connecting to PrestoDB via presto-python-client](databases/presto/connecting_to_presto.md)
@@ -94,6 +94,9 @@ The goal is to write something new everyday or as often as possible.
 # Datatypes
 
 - [JS / Python Classes](datatypes/classes.md)
+
+# Excel
+- [Using the FV formula](excel/fv-formula.md)
 
 # Git
 
@@ -123,6 +126,11 @@ The goal is to write something new everyday or as often as possible.
 -   [Giving even rows a different bg color in TW](css/setting_even_rows.md)
 -   [Safelisting classes so they can be passed dynamically in TW](https://tailwindcss.com/docs/content-configuration#safelisting-classes)
 
+# Java ☕️
+
+- [Data types](https://www.w3schools.com/java/java_data_types.asp)
+- [Arrays](java/arrays.md)
+- [Ternary operator](java/ternary.md)
 # JavaScript
 
 -   [Default arguments](javascript/default-arguments.md)
@@ -276,7 +284,7 @@ The goal is to write something new everyday or as often as possible.
 - [Joins to a Target with an ON Clause](python/sqlalchemy/joins_target_on_claus.md)
 
 
-## Rust
+# Rust
 
 - [Using cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 - [Printing to the console](rust/printing.md)

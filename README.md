@@ -90,6 +90,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Auto increment IDs](databases/sql/auto-increment-primary-ids.md)
 -   [Deleting a database](databases/sql/deleting-a-database.md)
 -   [Finding & Deleting db users](databases/sql/finding-users-and-removing.md)
+-   [Types of SQL Databases](https://www.scaler.com/topics/sql/types-of-database-in-sql/)
 
 # Datatypes
 
@@ -125,6 +126,7 @@ The goal is to write something new everyday or as often as possible.
 -   [Hiding scrollbars in TailWindCSS](css/hiding-scrollbars.md)
 -   [Giving even rows a different bg color in TW](css/setting_even_rows.md)
 -   [Safelisting classes so they can be passed dynamically in TW](https://tailwindcss.com/docs/content-configuration#safelisting-classes)
+-   [Padding in CSS](https://www.scaler.com/topics/css/padding-in-css/)
 
 # Java ☕️
 

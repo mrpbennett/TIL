@@ -39,13 +39,13 @@ or as often as possible.
     - [Vite](#vite)
     - [Vue](#vue)
 - [Markdown](#markdown)
-- [Python](#python)
+- [Python](#python) 🐍
     - [Django](#django)
     - [FastAPI](#fastapi)
     - [Flask](#flask)
     - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
-- [Rust](#rust)
+- [Rust](#rust) 🦀
 
 ---
 

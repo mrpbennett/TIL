@@ -39,13 +39,13 @@ or as often as possible.
     - [Vite](#vite)
     - [Vue](#vue)
 - [Markdown](#markdown)
-- [Python](#python) 🐍
+- [Python](#python)
     - [Django](#django)
     - [FastAPI](#fastapi)
     - [Flask](#flask)
     - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
-- [Rust](#rust) 🦀
+- [Rust](#rust)
 
 ---
 
@@ -253,6 +253,7 @@ or as often as possible.
 - [Disabling pylint warnings](python/disabling-pylint-warnings.md)
 - [Using TOML with Python](python/using-toml-with-python.md)
 - [Connecting to SFTP via Paramiko](python/connecting-to-sftp.md)
+- [Extracting substring with Regex](python/extracting-substring.md)
 
 ### Django
 

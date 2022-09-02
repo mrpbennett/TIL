@@ -11,7 +11,7 @@ Below I connect to the SFTP of my choice, change to a certain directory then
 upload a file to that directory before closing the connection.
 
 ```python
-def sftp_test(directory, filename):
+def sftp_test(change_of_dir: str, localpath: str, remotepath: str):
     try:
         transport = paramiko.Transport(host, 22)
         transport.start_client()
@@ -19,8 +19,8 @@ def sftp_test(directory, filename):
 
         sftp = paramiko.SFTPClient.from_transport(transport)
 
-        sftp.chdir(dir)
-        sftp.put(directory, filename)
+        sftp.chdir(change_of_dir)
+        sftp.put(localpath, remotepath)
 
         sftp.close()
 

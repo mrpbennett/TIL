@@ -11,12 +11,12 @@ Using regular expressions -
 ```python
 import re
 
-some_string = "PulsePoint_2022_PULSEPOI_COH_PHRM_DAILY_REPORT"
+some_string = "2022_PULSEPOI_COH_PHRM_DAILY_REPORT"
 
 
 def get_advertiser_name(string):
     if advertiser := re.search(
-        "PulsePoint_2022_PULSEPOI_(.+?)_PHRM_DAILY_REPORT", string
+        "2022_PULSEPOI_(.+?)_PHRM_DAILY_REPORT", string
     ):
         return advertiser[1]
 

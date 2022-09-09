@@ -16,7 +16,7 @@ app.use(cors())
 
 const corsOptions = {
   origin: '*',
-  methods: 'GET,PUT,PATCH,POST,DELETE',
+  methods: 'GET',
   optionsSuccessStatus: 200,
 }
 

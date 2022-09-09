@@ -154,6 +154,7 @@ or as often as possible.
 - [`sort()` and it's usage](javascript/sort-method.md)
 - [DOM Query selectors](javascript/query-selectors.md)
 - [Callback functions](javascript/callback-functions.md)
+- [Getting current url of a page](javascript/getting-current-url.md)
 - [How `this` works in arrow funcs](javascript/this-arrow-funcs.md)
 - [Using JSON](javascript/stringify-and-parse.md)
 - [`.toLocaleString`](javascript/tolocalestring.md)
@@ -171,6 +172,7 @@ or as often as possible.
 - [Using local env variables](javascript/node/local-enviroment-variables.md)
 - [Calling Presto from Node](javascript/node/presto-on-node.md)
 - [Handling CORS in express](javascript/node/express-cors.md)
+- [Docker image for Node](https://docs.docker.com/language/nodejs/build-images/)
 
 ### React
 

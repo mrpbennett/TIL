@@ -15,7 +15,7 @@ def sftp_test(change_of_dir: str, localpath: str, remotepath: str):
     try:
         transport = paramiko.Transport(host, 22)
         transport.start_client()
-        transport.auth_password(username, password)
+        transport.auth_password(config['username'], config['password'])
 
         sftp = paramiko.SFTPClient.from_transport(transport)
 

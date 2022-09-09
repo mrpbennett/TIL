@@ -170,6 +170,7 @@ or as often as possible.
 - [automatically restarting the node application](javascript/node/nodemon.md)
 - [Using local env variables](javascript/node/local-enviroment-variables.md)
 - [Calling Presto from Node](javascript/node/presto-on-node.md)
+- [Handling CORS in express](javascript/node/express-cors.md)
 
 ### React
 

@@ -172,6 +172,7 @@ or as often as possible.
 - [Using local env variables](javascript/node/local-enviroment-variables.md)
 - [Calling Presto from Node](javascript/node/presto-on-node.md)
 - [Handling CORS in express](javascript/node/express-cors.md)
+- [Using Joi for schema validation](javascript/node/joi-validation.md)
 - [Docker image for Node](https://docs.docker.com/language/nodejs/build-images/)
 
 ### React

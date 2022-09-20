@@ -20,6 +20,7 @@ or as often as possible.
     - [DataGrip](#datagrip)
 - [Automation / Build / Containers](#automation--build--containers)
     - [Docker](#docker)
+    - [Kubernetes](#kubernetes)
 - [Command Line](#command-line)
 - [Databases](#databases)
     - [Presto](#presto)
@@ -27,6 +28,7 @@ or as often as possible.
     - [SQL](#sql)
 - [Datatypes](#datatypes)
 - [Excel](#excel)
+- [Linux](#linux)
 - [Git](#git)
 - [GraphQL](#graphql)
 - [HTML 5](#html-5)
@@ -69,6 +71,8 @@ or as often as possible.
 - [Using `pipenv` with Docker images](containers/docker/using-pipenv-with-docker.md)
 - [Using Docker Compose for local development](containers/docker/docker-compose.md)
 
+### Kubernetes
+
 # Command Line
 
 - [Creating a new file](command-line/creating-new-files.md)
@@ -103,6 +107,11 @@ or as often as possible.
 # Excel
 
 - [Using the FV formula](excel/fv-formula.md)
+
+# Linux
+
+- [Showing hidden files](linux/showing-hidden-files.md)
+- [Getting the latest sofware center](linux/software-center.md)
 
 # Git
 

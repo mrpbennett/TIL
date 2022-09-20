@@ -16,25 +16,33 @@ const schema = Joi.object({
   isbn: Joi.string().required(),
 })
 
-app.post('/api/add-book', cors(corsOptions), (req, res) => {
+app.post('/api/add-book', cors(corsOptions), async (req, res) => {
+  // check for validation against book schema
   const result = schema.validate(req.body)
 
-  // throw a 400 Bad Request error if validation fails
+  // check for validation if no validation return 400
   if (result.error) {
     res.status(400).send({message: `${result.error.details[0].message}`})
     return
   }
 
   const book = {
-    id: bookData.length + 1,
-    title: req.body.title,
     author: req.body.author,
-    pageCount: req.body.pageCount,
+    title: req.body.title,
+    pagecount: parseInt(req.body.pagecount),
     isbn: req.body.isbn,
   }
 
-  bookData.push(book)
-  res.send(book)
+  // insert book object into supabase db
+  const {data, error} = await supabase.from('books-express').insert(book)
+
+  if (error)
+    res
+      .status(400)
+      .send({message: `ERROR CODE: ${error.code}: ${error.message}`})
+
+  // return valid book object back to client
+  if (data) res.send(book)
 })
 ```
 

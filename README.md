@@ -48,6 +48,7 @@ or as often as possible.
     - [Pandas 🐼](#pandas-)
     - [SQLAlchemy](#sqlalchemy)
 - [Rust](#rust)
+- [Vim](#vim)
 
 ---
 
@@ -310,3 +311,7 @@ or as often as possible.
 - [Using cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 - [Printing to the console](rust/printing.md)
 - [Variables in Rust](rust/variables.md)`
+
+# Vim
+
+- [My cheatsheet](vim/cheatsheet.md)

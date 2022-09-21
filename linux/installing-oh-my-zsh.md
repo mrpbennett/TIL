@@ -68,7 +68,7 @@ Set `ZSH_THEME="spaceship"` in your `.zshrc`. - If you want to use
 
 Clone this repo:
 
-```
+```zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
@@ -78,7 +78,7 @@ Add `plugins=(zsh-syntax-highlighting)` to your plugins in your `.zshrc` file
 
 Clone this repo:
 
-```
+```zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 

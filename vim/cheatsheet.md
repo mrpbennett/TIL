@@ -18,9 +18,23 @@ My very own cheatsheet
 |       `A`        | Move cursor to end of line to append text           |
 |       `dw`       | Makes a word disappear (cursor @ beginning of word) |
 |       `D`        | Deletes to the end of the line                      |
+|       `>>`       | Indent the current line                             |
+|       `<<`       | Unindent the current line                           |
+|     `Ctrl-T`     | Indents current line whilst in insert mode          |
+|     `Ctrl-D`     | Undents current line whilst in insert mode          |
+|       `/`        | Seach file for text                                 |
+
+### Understanding custom mappings
+
+|  Key   | Meaning                           |
+| :----: | :-------------------------------- |
+|  `C`   | `Ctrl`                            |
+|  `A`   | `Alt`                             |
+|  `S`   | `Shift`                           |
+| `<CR>` | Hitting the enter / return button |
 
 ### My custom mappings
 
-| Mapping | Summary                                    |
-| :-----: | :----------------------------------------- |
-|  `j j`  | Exit out of any mode back into normal mode |
+|  Mapping   | Summary                                    |
+| :--------: | :----------------------------------------- |
+| `jk`, `kj` | Exit out of any mode back into normal mode |

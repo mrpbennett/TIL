@@ -113,6 +113,9 @@ or as often as possible.
 
 - [Showing hidden files](linux/showing-hidden-files.md)
 - [Getting the latest sofware center](linux/software-center.md)
+- [Stop using sudo or change user to `root`](linux/admin.md)
+- [How to manage Linux permissions for users, groups, and others](https://www.redhat.com/sysadmin/manage-permissions)
+- [Manage file permissions on Unix-like systems](https://kb.iu.edu/d/abdb#:~:text=To%20change%20file%20and%20directory,%2C%20write%2C%20and%20execute%20permissions.)
 
 # Git
 

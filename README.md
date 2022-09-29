@@ -27,6 +27,7 @@ or as often as possible.
     - [TimescaleDB](#timescaledb)
     - [SQL](#sql)
 - [Datatypes](#datatypes)
+- [DevOps](#devops)
 - [Excel](#excel)
 - [Linux](#linux)
 - [Git](#git)
@@ -105,18 +106,28 @@ or as often as possible.
 
 - [JS / Python Classes](datatypes/classes.md)
 
+# DevOps
+
+- [90 Days of DevOps](devops/90-days-of-devops.md)
+
 # Excel
 
 - [Using the FV formula](excel/fv-formula.md)
 
 # Linux
 
+- [Creating folders and files](https://ubuntu.com/tutorials/command-line-for-beginners#4-creating-folders-and-files)
+- [Moving and manipulating files](https://ubuntu.com/tutorials/command-line-for-beginners#5-moving-and-manipulating-files)
 - [Showing hidden files](linux/showing-hidden-files.md)
+- [Yum basics - CentOS](linux/yum.md)
 - [Getting the latest sofware center](linux/software-center.md)
 - [Stop using sudo or change user to `root`](linux/admin.md)
+- [How to change a user password](https://www.tomshardware.com/how-to/change-passwords-in-linux)
 - [Changing the shell of user](https://www.thegeekdiary.com/centos-rhel-how-to-change-the-login-shell-of-the-user/)
 - [How to manage Linux permissions for users, groups, and others](https://www.redhat.com/sysadmin/manage-permissions)
 - [Manage file permissions on Unix-like systems](https://kb.iu.edu/d/abdb#:~:text=To%20change%20file%20and%20directory,%2C%20write%2C%20and%20execute%20permissions.)
+- [Checking IP addresses on VMs](linux/ip-addresses.md)
+- [Basic SFTP commands](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/#:~:text=Exit%20sFTP%20Shell,can%20see%20sftp%3E%20prompt%20return.)
 
 # Git
 

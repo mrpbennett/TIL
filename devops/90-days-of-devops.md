@@ -146,12 +146,53 @@ the host.
 
 The `dig <some ip>` will give you more information on that IP address
 
-- JSON/YAML
+---
+
+Running the `route` command will display the Kernels latest routing table and
+allow you to see the current routing config
+
+To add a gateway from one network to another you can run the `ip route add`
+command for example:
+
+```bash
+Network 1 = 192.168.1.0
+Network 2 = 192.168.2.0
+
+ip route add 192.168.2.0/24 via 192.168.1.1
+```
+
+Will allow network 2 to speak to network 1 via the gateway on network 1
+
+For any network you don't know a route too you can use is address as the default
+gatwway
+
+`ip route add default via 192.168.2.1`: for example
+
+```bash
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         192.168.2.1     0.0.0.0         UG    0      0        0 eth0
+```
+
+You could also use `0.0.0.0` instead of `default` which means any IP
+destination. Having `0.0.0.0` as a gateway means it does not require one as its
+on an internal network.
+
+| ip command           | description                                    |
+| :------------------- | :--------------------------------------------- |
+| `ip`                 | List and modify interfaces on the host         |
+| `ip addr`            | See the IP addresses asigned to the interfaces |
+| `ip route` / `route` | Provides the routing table                     |
+
+All changes with above commands are only valid till a reboot. These would have
+to be set in certain files like `/etc/sysctl.conf` for forwarding.
+
+---
 
 #Prerequisites Introduction to Linux - https://www.edx.org/course/introducti...
-DevOps Prerequisite (freecodecamp) - https://youtu.be/Wvf0mBNGjXY CCNA part 1 -
-https://youtu.be/rv3QK2UquxM Golang complete course (techworldwithnana) -
-https://youtu.be/yyUHQIec83I
+DevOps Prerequisite (freecodecamp) - https://youtu.be/Wvf0mBNGjXY ✅ CCNA part
+1 -https://youtu.be/rv3QK2UquxM Golang complete course
+(techworldwithnana) -https://youtu.be/yyUHQIec83I
 
 #YAML Introduction to YAML - https://youtu.be/1uFVr15xDGg
 

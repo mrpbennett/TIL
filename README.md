@@ -31,6 +31,7 @@ or as often as possible.
 - [Excel](#excel)
 - [Linux](#linux)
 - [Git](#git)
+- [Go 🐹](#go-)
 - [GraphQL](#graphql)
 - [HTML 5](#html-5)
 - [CSS](#css)
@@ -136,6 +137,12 @@ or as often as possible.
 - [How to find which commit introduced a bug](git/git-bisect.md)
 - [Cleaning up branches in Git](git/cleaning_branches.md)
 - [Cloning from a certain branch](git/clone_from_branch.md)
+
+# Go 🐹
+
+- [Basic data types in Go](go/basic-data-types.md)
+- [Basic understanding of pointers](go/pointers.md)
+- [Using the `fmt` package](go/fmt.md)
 
 # GraphQL
 

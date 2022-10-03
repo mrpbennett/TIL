@@ -19,9 +19,9 @@ or as often as possible.
 - [Applications](#applications)
     - [DataGrip](#datagrip)
 - [Automation / Build / Containers](#automation--build--containers)
-- [CCNA](#ccna)
     - [Docker](#docker)
     - [Kubernetes](#kubernetes)
+- [CCNA](#ccna)
 - [Command Line](#command-line)
 - [Databases](#databases)
     - [Presto](#presto)
@@ -68,10 +68,6 @@ or as often as possible.
 - [Adding a Chronos job](automation-build/chronos.md)
 - [Deploying to prod at work](automation-build/deploying-to-prod.md)
 
-# CCNA
-
-- [Switches](ccna/switches.md)
-
 ### Docker
 
 - [Basic build / push process](containers/docker/build_process.md)
@@ -81,6 +77,11 @@ or as often as possible.
 - [Using Docker Compose for local development](containers/docker/docker-compose.md)
 
 ### Kubernetes
+
+# CCNA
+
+- [Switches](ccna/switches.md)
+- [TCP/IP OSI](ccna/tcpip-osi.md)
 
 # Command Line
 

@@ -8,7 +8,6 @@ var name = "Paul"
 fmt.Printf("memory address of name is: %v \n", &name)
 fmt.Println(name)
 
-
 // prints...
 
 memory address of name is: 0x14000010270

@@ -19,6 +19,7 @@ or as often as possible.
 - [Applications](#applications)
     - [DataGrip](#datagrip)
 - [Automation / Build / Containers](#automation--build--containers)
+- [CCNA](#ccna)
     - [Docker](#docker)
     - [Kubernetes](#kubernetes)
 - [Command Line](#command-line)
@@ -30,6 +31,7 @@ or as often as possible.
 - [DevOps](#devops)
 - [Excel](#excel)
 - [Linux](#linux)
+    - [CentOS](#centos)
 - [Git](#git)
 - [Go 🐹](#go-)
 - [GraphQL](#graphql)
@@ -39,7 +41,7 @@ or as often as possible.
 - [JavaScript](#javascript)
     - [Node](#node)
     - [React](#react)
-      - [React Router](#react-router)
+    - [React Router](#react-router)
     - [Vite](#vite)
     - [Vue](#vue)
 - [Markdown](#markdown)
@@ -65,6 +67,10 @@ or as often as possible.
 - [Creating a Minified CSS file from Scss](automation-build/minicss-from-sass.md)
 - [Adding a Chronos job](automation-build/chronos.md)
 - [Deploying to prod at work](automation-build/deploying-to-prod.md)
+
+# CCNA
+
+- [Switches](ccna/switches.md)
 
 ### Docker
 
@@ -129,6 +135,8 @@ or as often as possible.
 - [Manage file permissions on Unix-like systems](https://kb.iu.edu/d/abdb#:~:text=To%20change%20file%20and%20directory,%2C%20write%2C%20and%20execute%20permissions.)
 - [Checking IP addresses on VMs](linux/ip-addresses.md)
 - [Basic SFTP commands](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/#:~:text=Exit%20sFTP%20Shell,can%20see%20sftp%3E%20prompt%20return.)
+
+### CentOS
 
 # Git
 
@@ -220,7 +228,7 @@ or as often as possible.
 - [Rending Multiple checkboxes](https://www.geeksforgeeks.org/how-to-get-multiple-checkbox-values-in-react-js/)
 - [`useState` lazy initialization](https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates)
 
-#### React Router
+### React Router
 
 - [Nested routes](https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes)
 - [Index routes](https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes)

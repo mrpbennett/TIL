@@ -296,6 +296,7 @@ Data Link layer. Where as a router operators on a Layer 3
 ### Git
 
 - git Git and GitHub crash course (freecodecamp) - https://youtu.be/RGOj5yH7evk
+  ✅
 - Complete Git and GitHub Tutorial (Kunal Kushwaha) -
   https://youtu.be/apGV9Kg7ics
 - Git for Professionals (freecodecamp) -https://youtu.be/Uszj_k0DGsg

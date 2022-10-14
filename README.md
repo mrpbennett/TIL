@@ -18,7 +18,8 @@ or as often as possible.
 - [Categories](#categories)
 - [Applications](#applications)
     - [DataGrip](#datagrip)
-- [Automation / Build / Containers](#automation--build--containers)
+- [Automation](#automation)
+- [Build / Containers](#build--containers)
     - [Docker](#docker)
     - [Kubernetes](#kubernetes)
 - [CCNA](#ccna)
@@ -31,6 +32,7 @@ or as often as possible.
 - [DevOps](#devops)
 - [Excel](#excel)
 - [Linux](#linux)
+    - [Kali](#kali)
     - [CentOS](#centos)
 - [Git](#git)
 - [Go 🐹](#go-)
@@ -45,6 +47,9 @@ or as often as possible.
     - [Vite](#vite)
     - [Vue](#vue)
 - [Markdown](#markdown)
+- [Monitoring](#monitoring)
+    - [Grafana](#grafana)
+    - [Prometheus](#prometheus)
 - [Python](#python)
     - [Django](#django)
     - [FastAPI](#fastapi)
@@ -62,11 +67,14 @@ or as often as possible.
 
 - [Setting up for multple schemas](applications/datagrip/multiple_schemas.md)
 
-# Automation / Build / Containers
+# Automation
 
-- [Creating a Minified CSS file from Scss](automation-build/minicss-from-sass.md)
-- [Adding a Chronos job](automation-build/chronos.md)
-- [Deploying to prod at work](automation-build/deploying-to-prod.md)
+- [Adding a Chronos job](automation/chronos.md)
+
+# Build / Containers
+
+- [Creating a Minified CSS file from Scss](builds-containers/minicss-from-sass.md)
+- [Deploying to prod at work](builds-containers/deploying-to-prod.md)
 
 ### Docker
 
@@ -86,8 +94,11 @@ or as often as possible.
 # Command Line
 
 - [Creating a new file](command-line/creating-new-files.md)
-- [zsh-syntax-highlighting](command-line/installing-zsh-syntax-highlighting.md)
-- [Creating new ssh files (outside of github)](command-line/ssh-file-gen.md)
+- [Using variables in bash](command-line/variables.md)
+- [Getting user input with `read` in bash](command-line/read.md)
+- [Using arguments in bash](command-line/arguments.md)
+- [Running Linux commands within bash script](command-line/running-cmds.md)
+- [Doing math in bash](command-line/read.md)
 
 # Databases
 
@@ -136,12 +147,18 @@ or as often as possible.
 - [Manage file permissions on Unix-like systems](https://kb.iu.edu/d/abdb#:~:text=To%20change%20file%20and%20directory,%2C%20write%2C%20and%20execute%20permissions.)
 - [Checking IP addresses on VMs](linux/ip-addresses.md)
 - [Basic SFTP commands](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/#:~:text=Exit%20sFTP%20Shell,can%20see%20sftp%3E%20prompt%20return.)
+- [How to Customize the Ubuntu Dock to Look Like macOS](https://www.makeuseof.com/configure-ubuntu-dock-to-look-like-macos/)
+
+### Kali
+
+- [ProxyChain](linux/kali/proxuy-chaining.md)
 
 ### CentOS
 
 # Git
 
 - [Creating & Switching branches](git/creating-and-switching-branches.md)
+- [Pushing to a new remote repo](git/pushing-local.md)
 - [Using git reset](git/git-reset.md)
 - [How to find which commit introduced a bug](git/git-bisect.md)
 - [Cleaning up branches in Git](git/cleaning_branches.md)
@@ -251,6 +268,14 @@ or as often as possible.
 - [Adding a anchor link](markdown/adding-an-achor-link.md)
 - [Adding an image](markdown/adding-an-img.md)
 
+# Monitoring
+
+### Grafana
+
+- [Grafana fundamentals](https://grafana.com/tutorials/grafana-fundamentals/)
+
+### Prometheus
+
 # Python
 
 - [Pipenv](python/pipenv.md)
@@ -346,3 +371,4 @@ or as often as possible.
 # Vim
 
 - [My cheatsheet](vim/cheatsheet.md)
+- [Multiline edit](vim/multiline-edit.md)

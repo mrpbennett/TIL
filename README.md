@@ -99,6 +99,7 @@ or as often as possible.
 - [Using arguments in bash](command-line/arguments.md)
 - [Running Linux commands within bash script](command-line/running-cmds.md)
 - [Doing math in bash](command-line/read.md)
+- [Conditionals in bash](https://linuxconfig.org/bash-scripting-conditionals)
 
 # Databases
 

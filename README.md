@@ -147,6 +147,7 @@ or as often as possible.
 - [How to manage Linux permissions for users, groups, and others](https://www.redhat.com/sysadmin/manage-permissions)
 - [Manage file permissions on Unix-like systems](https://kb.iu.edu/d/abdb#:~:text=To%20change%20file%20and%20directory,%2C%20write%2C%20and%20execute%20permissions.)
 - [Checking IP addresses on VMs](linux/ip-addresses.md)
+- [Connecting to SFTP via command line](linux/connecting_to_sftp.md)
 - [Basic SFTP commands](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/#:~:text=Exit%20sFTP%20Shell,can%20see%20sftp%3E%20prompt%20return.)
 - [How to Customize the Ubuntu Dock to Look Like macOS](https://www.makeuseof.com/configure-ubuntu-dock-to-look-like-macos/)
 

@@ -121,6 +121,7 @@ or as often as possible.
 - [Auto increment IDs](databases/sql/auto-increment-primary-ids.md)
 - [Deleting a database](databases/sql/deleting-a-database.md)
 - [Finding & Deleting db users](databases/sql/finding-users-and-removing.md)
+- [Sub Queries](databases/sql/sub-queries.md)
 
 # Datatypes
 

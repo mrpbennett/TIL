@@ -328,6 +328,7 @@ or as often as possible.
 - [Using TOML with Python](python/using-toml-with-python.md)
 - [Connecting to SFTP via Paramiko](python/connecting-to-sftp.md)
 - [Extracting substring with Regex](python/extracting-substring.md)
+- [Returning the difference between two strings](https://www.educative.io/answers/how-to-return-the-difference-of-two-strings-in-python)
 
 ### Django
 

@@ -260,6 +260,7 @@ or as often as possible.
 
 - [resolving global is not defined at node_modules](javascript/react/vite/global-nodes.md)
 - [Changing the public base path](javascript/react/vite/base-path.md)
+- [Enviroment variables](https://vitejs.dev/guide/env-and-mode.html#env-files)
 
 ### Vue
 

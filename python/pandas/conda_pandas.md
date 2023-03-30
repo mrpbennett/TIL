@@ -3,7 +3,11 @@
 Install Anaconda via home brew
 
 ```zsh
-brew install anaconda
+brew install --cask anaconda
+
+# OR depending if you need all the suite of tools
+
+brew install --cask miniconda
 ```
 
 then set your path in your `.zsh` file.

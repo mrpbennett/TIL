@@ -4,7 +4,7 @@ This is a Github action that installs dependencies via Pipenv and lints with
 Ruff
 
 ```yml
-name: Python test
+name: Generic Python Action
 on: [push, pull_request]
 jobs:
   build:

@@ -30,6 +30,7 @@ or as often as possible.
   - [SQL](#sql)
 - [Datatypes](#datatypes)
 - [DevOps](#devops)
+  - [Github Actions](#github-actions)
 - [Excel](#excel)
 - [Linux](#linux)
   - [Kali](#kali)
@@ -131,6 +132,10 @@ or as often as possible.
 # DevOps
 
 - [90 Days of DevOps](devops/90-days-of-devops.md)
+
+### Github Actions
+
+- [Python, Pipenv and lint with Ruff](devops/github/python-actions.md)
 
 # Excel
 

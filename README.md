@@ -25,9 +25,11 @@ or as often as possible.
 - [CCNA](#ccna)
 - [Command Line](#command-line)
 - [Databases](#databases)
-  - [Presto](#presto)
   - [TimescaleDB](#timescaledb)
   - [SQL](#sql)
+    - [MS SQL](#ms-sql)
+    - [Postgres](#postgres)
+    - [Presto](#presto)
 - [Datatypes](#datatypes)
 - [DevOps](#devops)
   - [Github Actions](#github-actions)
@@ -104,11 +106,6 @@ or as often as possible.
 
 # Databases
 
-### Presto
-
-- [Connecting to PrestoDB via presto-python-client](databases/presto/connecting_to_presto.md)
-- [Use of `regexp_like()`](databases/presto/regexp_like.md)
-
 ### TimescaleDB
 
 - [Installing TimescaleDB in Docker](databases/timescaledb/timescaledb.md)
@@ -124,6 +121,19 @@ or as often as possible.
 - [Finding & Deleting db users](databases/sql/finding-users-and-removing.md)
 - [Sub Queries](databases/sql/sub-queries.md)
 - [SQL functions in supabase](databases/sql/sql_functions.md)
+
+#### MS SQL
+
+- [Naming convention for MS SQL](databases/sql/mssql/naming_convention.md)
+
+#### Postgres
+
+- [Naming convention for Postges](databases/sql/postgres/naming_convention.md)
+
+#### Presto
+
+- [Connecting to PrestoDB via presto-python-client](databases/sql/presto/connecting_to_presto.md)
+- [Use of `regexp_like()`](databases/sql/presto/regexp_like.md)
 
 # Datatypes
 

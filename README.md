@@ -129,6 +129,7 @@ or as often as possible.
 #### Postgres
 
 - [Naming convention for Postges](databases/sql/postgres/naming_convention.md)
+- [Defining a FK when creating a table](databases/sql/postgres/defining_fk.md)
 
 #### Presto
 

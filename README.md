@@ -119,6 +119,9 @@ or as often as possible.
 - [Auto increment IDs](databases/sql/auto-increment-primary-ids.md)
 - [Deleting a database](databases/sql/deleting-a-database.md)
 - [Finding & Deleting db users](databases/sql/finding-users-and-removing.md)
+- [Using SET in SQL](databases/sql/set.md)
+- [CAST function](databases/sql/cast-func.md)
+- [Decimal data type](databases/sql/decimal-type.md)
 - [Sub Queries](databases/sql/sub-queries.md)
 - [SQL functions in supabase](databases/sql/sql_functions.md)
 

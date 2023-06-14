@@ -353,6 +353,8 @@ or as often as possible.
 - [Connecting to SFTP via Paramiko](python/connecting-to-sftp.md)
 - [Extracting substring with Regex](python/extracting-substring.md)
 - [Returning the difference between two strings](https://www.educative.io/answers/how-to-return-the-difference-of-two-strings-in-python)
+- [Disable Pylance warnings in VSC](python/disable-pylance.md)
+- [Uploading files via a boto3 session](python/uploading_files_boto3.md)
 
 ### Django
 

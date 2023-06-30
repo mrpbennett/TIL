@@ -387,6 +387,7 @@ or as often as possible.
 - [Scraping table data from sites](python/pandas/scraping_tables.md)
 - [Creating a pivot table](python/pandas/creating_pivot_table.md)
 - [Using `to_numpy` with `tolist`](python/pandas/to-numpy-list.md)
+- [Plotting Pivots with Plotly](python/pandas/plotting_pivots_ploty.md)
 
 ### SQLAlchemy
 

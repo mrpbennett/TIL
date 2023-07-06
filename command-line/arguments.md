@@ -25,3 +25,16 @@ somescript.sh Paul SeniorSolutionsEngineer
 ```
 
 To use multiple just increase the number after the `$`
+
+
+---
+
+You can also use arguments for aliases like here:
+
+In this case the $1 / $2 placeholders in the alias is used for command-line options, not arguments.
+
+```bash
+s3pp() {
+	aws s3 $1 "s3://pp-client-onboarding/$2" --profile pp-client-onboarding
+}
+```

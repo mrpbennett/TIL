@@ -393,6 +393,8 @@ or as often as possible.
 - [Creating a pivot table](python/pandas/creating_pivot_table.md)
 - [Using `to_numpy` with `tolist`](python/pandas/to-numpy-list.md)
 - [Plotting Pivots with Plotly](python/pandas/plotting_pivots_ploty.md)
+- [How to prevent scientific notation in pandas](python/pandas/scientific_notations.md)
+- [Filtering out a DF](python/pandas/filtering_a_df.md)
 
 ### SQLAlchemy
 

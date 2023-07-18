@@ -147,7 +147,7 @@ or as often as possible.
 
 #### Redis
 
-- [Redis data types](databases/nosql/redis-data-structures.md)
+- [Redis data types](databases/nosql/redis/redis-data-structures.md)
 
 # Datatypes
 

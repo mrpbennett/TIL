@@ -30,6 +30,8 @@ or as often as possible.
     - [MS SQL](#ms-sql)
     - [Postgres](#postgres)
     - [Presto](#presto)
+  - [NoSQL](#nosql)
+    - [Redis](#redis)
 - [Datatypes](#datatypes)
 - [DevOps](#devops)
   - [Github Actions](#github-actions)
@@ -140,6 +142,12 @@ or as often as possible.
 
 - [Connecting to PrestoDB via presto-python-client](databases/sql/presto/connecting_to_presto.md)
 - [Use of `regexp_like()`](databases/sql/presto/regexp_like.md)
+
+### NoSQL
+
+#### Redis
+
+- [Redis data types](databases/nosql/redis-data-structures.md)
 
 # Datatypes
 

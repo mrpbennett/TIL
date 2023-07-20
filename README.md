@@ -127,6 +127,7 @@ or as often as possible.
 - [Decimal data type](databases/sql/decimal-type.md)
 - [Sub Queries](databases/sql/sub-queries.md)
 - [SQL functions in supabase](databases/sql/sql_functions.md)
+- [What's an upsert and how to use one](https://www.cockroachlabs.com/blog/sql-upsert/#what-is-an-upsert-in-sql)
 
 #### MS SQL
 

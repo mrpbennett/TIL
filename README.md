@@ -146,8 +146,11 @@ or as often as possible.
 
 ### NoSQL
 
+- [ELI5 How NoSQL stores data](databases/nosql/how-nosql-stores-data.md)
+
 #### Redis
 
+- [How Redis stores data (simple version)](databases/nosql/redis/how-redis-stores-data.md)
 - [Redis data types](databases/nosql/redis/redis-data-structures.md)
 
 # Datatypes

@@ -152,6 +152,7 @@ or as often as possible.
 
 - [How Redis stores data (simple version)](databases/nosql/redis/how-redis-stores-data.md)
 - [Redis data types](databases/nosql/redis/redis-data-structures.md)
+- [KEYS](databases/nosql//redis/redis-keys.md)
 
 # Datatypes
 

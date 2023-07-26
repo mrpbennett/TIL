@@ -128,11 +128,13 @@ or as often as possible.
 - [Sub Queries](databases/sql/sub-queries.md)
 - [SQL functions in supabase](databases/sql/sql_functions.md)
 - [What's an upsert and how to use one](https://www.cockroachlabs.com/blog/sql-upsert/#what-is-an-upsert-in-sql)
+- [Install ODBC on Ubuntu](https://www.imaginelinux.com/install-odbc-on-ubuntu/#install-odbc-on-ubuntu-20-04-debian-11)
 
 #### MS SQL
 
 - [Naming convention for MS SQL](databases/sql/mssql/naming_convention.md)
 - [COALESCE usage](databases/sql/mssql/coalesce.md)
+- [Python SQL Driver - pyodbc](https://learn.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver16)
 
 #### Postgres
 

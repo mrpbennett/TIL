@@ -193,6 +193,9 @@ or as often as possible.
 
 - [Reset the dock to standard](https://www.omgubuntu.co.uk/2023/06/reset-ubuntu-dock-default-settings)
 - [How to Customize the Ubuntu Dock to Look Like macOS](https://www.makeuseof.com/configure-ubuntu-dock-to-look-like-macos/)
+- [How to run commands as root without a password](https://www.linuxfordevices.com/tutorials/linux/sudo-nopasswd)
+- [How to Install Synaptic on Ubuntu](https://linuxhint.com/install-synaptic-ubuntu/)
+- [My fav extensions](linux/ubuntu/fav_extentions.md)
 
 # Git
 

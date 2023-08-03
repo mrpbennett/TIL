@@ -61,6 +61,7 @@ or as often as possible.
   - [Flask](#flask)
   - [Pandas 🐼](#pandas-)
   - [SQLAlchemy](#sqlalchemy)
+  - [Sys Admin](#sys-admin)
 - [Rust](#rust)
 - [Vim](#vim)
 
@@ -416,6 +417,10 @@ or as often as possible.
 
 - [Creating a database](python/sqlalchemy/setting_up_sqlalchemy.md)
 - [Joins to a Target with an ON Clause](python/sqlalchemy/joins_target_on_claus.md)
+
+### Sys Admin
+
+- [Raid configs explained](sys-admin/raid.md)
 
 # Rust
 

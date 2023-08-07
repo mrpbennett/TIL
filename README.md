@@ -189,6 +189,7 @@ or as often as possible.
 - [Connecting to SFTP via command line](linux/connecting_to_sftp.md)
 - [Basic SFTP commands](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/#:~:text=Exit%20sFTP%20Shell,can%20see%20sftp%3E%20prompt%20return.)
 - [How to Use SFTP Command to Transfer Files](https://linuxize.com/post/how-to-use-linux-sftp-command-to-transfer-files/#before-you-begin)
+- [`grep` command](https://youtu.be/Tc_jntovCM0)
 
 ### Ubuntu
 

@@ -62,9 +62,11 @@ or as often as possible.
   - [Flask](#flask)
   - [Pandas 🐼](#pandas-)
   - [SQLAlchemy](#sqlalchemy)
-  - [Sys Admin](#sys-admin)
 - [Rust](#rust)
-- [Vim](#vim)
+- [Terminal](#terminal)
+  - [BASH](#bash-1)
+  - [Vim](#vim)
+- [Sys Admin](#sys-admin)
 
 ---
 
@@ -424,17 +426,31 @@ or as often as possible.
 - [Creating a database](python/sqlalchemy/setting_up_sqlalchemy.md)
 - [Joins to a Target with an ON Clause](python/sqlalchemy/joins_target_on_claus.md)
 
-### Sys Admin
-
-- [Raid configs explained](sys-admin/raid.md)
-
 # Rust
 
 - [Using cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 - [Printing to the console](rust/printing.md)
-- [Variables in Rust](rust/variables.md)`
+- [Variables in Rust](rust/variables.md)
 
-# Vim
+# Terminal
 
-- [My cheatsheet](vim/cheatsheet.md)
-- [Multiline edit](vim/multiline-edit.md)
+- [Creating a new file](terminal/creating-new-files.md)
+
+### BASH
+
+- [Using arguments in bash](terminal/bash/arguments.md)
+- [Doing math in bash](terminal/bash/math.md)
+- [Using variables in bash](terminal/bash/variables.md)
+- [Using IF statements in bash](terminal/bash/if_statements.md)
+- [Getting user input with `read` in bash](terminal/bash/read.md)
+- [Running Linux commands within bash script](terminal/bash/running-cmds.md)
+- [Conditionals in bash](https://linuxconfig.org/bash-scripting-conditionals)
+
+### Vim
+
+- [My cheatsheet](terminal/vim/cheatsheet.md)
+- [Multiline edit](terminal/vim/multiline-edit.md)
+
+# Sys Admin
+
+- [Raid configs explained](sys-admin/raid.md)

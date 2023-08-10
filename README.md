@@ -107,6 +107,7 @@ or as often as possible.
 - [Using arguments in bash](command-line/bash/arguments.md)
 - [Doing math in bash](command-line/bash/math.md)
 - [Using variables in bash](command-line/bash/variables.md)
+- [If statements in bash](command-line/bash/if_statements.md)
 - [Getting user input with `read` in bash](command-line/bash/read.md)
 - [Running Linux commands within bash script](command-line/bash/running-cmds.md)
 - [Conditionals in bash](https://linuxconfig.org/bash-scripting-conditionals)

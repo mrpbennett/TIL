@@ -7,14 +7,14 @@ For example I only want to use these scripts if I am on MacOS here is a little
 neat script to check
 
 ```bash
-#!/usr/bin/zsh
+#!/usr/bin/bash
 
-unameOut=$(uname -s)
-
-if [[ "${unameOut}" == "Darwin" ]]; then
-    echo 1 # true
+if [[ "${uname}" == "Darwin" ]];then
+    # MacOS
+    . "$DOTFILES_DIR/install/zsh_install.sh"
 else
-    echo 0 # false
+    # Linux
+    . "$DOTFILES_DIR/install/bash_install.sh"
 fi
 ```
 
@@ -27,13 +27,3 @@ What on earth is the `uname` command??
 > name.
 
 You can then run something like this in an install script:
-
-```bash
-if [[ $(is-macos) == 1 ]];then
-    # MacOS
-    . "$DOTFILES_DIR/install/zsh_install.sh"
-else
-    # Linux
-    . "$DOTFILES_DIR/install/bash_install.sh"
-fi
-```

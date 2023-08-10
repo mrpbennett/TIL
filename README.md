@@ -24,6 +24,7 @@ or as often as possible.
   - [Kubernetes](#kubernetes)
 - [CCNA](#ccna)
 - [Command Line](#command-line)
+  - [BASH](#bash)
 - [Databases](#databases)
   - [TimescaleDB](#timescaledb)
   - [SQL](#sql)
@@ -100,11 +101,14 @@ or as often as possible.
 # Command Line
 
 - [Creating a new file](command-line/creating-new-files.md)
-- [Using variables in bash](command-line/variables.md)
-- [Getting user input with `read` in bash](command-line/read.md)
-- [Using arguments in bash](command-line/arguments.md)
-- [Running Linux commands within bash script](command-line/running-cmds.md)
-- [Doing math in bash](command-line/read.md)
+
+### BASH
+
+- [Using arguments in bash](command-line/bash/arguments.md)
+- [Doing math in bash](command-line/bash/math.md)
+- [Using variables in bash](command-line/bash/variables.md)
+- [Getting user input with `read` in bash](command-line/bash/read.md)
+- [Running Linux commands within bash script](command-line/bash/running-cmds.md)
 - [Conditionals in bash](https://linuxconfig.org/bash-scripting-conditionals)
 
 # Databases

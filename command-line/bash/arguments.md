@@ -10,6 +10,8 @@ You know what arguments are, well positional arguments anyways. This is how
 they're used...
 
 ```bash
+#!/bin/bash
+
 #somescript.sh
 
 name=$1
@@ -26,12 +28,12 @@ somescript.sh Paul SeniorSolutionsEngineer
 
 To use multiple just increase the number after the `$`
 
-
 ---
 
 You can also use arguments for aliases like here:
 
-In this case the $1 / $2 placeholders in the alias is used for command-line options, not arguments.
+In this case the $1 / $2 placeholders in the alias is used for command-line
+options, not arguments.
 
 ```bash
 s3pp() {

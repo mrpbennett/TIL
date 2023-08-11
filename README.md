@@ -385,6 +385,7 @@ or as often as possible.
 - [Returning the difference between two strings](https://www.educative.io/answers/how-to-return-the-difference-of-two-strings-in-python)
 - [Disable Pylance warnings in VSC](python/disable-pylance.md)
 - [Uploading files via a boto3 session](python/uploading_files_boto3.md)
+- [Prevent Conda from activating the base environment by default](python/conda_deactivation.md)
 
 ### Django
 

@@ -136,6 +136,7 @@ or as often as possible.
 - [SQL functions in supabase](databases/sql/sql_functions.md)
 - [What's an upsert and how to use one](https://www.cockroachlabs.com/blog/sql-upsert/#what-is-an-upsert-in-sql)
 - [Install ODBC on Ubuntu](https://www.imaginelinux.com/install-odbc-on-ubuntu/#install-odbc-on-ubuntu-20-04-debian-11)
+- [Counting uniques in SQL](databases/sql/count_unique.md)
 
 #### MS SQL
 

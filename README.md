@@ -132,7 +132,7 @@ or as often as possible.
 - [Using `SET` in SQL](databases/sql/set.md)
 - [`CAST` function](databases/sql/cast-func.md)
 - [`CASE` function](databases/sql/case-func.md)
-- [JOINs in SQL](databaes/sql/joins.md)
+- [JOINs in SQL](databases/sql/joins.md)
 - [Decimal data type](databases/sql/decimal-type.md)
 - [Sub Queries](databases/sql/sub-queries.md)
 - [SQL functions in supabase](databases/sql/sql_functions.md)

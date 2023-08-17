@@ -123,6 +123,7 @@ or as often as possible.
 ### SQL
 
 - [Install mySQL via Homebrew](databases/sql/installing-mysql-via-homebrew.md)
+- [Skill requirements for all level of db engineers](databases/sql/skill_requirements.md)
 - [Changing a users password](databases/sql/changing-password.md)
 - [Setting a default value](databases/sql/setting-default-values.md)
 - [Inserting data into tables](databases/sql/inserting-data-into-tables.md)
@@ -132,6 +133,7 @@ or as often as possible.
 - [Using `SET` in SQL](databases/sql/set.md)
 - [`CAST` function](databases/sql/cast-func.md)
 - [`CASE` function](databases/sql/case-func.md)
+- [`HAVING` clause](database/sql/having-clause.md)
 - [JOINs in SQL](databases/sql/joins.md)
 - [Decimal data type](databases/sql/decimal-type.md)
 - [Sub Queries](databases/sql/sub-queries.md)
@@ -139,6 +141,7 @@ or as often as possible.
 - [What's an upsert and how to use one](https://www.cockroachlabs.com/blog/sql-upsert/#what-is-an-upsert-in-sql)
 - [Install ODBC on Ubuntu](https://www.imaginelinux.com/install-odbc-on-ubuntu/#install-odbc-on-ubuntu-20-04-debian-11)
 - [Counting uniques in SQL](databases/sql/count_unique.md)
+- [Visualising the SQL query execution order](databases/sql/visualising-query.md)
 
 #### MS SQL
 
@@ -158,7 +161,7 @@ or as often as possible.
 
 ### NoSQL
 
-- [ELI5 How NoSQL stores data](databases/nosql/how-nosql-stores-data.md)
+- [ELI5 how NoSQL stores data](databases/nosql/how-nosql-stores-data.md)
 
 #### Redis
 
@@ -339,37 +342,39 @@ or as often as possible.
 
 # Python
 
+- [Advance set operations](python/advance-set-operations.md)
+- [Append vs Extend with lists](python/append-vs-extend.md)
+- [\*args and \*\*kwargs](python/args-and-kwargs.md)
+- [Arithmetic operators](python/arithmetic-operators.md)
+- [Difference between `is` & `==`](python/booleans.md)
+- [Class inhertiance](python/class_inheritance.md)
+- [Classes and instances](python/class-instances.md)
+- [Class methods](python/class-methods.md)
+- [Class variables](python/class-variables.md)
+- [Connecting to SFTP via Paramiko](python/connecting-to-sftp.md)
+- [Prevent Conda from activating the base environment by default](python/conda_deactivation.md)
+- [Use of `continue` in a while loop](python/continue_while_loop.md)
+- [Creating random numbers randomly](python/creating_random_numbers.md)
 - [Pipenv](python/pipenv.md)
 - [Using `.env` files within Python](python/using-env-files.md)
 - [f-strings](python/f-strings.md)
 - [Flow control with a while loop](python/flow_control.md)
 - [Using the `global` statement](python/global_variable.md)
 - [Using `enumerate()` in loops](python/enumerate_in_loops.md)
-- [Use of `continue` in a while loop](python/continue_while_loop.md)
 - [Use of `range()`](python/use_of_range.md)
 - [Using `random.sample()`](python/random-sample.md)
 - [Working with JSON](python/working_with_json.md)
 - [End parameter in `print()`](python/end-parameter-in-print.md)
-- [Arithmetic operators](python/arithmetic-operators.md)
-- [Difference between `is` & `==`](python/booleans.md)
 - [Dictionaries](python/dictionaries.md)
-- [Append vs Extend with lists](python/append-vs-extend.md)
 - [List Comprehension](python/list-comprehension.md)
 - [Dictionary Comprehension](python/dict-comprehension.md)
 - [Lambra functions](python/lambra-functions.md)
 - [`map()` function](python/map-function.md)
-- [\*args and \*\*kwargs](python/args-and-kwargs.md)
 - [Floor division](python/floor-division.md)
-- [Classes and instances](python/classes-instances.md)
-- [Class variables](python/class-variables.md)
-- [Class methods](python/class-methods.md)
-- [Class inhertiance](python/class_inheritance.md)
 - [Dunder methods for classes](python/dunder_methods.md)
 - [Instance, Class, and Static Methods](python/instance_class_static_methods.md)
-- [Advance set operations](python/advance-set-operations.md)
 - [Files using `with` statement](python/with_statement.md)
 - [Uploading files via requests POST](https://docs.python-requests.org/en/latest/user/quickstart/#post-a-multipart-encoded-file)
-- [Static methods](python/static-methods.md)
 - [Get pip installed executables into the asdf path](python/pip-installed-exe-into-the-asdf-path.md)
 - [Handing a ZeroDivision Error](python/zero_division_error.md)
 - [How to compare two files and out put difference](python/comparing_two_files.md)
@@ -380,15 +385,13 @@ or as often as possible.
 - [Fixing UnboardLocalError](python/fixing_unboundlocalerror.md)
 - [`logging` module basics](python/logging.md)
 - [Creating a progess bar](python/progress_bar.md)
-- [Creating random numbers randomly](python/creating_random_numbers.md)
 - [Disabling pylint warnings](python/disabling-pylint-warnings.md)
 - [Using TOML with Python](python/using-toml-with-python.md)
-- [Connecting to SFTP via Paramiko](python/connecting-to-sftp.md)
 - [Extracting substring with Regex](python/extracting-substring.md)
 - [Returning the difference between two strings](https://www.educative.io/answers/how-to-return-the-difference-of-two-strings-in-python)
 - [Disable Pylance warnings in VSC](python/disable-pylance.md)
 - [Uploading files via a boto3 session](python/uploading_files_boto3.md)
-- [Prevent Conda from activating the base environment by default](python/conda_deactivation.md)
+- [Walrus operator](python/walrus.md)
 
 ### Django
 

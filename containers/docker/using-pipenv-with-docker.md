@@ -6,7 +6,7 @@ create a Docker file, the default comes with requirements.
 
 Like so:
 
-```docker
+```Dockerfile
 # Use the official Python image as the base image
 FROM python:3.10-slim
 

@@ -116,6 +116,9 @@ or as often as possible.
 
 # Databases
 
+- [Skill requirements for all level of db engineers](databases/skill_requirements.md)
+- [Database Developer journey](databases/data_developer.md)
+
 ### TimescaleDB
 
 - [Installing TimescaleDB in Docker](databases/timescaledb/timescaledb.md)
@@ -123,7 +126,6 @@ or as often as possible.
 ### SQL
 
 - [Install mySQL via Homebrew](databases/sql/installing-mysql-via-homebrew.md)
-- [Skill requirements for all level of db engineers](databases/sql/skill_requirements.md)
 - [Changing a users password](databases/sql/changing-password.md)
 - [Setting a default value](databases/sql/setting-default-values.md)
 - [Inserting data into tables](databases/sql/inserting-data-into-tables.md)

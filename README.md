@@ -62,6 +62,7 @@ or as often as possible.
   - [Flask](#flask)
   - [Pandas 🐼](#pandas-)
   - [SQLAlchemy](#sqlalchemy)
+  - [Testing](#testing)
 - [Rust](#rust)
 - [Terminal](#terminal)
   - [BASH](#bash-1)
@@ -436,6 +437,10 @@ or as often as possible.
 
 - [Creating a database](python/sqlalchemy/setting_up_sqlalchemy.md)
 - [Joins to a Target with an ON Clause](python/sqlalchemy/joins_target_on_claus.md)
+
+### Testing
+
+- [`assert` in Python](python/testing/assert.md)
 
 # Rust
 

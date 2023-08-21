@@ -117,7 +117,8 @@ or as often as possible.
 # Databases
 
 - [Skill requirements for all level of db engineers](databases/skill_requirements.md)
-- [Database Developer journey](databases/data_developer.md)
+- [Database Developer journey](databases/data_engineer.md)
+- [What is ETL?](https://www.ibm.com/topics/etl)
 
 ### TimescaleDB
 
@@ -136,6 +137,7 @@ or as often as possible.
 - [`CAST` function](databases/sql/cast-func.md)
 - [`CASE` function](databases/sql/case-func.md)
 - [`HAVING` clause](database/sql/having-clause.md)
+- [`SERIAL` in SQL](databases/sql/serial.md)
 - [JOINs in SQL](databases/sql/joins.md)
 - [Decimal data type](databases/sql/decimal-type.md)
 - [Sub Queries](databases/sql/sub-queries.md)

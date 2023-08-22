@@ -1,6 +1,24 @@
 # Data Engineer Journey
 
-This is my Data dev journy....
+This is my Data Eng journy....
+
+- [Data Engineer Journey](#data-engineer-journey)
+  - [Junior](#junior)
+    - [Fundamental SQL concepts](#fundamental-sql-concepts)
+      - [SELECT](#select)
+      - [INSERT](#insert)
+      - [UPDATE](#update)
+      - [DELETE](#delete)
+      - [ALTER](#alter)
+    - [Database Basics](#database-basics)
+      - [JOINS](#joins)
+        - [INNER JOIN](#inner-join)
+        - [LEFT JOIN](#left-join)
+        - [RIGHT JOIN](#right-join)
+    - [Mid-Level](#mid-level)
+    - [Lead](#lead)
+  - [Projects](#projects)
+  - [Videos](#videos)
 
 ## Junior
 
@@ -8,13 +26,13 @@ This is my Data dev journy....
 
 The table that I will be using here:
 
-#### users_table
+**users_table**
 
-| id  | name         | email              |
-| --- | ------------ | ------------------ |
-| 1   | John Doe     | john@example.com   |
-| 2   | Jane Smith   | jane@example.com   |
-| 3   | Robert Brown | robert@example.com |
+| id  | name         | email                |
+| --- | ------------ | -------------------- |
+| 1   | John Doe     | <john@example.com>   |
+| 2   | Jane Smith   | <jane@example.com>   |
+| 3   | Robert Brown | <robert@example.com> |
 
 #### SELECT
 
@@ -40,12 +58,12 @@ VALUES (4, 'Jonny Appleseed', 'jonny@example.com');
 
 The above would make the table as follows
 
-| id  | name            | email              |
-| --- | --------------- | ------------------ |
-| 1   | John Doe        | john@example.com   |
-| 2   | Jane Smith      | jane@example.com   |
-| 3   | Robert Brown    | robert@example.com |
-| 4   | Jonny Appleseed | jonny@example.com  |
+| id  | name            | email                |
+| --- | --------------- | -------------------- |
+| 1   | John Doe        | <john@example.com>   |
+| 2   | Jane Smith      | <jane@example.com>   |
+| 3   | Robert Brown    | <robert@example.com> |
+| 4   | Jonny Appleseed | <jonny@example.com>  |
 
 #### UPDATE
 
@@ -57,12 +75,12 @@ WHERE id = 4
 
 This would return the following table as I have changed the name of user id 4
 
-| id  | name         | email              |
-| --- | ------------ | ------------------ |
-| 1   | John Doe     | john@example.com   |
-| 2   | Jane Smith   | jane@example.com   |
-| 3   | Robert Brown | robert@example.com |
-| 4   | Joe Bloggs   | joe@example.com    |
+| id  | name         | email                |
+| --- | ------------ | -------------------- |
+| 1   | John Doe     | <john@example.com>   |
+| 2   | Jane Smith   | <jane@example.com>   |
+| 3   | Robert Brown | <robert@example.com> |
+| 4   | Joe Bloggs   | <joe@example.com>    |
 
 #### DELETE
 
@@ -72,11 +90,11 @@ DELETE FROM users_table where id = 4
 
 This would return, as we have removed user with id 4 from the table.
 
-| id  | name         | email              |
-| --- | ------------ | ------------------ |
-| 1   | John Doe     | john@example.com   |
-| 2   | Jane Smith   | jane@example.com   |
-| 3   | Robert Brown | robert@example.com |
+| id  | name         | email                |
+| --- | ------------ | -------------------- |
+| 1   | John Doe     | <john@example.com>   |
+| 2   | Jane Smith   | <jane@example.com>   |
+| 3   | Robert Brown | <robert@example.com> |
 
 #### ALTER
 
@@ -176,11 +194,16 @@ CREATE TABLE orders (
 
 #### JOINS
 
+Joins are used to combine data from two or more tables in a database based on a
+related column between them. Joins allow you to retrieve information from
+multiple tables in a single query, making it possible to get a more
+comprehensive view of your data.
+
 **Example tables**
 
 `customers`
 
-```
+```txt
 +----+----------+
 | ID | Name     |
 +----+----------+
@@ -192,7 +215,7 @@ CREATE TABLE orders (
 
 `orders`
 
-```
+```txt
 +----------+------------+
 | OrderID  | CustomerID |
 +----------+------------+
@@ -204,7 +227,7 @@ CREATE TABLE orders (
 
 ```
 
-#### INNER JOIN:
+##### INNER JOIN
 
 An `INNER JOIN` returns only the rows where there is a match in both tables
 based on the specified condition.
@@ -215,9 +238,9 @@ FROM customers
 INNER JOIN orders ON customers.ID = orders.CustomerID;
 ```
 
-#### Result
+**Result**
 
-```
+```txt
 +----------+----------+
 | Name     | OrderID  |
 +----------+----------+
@@ -227,7 +250,7 @@ INNER JOIN orders ON customers.ID = orders.CustomerID;
 +----------+----------+
 ```
 
-#### LEFT JOIN:
+##### LEFT JOIN
 
 A `LEFT JOIN` returns all rows from the left (first) table and the matching rows
 from the right (second) table. If there's no match, `NULL` values are returned
@@ -239,9 +262,9 @@ FROM customers
 LEFT JOIN orders ON customers.ID = orders.CustomerID;
 ```
 
-#### Result
+**Result**
 
-```
+```txt
 +----------+----------+
 | Name     | OrderID  |
 +----------+----------+
@@ -252,7 +275,7 @@ LEFT JOIN orders ON customers.ID = orders.CustomerID;
 +----------+----------+
 ```
 
-#### RIGHT JOIN
+##### RIGHT JOIN
 
 A `RIGHT JOIN` is similar to a `LEFT JOIN`, but it returns all rows from the
 right (second) table and the matching rows from the left (first) table. If
@@ -264,9 +287,9 @@ FROM customers
 RIGHT JOIN orders ON customers.ID = orders.CustomerID;
 ```
 
-#### Result
+**Result**
 
-```
+```txt
 +----------+----------+
 | Name     | OrderID  |
 +----------+----------+
@@ -277,6 +300,18 @@ RIGHT JOIN orders ON customers.ID = orders.CustomerID;
 +----------+----------+
 ```
 
-## Mid-Level
+### Mid-Level
 
-## Lead
+### Lead
+
+## Projects
+
+A selection of repos where I have built projects to harness my learnings
+
+- [Basic data processing via API into Postgres](https://github.com/mrpbennett/basic_dataeng_proj)
+
+## Videos
+
+A selection of videos I have watched during my learning.
+
+- [Python Libraries You Should Know As A Data Engineer](https://youtu.be/LBs7w770RQM)

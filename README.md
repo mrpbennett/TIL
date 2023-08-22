@@ -397,6 +397,7 @@ or as often as possible.
 - [Disable Pylance warnings in VSC](python/disable-pylance.md)
 - [Uploading files via a boto3 session](python/uploading_files_boto3.md)
 - [Walrus operator](python/walrus.md)
+- [Using placeholders for SQL in Python](databases/sql/placeholders.md)
 
 ### Django
 

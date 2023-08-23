@@ -93,6 +93,7 @@ or as often as possible.
 - [Building using x86](https://blog.jaimyn.dev/how-to-build-multi-architecture-docker-images-on-an-m1-mac/#tldr;)
 - [Using `pipenv` with Docker images](containers/docker/using-pipenv-with-docker.md)
 - [Using Docker Compose for local development](containers/docker/docker-compose.md)
+- [Docker hub my way](containers/docker/docker_hub.md)
 
 ### Kubernetes
 
@@ -158,6 +159,7 @@ or as often as possible.
 
 - [Naming convention for Postges](databases/sql/postgres/naming_convention.md)
 - [Defining a FK when creating a table](databases/sql/postgres/defining_fk.md)
+- [Installing just `psql` on MacOS](databases/sql/postgres/psql_mac.md)
 
 #### Presto
 

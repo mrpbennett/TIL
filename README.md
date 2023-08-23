@@ -94,6 +94,7 @@ or as often as possible.
 - [Using `pipenv` with Docker images](containers/docker/using-pipenv-with-docker.md)
 - [Using Docker Compose for local development](containers/docker/docker-compose.md)
 - [Docker hub my way](containers/docker/docker_hub.md)
+- [How to SSH into a Docker Container](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach/)
 
 ### Kubernetes
 
@@ -160,6 +161,7 @@ or as often as possible.
 - [Naming convention for Postges](databases/sql/postgres/naming_convention.md)
 - [Defining a FK when creating a table](databases/sql/postgres/defining_fk.md)
 - [Installing just `psql` on MacOS](databases/sql/postgres/psql_mac.md)
+- [Connecting to postgres via psql inside a Docker container](databases/sql/postgres/psql_inside_container.md)
 
 #### Presto
 

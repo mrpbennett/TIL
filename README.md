@@ -194,6 +194,7 @@ or as often as possible.
 
 - [Using the FV formula](excel/fv-formula.md)
 - [Checking for an INT](excel/is-an-int.md)
+- [Increment a cell depending on month](excel/increment-cell-on-month.md)
 
 # Linux
 
@@ -466,6 +467,7 @@ or as often as possible.
 - [Getting user input with `read` in bash](terminal/bash/read.md)
 - [Running Linux commands within bash script](terminal/bash/running-cmds.md)
 - [Conditionals in bash](https://linuxconfig.org/bash-scripting-conditionals)
+- [Removing strings from filenames](terminal/bash//renaming_files.md)
 
 ### Vim
 

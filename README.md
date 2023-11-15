@@ -25,6 +25,7 @@ or as often as possible.
 - [CCNA](#ccna)
 - [Command Line](#command-line)
   - [BASH](#bash)
+- [Crypto](#crypto)
 - [Databases](#databases)
   - [TimescaleDB](#timescaledb)
   - [SQL](#sql)
@@ -116,6 +117,10 @@ or as often as possible.
 - [Getting user input with `read` in bash](command-line/bash/read.md)
 - [Running Linux commands within bash script](command-line/bash/running-cmds.md)
 - [Conditionals in bash](https://linuxconfig.org/bash-scripting-conditionals)
+
+# Crypto
+
+- [Salting](crypto/salting.md)
 
 # Databases
 

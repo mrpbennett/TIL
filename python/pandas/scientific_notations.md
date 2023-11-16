@@ -13,7 +13,7 @@ import pandas as pd
 pd.options.display.float_format = '{:.2f}'.format
 
 # Print the sorted pivot table
-print(sorted_pivot_table)
+print(sorted_pivot_table
 ```
 
 In the code above, `'{:.2f}'.format` is used to format the float values in the
@@ -27,3 +27,12 @@ statements until you change it again.
 After setting the display format, you can use `print(sorted_pivot_table)` to
 display the sorted pivot table with the modified format, where long numbers will
 be displayed with the specified decimal places instead of scientific notation.
+
+## Another method
+
+You can also simply use the following on a DataFrame
+
+```python
+df = pd.read_csv("./data/some_data.csv", dtype={"col name": "int64"})
+```
+

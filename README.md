@@ -19,9 +19,6 @@ or as often as possible.
 - [Applications](#applications)
   - [DataGrip](#datagrip)
 - [Automation](#automation)
-- [Build / Containers](#build--containers)
-  - [Docker](#docker)
-  - [Kubernetes](#kubernetes)
 - [CCNA](#ccna)
 - [Command Line](#command-line)
   - [BASH](#bash)
@@ -36,6 +33,8 @@ or as often as possible.
     - [Redis](#redis)
 - [Datatypes](#datatypes)
 - [DevOps](#devops)
+  - [Docker](#docker)
+  - [Kubernetes](#kubernetes)
   - [Github Actions](#github-actions)
 - [Excel](#excel)
 - [Linux](#linux)
@@ -81,23 +80,6 @@ or as often as possible.
 # Automation
 
 - [Adding a Chronos job](automation/chronos.md)
-
-# Build / Containers
-
-- [Creating a Minified CSS file from Scss](builds-containers/minicss-from-sass.md)
-- [Deploying to prod at work](builds-containers/deploying-to-prod.md)
-
-### Docker
-
-- [Basic build / push process](containers/docker/build_process.md)
-- [Using Docker with Flask](containers/docker/flask_docker.md)
-- [Building using x86](https://blog.jaimyn.dev/how-to-build-multi-architecture-docker-images-on-an-m1-mac/#tldr;)
-- [Using `pipenv` with Docker images](containers/docker/using-pipenv-with-docker.md)
-- [Using Docker Compose for local development](containers/docker/docker-compose.md)
-- [Docker hub my way](containers/docker/docker_hub.md)
-- [How to SSH into a Docker Container](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach/)
-
-### Kubernetes
 
 # CCNA
 
@@ -192,6 +174,20 @@ or as often as possible.
 # DevOps
 
 - [90 Days of DevOps](devops/90-days-of-devops.md)
+- [Creating a Minified CSS file from Scss](builds-containers/minicss-from-sass.md)
+- [Deploying to prod at work](builds-containers/deploying-to-prod.md)
+
+### Docker
+
+- [Basic build / push process](containers/docker/build_process.md)
+- [Using Docker with Flask](containers/docker/flask_docker.md)
+- [Building using x86](https://blog.jaimyn.dev/how-to-build-multi-architecture-docker-images-on-an-m1-mac/#tldr;)
+- [Using `pipenv` with Docker images](containers/docker/using-pipenv-with-docker.md)
+- [Using Docker Compose for local development](containers/docker/docker-compose.md)
+- [Docker hub my way](containers/docker/docker_hub.md)
+- [How to SSH into a Docker Container](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach/)
+
+### Kubernetes
 
 ### Github Actions
 

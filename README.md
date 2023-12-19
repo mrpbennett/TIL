@@ -406,6 +406,7 @@ or as often as possible.
 - [Uploading files via a boto3 session](python/uploading_files_boto3.md)
 - [Walrus operator](python/walrus.md)
 - [Using placeholders for SQL in Python](databases/sql/placeholders.md)
+- [Getting last modified file with paramiko](python/paramiko_lastmod.md)
 
 ### Django
 

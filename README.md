@@ -191,6 +191,8 @@ or as often as possible.
 
 ### Github Actions
 
+- [Github Action Docs](https://docs.github.com/en/actions)
+- [Trigger workflows on workflows](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run)
 - [Python, Pipenv and lint with Ruff](devops/github/python-actions.md)
 
 # Excel

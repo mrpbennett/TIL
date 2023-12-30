@@ -57,3 +57,23 @@ def hash_pii(pii: str) -> str:
 
 hashed_pii = hash_pii("83.58.188.104")
 ```
+
+### Example for consistent salting
+
+This way you can unsalt data for the need to be able to run analytical queries
+
+```python
+import hashlib
+import struct
+import random
+import string
+
+
+def hash_pii(pii: str, salt:str) -> str:
+    hash_object = hashlib.sha512((pii + salt.encode("ascii")).digest()
+    number = struct.unpack(">Q", b"\x00" + hash_object[:7])[0]
+    return str(number)
+
+
+hashed_pii = hash_pii("83.58.188.104", "salty")
+```

@@ -409,6 +409,9 @@ or as often as possible.
 - [Walrus operator](python/walrus.md)
 - [Using placeholders for SQL in Python](databases/sql/placeholders.md)
 - [Getting last modified file with paramiko](python/paramiko_lastmod.md)
+- [Context Managers](python/context-managers.md)
+- [`io` module](python/io_module.md)
+- [Reading from S3](python/reading_from_s3_to_df.md)
 
 ### Django
 

@@ -359,6 +359,7 @@ or as often as possible.
 
 - [Advance set operations](python/advance-set-operations.md)
 - [Append vs Extend with lists](python/append-vs-extend.md)
+- [Google vs reST Docstrings](python/docstrings.md)
 - [\*args and \*\*kwargs](python/args-and-kwargs.md)
 - [Arithmetic operators](python/arithmetic-operators.md)
 - [Difference between `is` & `==`](python/booleans.md)

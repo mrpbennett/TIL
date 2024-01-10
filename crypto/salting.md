@@ -69,8 +69,8 @@ import random
 import string
 
 
-def hash_pii(pii: str, salt:str) -> str:
-    hash_object = hashlib.sha512((pii + salt.encode("ascii")).digest()
+def hash_pii(pii: str, salt: str) -> str:
+    hash_object = hashlib.sha512((pii + salt).encode("ascii")).digest()
     number = struct.unpack(">Q", b"\x00" + hash_object[:7])[0]
     return str(number)
 

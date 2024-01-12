@@ -322,6 +322,7 @@ or as often as possible.
 - [Rending Multiple checkboxes](https://www.geeksforgeeks.org/how-to-get-multiple-checkbox-values-in-react-js/)
 - [`useState` lazy initialization](https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates)
 - [Using GA4 in an React App](javascript/react/using_ga4.md)
+- [Theme switching using DaisyUI](javascript/react/theme-switching.md)
 
 ### React Router
 

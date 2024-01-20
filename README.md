@@ -415,6 +415,7 @@ or as often as possible.
 - [Context Managers](python/context-managers.md)
 - [`io` module](python/io_module.md)
 - [Reading from S3](python/reading_from_s3_to_df.md)
+- [Creating a timer for function run times](python/timer.md)
 
 ### Django
 

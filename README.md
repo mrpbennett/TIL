@@ -109,6 +109,7 @@ or as often as possible.
 - [Skill requirements for all level of db engineers](databases/skill_requirements.md)
 - [Database Developer journey](databases/data_engineer.md)
 - [What is ETL?](https://www.ibm.com/topics/etl)
+- [Columnar Databases](database/columnar-databases.md)
 
 ### TimescaleDB
 

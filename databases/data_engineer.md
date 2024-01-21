@@ -309,6 +309,7 @@ RIGHT JOIN orders ON customers.ID = orders.CustomerID;
 A selection of repos where I have built projects to harness my learnings
 
 - [Basic data processing via API into Postgres](https://github.com/mrpbennett/basic_dataeng_proj)
+- [My first ETL pipeline using Postgres & Redis)(https://github.com/mrpbennett/etl-pipeline)
 
 ## Videos
 

@@ -15,8 +15,10 @@ This is my Data Eng journy....
         - [INNER JOIN](#inner-join)
         - [LEFT JOIN](#left-join)
         - [RIGHT JOIN](#right-join)
-    - [Mid-Level](#mid-level)
+  - [Mid-Level](#mid-level)
     - [Lead](#lead)
+  - [Senior Level](#senior-level)
+    - [ETL Process](#etl-process)
   - [Projects](#projects)
   - [Videos](#videos)
 
@@ -300,9 +302,17 @@ RIGHT JOIN orders ON customers.ID = orders.CustomerID;
 +----------+----------+
 ```
 
-### Mid-Level
+## Mid-Level
 
 ### Lead
+
+## Senior Level
+
+#### ETL Process
+
+Extract, Transform, Load
+
+- [My first ETL pipeline using Postgres & Redis](https://github.com/mrpbennett/etl-pipeline)
 
 ## Projects
 

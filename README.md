@@ -416,6 +416,7 @@ or as often as possible.
 - [`io` module](python/io_module.md)
 - [Reading from S3](python/reading_from_s3_to_df.md)
 - [Creating a timer for function run times](python/timer.md)
+- [Retuning columns names with Presto Python](python/getting_cols_in_presto.db)
 
 ### Django
 

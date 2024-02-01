@@ -37,6 +37,7 @@ or as often as possible.
   - [Kubernetes](#kubernetes)
   - [Github Actions](#github-actions)
 - [Excel](#excel)
+- [Homelab](#homelab)
 - [Linux](#linux)
   - [Ubuntu](#ubuntu)
 - [Git](#git)
@@ -187,6 +188,7 @@ or as often as possible.
 - [Using Docker Compose for local development](containers/docker/docker-compose.md)
 - [Docker hub my way](containers/docker/docker_hub.md)
 - [How to SSH into a Docker Container](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach/)
+- [How to always restart a container after host reboot](https://betterstack.com/community/questions/how-to-start-docker-containers-automatically-after-reboot/)
 
 ### Kubernetes
 
@@ -201,6 +203,15 @@ or as often as possible.
 - [Using the FV formula](excel/fv-formula.md)
 - [Checking for an INT](excel/is-an-int.md)
 - [Increment a cell depending on month](excel/increment-cell-on-month.md)
+
+# Homelab
+
+- [Listing Ports in use](homelab/listing-ports.md)
+- [Setting a static IP](linux/setting-static-ip.md)
+- [Installing Docker Engine Ubuntu server](https://docs.docker.com/engine/install/ubuntu/)
+- [Self hosting Docker registry](https://www.docker.com/blog/how-to-use-your-own-registry-2/)
+- [How to always restart a container after host reboot](https://betterstack.com/community/questions/how-to-start-docker-containers-automatically-after-reboot/)
+- [Setting up an OpenVPN LXC](https://pve.proxmox.com/wiki/OpenVPN_in_LXC)
 
 # Linux
 
@@ -228,6 +239,7 @@ or as often as possible.
 - [How to run commands as root without a password](https://www.linuxfordevices.com/tutorials/linux/sudo-nopasswd)
 - [How to Install Synaptic on Ubuntu](https://linuxhint.com/install-synaptic-ubuntu/)
 - [My fav extensions](linux/ubuntu/fav_extentions.md)
+- [Setting a static IP](linux/setting-static-ip.md)
 
 # Git
 

@@ -40,17 +40,31 @@ Now we have the relevant information we need to edit our netplan file that lives
 Now copying this template we need to make our changes
 
 ```yaml
+# This is the network config written by 'subiquity'
 network:
   version: 2
   renderer: networkd
   ethernets:
-    enp3s0:
+    ens18:
       addresses:
-        - 10.10.10.2/24
-      nameservers:
-        search: [mydomain, otherdomain]
-        addresses: [10.10.10.1, 1.1.1.1]
+        - 192.168.x.xxx/22
       routes:
         - to: default
-          via: 10.10.10.1
+          via: 192.168.x.x # router ip
+      nameservers:
+        addresses: [192.168.x.x, 1.1.1.1] # DNS / cloudflare
 ```
+
+When applying the new config I kept on comming across the following error:
+
+```bash
+** (generate:2496): WARNING **: 05:24:24.943: Permissions for /etc/netplan/00-installer-config.yaml are too open. Netplan configuration should NOT be accessible by others.
+```
+
+This resolved after search the internet, I [found the following](https://askubuntu.com/questions/1477287/need-help-with-a-netplan-configuration-issue) which suggested setting different permissions to the file like so:
+
+```bash
+chmod 600 /etc/netplan/your_config_file.yaml
+```
+
+Which removed the error, and I was able to go ahead and push the new config iva `sudo netplan apply`

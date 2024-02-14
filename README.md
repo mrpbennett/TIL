@@ -231,6 +231,8 @@ or as often as possible.
 - [How to Use SFTP Command to Transfer Files](https://linuxize.com/post/how-to-use-linux-sftp-command-to-transfer-files/#before-you-begin)
 - [`grep` command](https://youtu.be/Tc_jntovCM0)
 - [Checking which ports are in use](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)
+- [Creating CRON jobs outside K8s](https://www.freecodecamp.org/news/cron-jobs-in-linux/)
+- [Changing hostname](linux/changing-hostname.md)
 
 ### Ubuntu
 

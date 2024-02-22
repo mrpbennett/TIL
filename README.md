@@ -215,6 +215,7 @@ or as often as possible.
 - [Setting up an OpenVPN LXC](https://pve.proxmox.com/wiki/OpenVPN_in_LXC)
 - [Installing `node_exporter` outside of Docker](homelab/installing_node_exporter.md)
 - [Deploying ArgoCD using apps of apps pattern](homelab/deploying-argocd.md)
+- [Deploying KubeVIP as a cloud controller and load balancer](homelab/kubevip-k3s.md)
 
 # Linux
 

@@ -216,6 +216,7 @@ or as often as possible.
 - [Installing `node_exporter` outside of Docker](homelab/installing_node_exporter.md)
 - [Deploying ArgoCD using apps of apps pattern](homelab/deploying-argocd.md)
 - [Deploying KubeVIP as a cloud controller and load balancer](homelab/kubevip-k3s.md)
+- [Deploying a Kubernetes Talos cluster](homelabe/deploying-talos.md)
 
 # Linux
 

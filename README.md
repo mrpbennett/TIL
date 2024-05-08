@@ -158,6 +158,7 @@ or as often as possible.
 
 - [Connecting to PrestoDB via presto-python-client](databases/sql/presto/connecting_to_presto.md)
 - [Use of `regexp_like()`](databases/sql/presto/regexp_like.md)
+- [Retuning columns names with Presto Python](python/getting_cols_in_presto.md)
 
 ### NoSQL
 
@@ -436,7 +437,7 @@ or as often as possible.
 - [`io` module](python/io_module.md)
 - [Reading from S3](python/reading_from_s3_to_df.md)
 - [Creating a timer for function run times](python/timer.md)
-- [Retuning columns names with Presto Python](python/getting_cols_in_presto.db)
+- [Retuning columns names with Presto Python](python/getting_cols_in_presto.md)
 
 ### Django
 

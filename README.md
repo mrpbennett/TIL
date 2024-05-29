@@ -469,6 +469,7 @@ or as often as possible.
 - [Replacing `NaN` / `NA` with a value](python/pandas/replace_NaN.md)
 - [Scraping table data from sites](python/pandas/scraping_tables.md)
 - [Creating a pivot table](python/pandas/creating_pivot_table.md)
+- [RealPython pivot tables with pandas](https://realpython.com/how-to-pandas-pivot-table/)
 - [Using `to_numpy` with `tolist`](python/pandas/to-numpy-list.md)
 - [Plotting Pivots with Plotly](python/pandas/plotting_pivots_ploty.md)
 - [How to prevent scientific notation in pandas](python/pandas/scientific_notations.md)

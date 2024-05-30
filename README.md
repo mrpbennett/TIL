@@ -187,6 +187,7 @@ or as often as possible.
 - [Deploying KubeVIP as a cloud controller and load balancer](homelab/kubevip-k3s.md)
 - [Deploying a Kubernetes Talos cluster](homelabe/deploying-talos.md)
 - [How to Deploy Postgres to Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/how-to-deploy-postgres-to-kubernetes-cluster)
+- [Adding additional disks to Kubernetes with Talos](https://kubito.dev/posts/talos-linux-additonal-disks-to-nodes/)
 
 ### Docker
 
@@ -224,6 +225,7 @@ or as often as possible.
 - [Deploying KubeVIP as a cloud controller and load balancer](homelab/kubevip-k3s.md)
 - [Deploying a Kubernetes Talos cluster](homelabe/deploying-talos.md)
 - [How to Deploy Postgres to Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/how-to-deploy-postgres-to-kubernetes-cluster)
+- [Adding additional disks to Kubernetes with Talos](https://kubito.dev/posts/talos-linux-additonal-disks-to-nodes/)
 
 # Linux
 

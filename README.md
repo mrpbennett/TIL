@@ -140,6 +140,7 @@ or as often as possible.
 - [Install ODBC on Ubuntu](https://www.imaginelinux.com/install-odbc-on-ubuntu/#install-odbc-on-ubuntu-20-04-debian-11)
 - [Counting uniques in SQL](databases/sql/count_unique.md)
 - [Visualising the SQL query execution order](databases/sql/visualising-query.md)
+- [Using VIEWS in SQL](databases/sql/views.md)
 
 #### MS SQL
 

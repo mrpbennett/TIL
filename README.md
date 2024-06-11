@@ -180,7 +180,15 @@ or as often as possible.
 - [90 Days of DevOps](devops/90-days-of-devops.md)
 - [Creating a Minified CSS file from Scss](builds-containers/minicss-from-sass.md)
 - [Deploying to prod at work](builds-containers/deploying-to-prod.md)
+
+
+### Kubernetes
+
 - [Deploying ArgoCD using apps of apps pattern](homelab/deploying-argocd.md)
+- [Deploying KubeVIP as a cloud controller and load balancer](homelab/kubevip-k3s.md)
+- [Deploying a Kubernetes Talos cluster](homelabe/deploying-talos.md)
+- [How to Deploy Postgres to Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/how-to-deploy-postgres-to-kubernetes-cluster)
+- [Adding additional disks to Kubernetes with Talos](https://kubito.dev/posts/talos-linux-additonal-disks-to-nodes/)
 
 ### Docker
 
@@ -192,8 +200,6 @@ or as often as possible.
 - [Docker hub my way](containers/docker/docker_hub.md)
 - [How to SSH into a Docker Container](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach/)
 - [How to always restart a container after host reboot](https://betterstack.com/community/questions/how-to-start-docker-containers-automatically-after-reboot/)
-
-### Kubernetes
 
 ### Github Actions
 
@@ -219,6 +225,8 @@ or as often as possible.
 - [Deploying ArgoCD using apps of apps pattern](homelab/deploying-argocd.md)
 - [Deploying KubeVIP as a cloud controller and load balancer](homelab/kubevip-k3s.md)
 - [Deploying a Kubernetes Talos cluster](homelabe/deploying-talos.md)
+- [How to Deploy Postgres to Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/how-to-deploy-postgres-to-kubernetes-cluster)
+- [Adding additional disks to Kubernetes with Talos](https://kubito.dev/posts/talos-linux-additonal-disks-to-nodes/)
 
 # Linux
 

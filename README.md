@@ -33,8 +33,8 @@ or as often as possible.
     - [Redis](#redis)
 - [Datatypes](#datatypes)
 - [DevOps](#devops)
-  - [Docker](#docker)
   - [Kubernetes](#kubernetes)
+  - [Docker](#docker)
   - [Github Actions](#github-actions)
 - [Excel](#excel)
 - [Homelab](#homelab)
@@ -181,7 +181,6 @@ or as often as possible.
 - [Creating a Minified CSS file from Scss](builds-containers/minicss-from-sass.md)
 - [Deploying to prod at work](builds-containers/deploying-to-prod.md)
 
-
 ### Kubernetes
 
 - [Deploying ArgoCD using apps of apps pattern](homelab/deploying-argocd.md)
@@ -189,6 +188,7 @@ or as often as possible.
 - [Deploying a Kubernetes Talos cluster](homelabe/deploying-talos.md)
 - [How to Deploy Postgres to Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/how-to-deploy-postgres-to-kubernetes-cluster)
 - [Adding additional disks to Kubernetes with Talos](https://kubito.dev/posts/talos-linux-additonal-disks-to-nodes/)
+- [Pod security](devops/kubernetes/pod-sec.md)
 
 ### Docker
 
@@ -227,6 +227,7 @@ or as often as possible.
 - [Deploying a Kubernetes Talos cluster](homelabe/deploying-talos.md)
 - [How to Deploy Postgres to Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/how-to-deploy-postgres-to-kubernetes-cluster)
 - [Adding additional disks to Kubernetes with Talos](https://kubito.dev/posts/talos-linux-additonal-disks-to-nodes/)
+- [Pod security](devops/kubernetes/pod-sec.md)
 
 # Linux
 

@@ -249,6 +249,7 @@ or as often as possible.
 - [Checking which ports are in use](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)
 - [Creating CRON jobs outside K8s](https://www.freecodecamp.org/news/cron-jobs-in-linux/)
 - [Changing hostname](linux/changing-hostname.md)
+- [How to mount a disk in Ubuntu SVR](linux/mount-disk.md)
 
 ### Ubuntu
 

@@ -154,6 +154,7 @@ or as often as possible.
 - [Defining a FK when creating a table](databases/sql/postgres/defining_fk.md)
 - [Installing just `psql` on MacOS](databases/sql/postgres/psql_mac.md)
 - [Connecting to postgres via psql inside a Docker container](databases/sql/postgres/psql_inside_container.md)
+- [Installing Postgres via Docker](https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/)
 
 #### Presto
 

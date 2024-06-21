@@ -190,6 +190,7 @@ or as often as possible.
 - [How to Deploy Postgres to Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/how-to-deploy-postgres-to-kubernetes-cluster)
 - [Adding additional disks to Kubernetes with Talos](https://kubito.dev/posts/talos-linux-additonal-disks-to-nodes/)
 - [Pod security](devops/kubernetes/pod-sec.md)
+- [init-containers and what they do](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)
 
 ### Docker
 

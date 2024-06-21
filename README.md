@@ -131,6 +131,7 @@ or as often as possible.
 - [`COALESCE` function](databases/sql/coalesce.md)
 - [`HAVING` clause](database/sql/having-clause.md)
 - [`SERIAL` in SQL](databases/sql/serial.md)
+- ['UNION' / 'UNION ALL' in SQL](databases/sql/unions.md)
 - [JOINs in SQL](databases/sql/joins.md)
 - [Decimal data type](databases/sql/decimal-type.md)
 - [`DATE_ADD` & `DATE_SUB`](databases/sql/date_add_and_date_sub.md)

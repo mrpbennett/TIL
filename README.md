@@ -488,6 +488,7 @@ or as often as possible.
 - [Plotting Pivots with Plotly](python/pandas/plotting_pivots_ploty.md)
 - [How to prevent scientific notation in pandas](python/pandas/scientific_notations.md)
 - [Filtering out a DF](python/pandas/filtering_a_df.md)
+- [Making use of `.groupby`](python/pandas/groupby.md)
 
 ### SQLAlchemy
 

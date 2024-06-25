@@ -162,6 +162,7 @@ or as often as possible.
 - [Connecting to PrestoDB via presto-python-client](databases/sql/presto/connecting_to_presto.md)
 - [Use of `regexp_like()`](databases/sql/presto/regexp_like.md)
 - [Retuning columns names with Presto Python](python/getting_cols_in_presto.md)
+- [Getting data from previous days in Presto](databases/sql/presto/getting_previous_day.md)
 
 ### NoSQL
 

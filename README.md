@@ -24,7 +24,6 @@ or as often as possible.
   - [BASH](#bash)
 - [Crypto](#crypto)
 - [Databases](#databases)
-  - [TimescaleDB](#timescaledb)
   - [SQL](#sql)
     - [MS SQL](#ms-sql)
     - [Postgres](#postgres)
@@ -110,11 +109,7 @@ or as often as possible.
 - [Skill requirements for all level of db engineers](databases/skill_requirements.md)
 - [Database Developer journey](databases/data_engineer.md)
 - [What is ETL?](https://www.ibm.com/topics/etl)
-- [Columnar Databases](database/columnar-databases.md)
-
-### TimescaleDB
-
-- [Installing TimescaleDB in Docker](databases/timescaledb/timescaledb.md)
+- [Columnar Databases](database/sql/columnar-databases.md)
 
 ### SQL
 

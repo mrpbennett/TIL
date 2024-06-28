@@ -45,7 +45,23 @@ SELECT
 FROM employees;
 ```
 
-### Example 2: Using `CASE` in `WHERE` clause
+### Example 2: Using `CASE` in `SUM` / `COUNT`
+
+When you use CASE inside an aggregate function like `COUNT` or `SUM`, you're essentially instructing SQL to count rows based on a condition.
+
+```sql
+SELECT
+    COUNT(CASE WHEN order_status = 'completed' THEN 1 ELSE NULL END) AS completed_orders_count
+FROM orders;
+```
+
+**Explanation**: -`CASE WHEN order_status = 'completed' THEN 1 ELSE NULL END`: In this `CASE` statement
+
+- `WHEN order_status = 'completed'`: Checks if the order_status column equals 'completed'.
+- `THEN 1`: If the condition (order_status = 'completed') is true, it returns 1.
+- `ELSE NULL`: If the condition is not true (i.e., order_status is not 'completed'), it returns `NULL`.
+
+### Example 3: Using `CASE` in `WHERE` clause
 
 Suppose you want to filter out orders that were placed before a certain date,
 and for orders without a specific date, you want to consider them as valid.
@@ -60,7 +76,7 @@ WHERE CASE
 END = 1;
 ```
 
-### Example 3: Using `CASE` in `ORDER BY` clause
+### Example 4: Using `CASE` in `ORDER BY` clause
 
 Suppose you want to order products based on their availability status.
 

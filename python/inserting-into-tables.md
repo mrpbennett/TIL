@@ -15,7 +15,7 @@ curs.execute(
 Here we're joining the list of `columns`, then using the length of `columns` to count how many place holders are required.
 
 ```python
-def insert_garmin_sleep(data) -> bool:
+def somefunc(data) -> bool:
 
     row_data = {
         "uuid": data['uuid'],

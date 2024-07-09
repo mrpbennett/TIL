@@ -1,4 +1,4 @@
-# Sending to Postgres tables in Python
+# Inserting into tables in Python the RIGHT way.
 
 This is the most effective way to insert data into a table. The way this is done, means you don't have to worry about the query its self. As all the columns and placeholders and automatically inserted into the query with the following logic.
 
@@ -26,7 +26,7 @@ def insert_garmin_sleep(data) -> bool:
     columns = [
         "uuid",
         "name",
-        "email,
+        "email",
     ]
 
     values = [row_data[col] for col in columns]

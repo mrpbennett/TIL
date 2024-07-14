@@ -26,3 +26,55 @@
 4. **Usage**: The PV is mounted as a volume in the pod that uses the PVC.
 
 This separation allows for greater flexibility and decoupling of storage provisioning from storage usage in Kubernetes. Administrators can manage the storage backend and policies, while users can request and use storage without needing to know the specifics of the underlying infrastructure.
+
+## Examples
+
+```yaml
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: grafana-pv
+  namespace: monitoring
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  hostPath:
+    path: /mnt/storage/grafana
+```
+
+Here a PersistentVolume gives a location of where the storage is to be placed. Eg: Which mount / drive you want to store the data on.
+
+```yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: grafana-pvc
+  namespace: monitoring
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+```
+
+The PersistentVolumeClaim makes a claim for that storage location that the PersistentVolume has made.
+
+```yaml
+# deployment.yaml
+
+  volumeMounts:
+    - name: grafana-storage
+      mountPath: /var/lib/grafana
+volumes:
+- name: grafana-storage
+  persistentVolumeClaim:
+    claimName: grafana-pvc
+```
+
+Here in the `deployment.yaml` the `volumeMounts` is the default location where the app stores is its data in this case Grafana stores its data in `/var/lib/grafana`.
+
+Then it's claimed via the `persistentVolumeClaim` in `volumes`

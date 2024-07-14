@@ -190,6 +190,7 @@ or as often as possible.
 - [Pod security](devops/kubernetes/pod-sec.md)
 - [init-containers and what they do](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)
 - [PersistentVolume VS PersistentVolumeClaim](devops/kubernetes/pv-vs-pvc.md)
+- [Access Modes for Persistent Volume Claims](devops/kubernetes/access-modes-storage.md)
 
 ### Docker
 

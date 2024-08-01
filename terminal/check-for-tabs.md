@@ -10,7 +10,7 @@ domain3.com RQ098098 SHA2-256
 domain4.com RQ010101 SHA2-256
 ```
 
-And when commit sometimes it's easy to leave off a tab in emtpy cols. To check this you can run a `cat` command like so:
+And when it comes to making a commit sometimes it's easy to leave off a tab in emtpy cols. To check this you can run a `cat` command like so:
 
 ```bash
 cat -te filename.txt

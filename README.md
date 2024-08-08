@@ -232,6 +232,7 @@ or as often as possible.
 - [Adding additional disks to Kubernetes with Talos](https://kubito.dev/posts/talos-linux-additonal-disks-to-nodes/)
 - [Pod security](devops/kubernetes/pod-sec.md)
 - [Install Windows Server in Proxmox](https://anthonyconstant.co.uk/blog/f/installing-windows-server-2022-vm-in-proxmox-ve#:~:text=Conclusion-,Setting%20Up%20the%20Virtual%20Machine%20within%20Proxmox%20VE,the%20Proxmox%20ISO%20image%20library.)
+- [Fixing the Too long: must have at most 262144 bytes](homelab/fixing-client-side.md)
 
 # Linux
 

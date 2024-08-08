@@ -86,20 +86,6 @@ or as often as possible.
 - [Switches](ccna/switches.md)
 - [TCP/IP OSI](ccna/tcpip-osi.md)
 
-# Command Line
-
-- [Creating a new file](command-line/creating-new-files.md)
-
-### BASH
-
-- [Using arguments in bash](command-line/bash/arguments.md)
-- [Doing math in bash](command-line/bash/math.md)
-- [Using variables in bash](command-line/bash/variables.md)
-- [If statements in bash](command-line/bash/if_statements.md)
-- [Getting user input with `read` in bash](command-line/bash/read.md)
-- [Running Linux commands within bash script](command-line/bash/running-cmds.md)
-- [Conditionals in bash](https://linuxconfig.org/bash-scripting-conditionals)
-
 # Crypto
 
 - [Salting](crypto/salting.md)

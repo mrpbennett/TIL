@@ -20,8 +20,6 @@ or as often as possible.
   - [DataGrip](#datagrip)
 - [Automation](#automation)
 - [CCNA](#ccna)
-- [Command Line](#command-line)
-  - [BASH](#bash)
 - [Crypto](#crypto)
 - [Databases](#databases)
   - [SQL](#sql)
@@ -65,7 +63,7 @@ or as often as possible.
   - [Testing](#testing)
 - [Rust](#rust)
 - [Terminal](#terminal)
-  - [BASH](#bash-1)
+  - [BASH](#bash)
   - [Vim](#vim)
 - [Sys Admin](#sys-admin)
 
@@ -178,6 +176,7 @@ or as often as possible.
 - [init-containers and what they do](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)
 - [PersistentVolume VS PersistentVolumeClaim](devops/kubernetes/pv-vs-pvc.md)
 - [Access Modes for Persistent Volume Claims](devops/kubernetes/access-modes-storage.md)
+- [Safely remove a node from a cluster](deveops/kubernetes/delete-node.md)
 
 ### Docker
 

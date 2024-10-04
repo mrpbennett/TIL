@@ -123,6 +123,7 @@ or as often as possible.
 - [Visualising the SQL query execution order](databases/sql/visualising-query.md)
 - [Using VIEWS in SQL](databases/sql/views.md)
 - [Understanding Database Table Relationships and Their Importance](databases/relationships.md)
+- [Locating two strings in the same col](databases/sql/locate-two-str.md)
 
 #### MS SQL
 

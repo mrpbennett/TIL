@@ -28,6 +28,7 @@ or as often as possible.
     - [Presto](#presto)
   - [NoSQL](#nosql)
     - [Redis](#redis)
+    - [Trino](#trino)
 - [Datatypes](#datatypes)
 - [DevOps](#devops)
   - [Kubernetes](#kubernetes)
@@ -155,6 +156,10 @@ or as often as possible.
 - [How Redis stores data (simple version)](databases/nosql/redis/how-redis-stores-data.md)
 - [Redis data types](databases/nosql/redis/redis-data-structures.md)
 - [KEYS](databases/nosql//redis/redis-keys.md)
+
+#### Trino
+
+- [Adding a new catalog](databases/trino/adding-catalog.md)
 
 # Datatypes
 

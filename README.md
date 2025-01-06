@@ -16,6 +16,7 @@ or as often as possible.
 
 - [:books: TIL (Today I Learnt)](#books-til-today-i-learnt)
 - [Categories](#categories)
+- [AI](#ai)
 - [Applications](#applications)
     - [DataGrip](#datagrip)
 - [Automation](#automation)
@@ -69,6 +70,10 @@ or as often as possible.
 - [Sys Admin](#sys-admin)
 
 ---
+
+# AI
+
+- [How to use Retrieval Augmented Generation (RAG)](https://www.youtube.com/watch?v=oVtlp72f9NQ)
 
 # Applications
 

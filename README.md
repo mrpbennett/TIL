@@ -335,6 +335,7 @@ or as often as possible.
 - [reloading the page](javascript/reloading_the_page.md)
 - [Handle Vercel preview and Supabase auth](javascript/supabase-auth.md)
 - [Creating a dynamic pixel](javascript/creating-dynamic-pixel.md)
+- [throw new Error comparison with Python](javascript/throw_error.md)
 
 ### Node
 

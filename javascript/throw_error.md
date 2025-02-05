@@ -1,4 +1,22 @@
+# Adding Errors in JS
+
 `throw new Error('message')` in JavaScript works **similarly** to raising an exception in Python with `raise Exception('message')`.
+
+Simple example, where this checks for an array length and throws and error if it's greater than 3
+
+```javascript
+const names = ['John', 'Paul', 'George', 'Ringo']
+
+try {
+  if (names.length > 3) {
+    throw new Error('The array is too long')
+  }
+} catch (error) {
+  console.error(error)
+}
+```
+
+## More detailed insight and Python comparison
 
 ---
 

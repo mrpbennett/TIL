@@ -152,6 +152,7 @@ or as often as possible.
 - [Use of `regexp_like()`](databases/sql/presto/regexp_like.md)
 - [Retuning columns names with Presto Python](python/getting_cols_in_presto.md)
 - [Getting data from previous days in Presto](databases/sql/presto/getting_previous_day.md)
+- [Creating a cronjob in Postgres with cronjob ext](databases/sql/postgres/cron-job.md)
 
 ### NoSQL
 

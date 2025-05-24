@@ -192,6 +192,7 @@ or as often as possible.
 - [Safely remove a node from a cluster](deveops/kubernetes/delete-node.md)
 - [Create a custom container image for CloudnativePG](https://cloudnative-pg.io/blog/creating-container-images/)
 - [Deleting multiple suspended CronJobs](devops/kubernetes/deleting-suspended-jobs.md)
+- [Converting files into base64 for secrets](devops/kubernetes/using_base64.md)
 
 ### Docker
 
@@ -514,6 +515,7 @@ or as often as possible.
 
 - [Creating a new file](terminal/creating-new-files.md)
 - [Checking for tabs in datasets](terminal/check-for-tabs.md)
+- [Using GPG Keys in the terminal](termina/gpg-keys.md)
 
 ### BASH
 

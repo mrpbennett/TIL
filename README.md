@@ -101,6 +101,7 @@ or as often as possible.
 - [What is ETL?](https://www.ibm.com/topics/etl)
 - [Columnar Databases](database/sql/columnar-databases.md)
 - [Inserting into tables with Python](python/inserting-into-tables.md)
+- [Apache Iceberg](databases/iceberg.md)
 
 ### SQL
 
@@ -193,6 +194,7 @@ or as often as possible.
 - [Create a custom container image for CloudnativePG](https://cloudnative-pg.io/blog/creating-container-images/)
 - [Deleting multiple suspended CronJobs](devops/kubernetes/deleting-suspended-jobs.md)
 - [Converting files into base64 for secrets](devops/kubernetes/using_base64.md)
+- [Download a cert from a secret](homelab/downloading-cert.md)
 
 ### Docker
 

@@ -195,6 +195,7 @@ or as often as possible.
 - [Deleting multiple suspended CronJobs](devops/kubernetes/deleting-suspended-jobs.md)
 - [Converting files into base64 for secrets](devops/kubernetes/using_base64.md)
 - [Download a cert from a secret](homelab/downloading-cert.md)
+- [Copying a secret from one namespace to another](homelab/copying-certs-between-ns.md)
 
 ### Docker
 

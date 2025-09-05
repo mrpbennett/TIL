@@ -131,6 +131,7 @@ or as often as possible.
 - [Using VIEWS in SQL](databases/sql/views.md)
 - [Understanding Database Table Relationships and Their Importance](databases/relationships.md)
 - [Locating two strings in the same col](databases/sql/locate-two-str.md)
+- [Filtering arrays](databases/sql/filter_arrays.md)
 
 #### MS SQL
 

@@ -500,6 +500,7 @@ or as often as possible.
 - [How to prevent scientific notation in pandas](python/pandas/scientific_notations.md)
 - [Filtering out a DF](python/pandas/filtering_a_df.md)
 - [Making use of `.groupby`](python/pandas/groupby.md)
+- [Reading Bytes with Pandas](python/pandas/reading_bytes.md)
 
 ### SQLAlchemy
 

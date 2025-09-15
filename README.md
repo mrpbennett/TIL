@@ -463,6 +463,7 @@ or as often as possible.
 - [Creating a timer for function run times](python/timer.md)
 - [Retuning columns names with Presto Python](python/getting_cols_in_presto.md)
 - [Inserting into tables with Python the RIGHT Way.](python/inserting-into-tables.md)
+- [Better logging with loguru](https://realpython.com/python-loguru/#structured-logging-for-modern-applications)
 
 ### Django
 

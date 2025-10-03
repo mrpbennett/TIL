@@ -49,21 +49,6 @@ for _, value := range arr {
 }
 ```
 
-## Multi-dimensional Arrays
-
-```go
-// 2D array
-var matrix [3][3]int
-
-// Initialize 2D array
-grid := [2][3]int{
-    {1, 2, 3},
-    {4, 5, 6},
-}
-
-fmt.Println(grid[0][1])  // 2
-```
-
 ## Use Cases
 
 **Fixed-size data:**

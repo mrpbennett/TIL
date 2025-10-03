@@ -287,9 +287,14 @@ or as often as possible.
 
 # Go 🐹
 
-- [Basic data types in Go](go/basic-data-types.md)
-- [Basic understanding of pointers](go/pointers.md)
-- [Using the `fmt` package](go/fmt.md)
+- [Variables and Constants](/go/var_and_conts.md)
+- [Getting output with the `fmt` package](/go/getting_outputs.md)
+- [Arrays in Go](/go/arrays.md)
+- [Maps in Go](/go/maps.md)
+- [Slices in Go](/go/slices.md)
+- [Maps in Go](/go/maps.md)
+- [Structs in Go](/go/structs.md)
+- [String formatting](/go/string_formatting.md)
 
 # GraphQL
 

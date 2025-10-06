@@ -295,6 +295,7 @@ or as often as possible.
 - [Maps in Go](/go/maps.md)
 - [Structs in Go](/go/structs.md)
 - [String formatting](/go/string_formatting.md)
+- [The ST1021 warning for exported types](/go/st1021.md)
 
 # GraphQL
 

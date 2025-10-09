@@ -24,7 +24,7 @@ So what is happening here?
 
 In the `if` statement you can see a `;` this is used to combine two conditions. Allowing for the statement to read as follows. IF the index of "Linda" does not equal `-1` then action the code inside the block. Pretty cool as this is different from Python which I am use to.
 
-Next there is `slices.Delete` this takes three arguments, the slice, the start index and the end index. This would work in the same manner as a slice would work in Python `[1:4]` for example. Therefore with the block above, I took the index of the string, for this example lets say it was 3 and I only wanted to delete that index, therefore the index would be 4.
+Next there is `slices.Delete` this takes three arguments, the slice, the start index and the end index. This would work in the same manner as a slice would work in Python `[1:4]` for example. Therefore with the block above, I took the index of the string, for this example lets say it was 3 and I only wanted to delete that index, therefore the end index would be 4.
 
 This is why the arguments are `Delete(names, idx, idx+1)` which in turn would be `Delete(names, 3, 3+1)`
 

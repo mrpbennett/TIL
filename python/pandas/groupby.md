@@ -30,7 +30,7 @@ data = pd.read_csv(file_path)
 list_id_groups = data.groupby('LIST_ID')
 
 # Base URL for the API endpoint
-base_url = 'https://lifeapi.pulsepoint.com/RestApi/v1/npi/npi-list/'
+base_url = 'https://api.company.com/RestApi/v1/npi/npi-list/'
 
 # Iterate through each LIST_ID group and send a PUT request
 for list_id, group in list_id_groups:
